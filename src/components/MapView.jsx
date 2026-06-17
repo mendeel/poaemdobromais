@@ -1,7 +1,11 @@
 // src/components/MapView.jsx
 import { useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import MarkerClusterGroup from 'react-leaflet-cluster';
+import MarkerClusterGroupImport from 'react-leaflet-cluster';
+// react-leaflet-cluster ships CJS (exports.default); Vite's dev pre-bundle
+// hands it back as { default: Component }, prod hands back the Component.
+// Unwrap so both paths get the actual component.
+const MarkerClusterGroup = MarkerClusterGroupImport.default ?? MarkerClusterGroupImport;
 import 'leaflet/dist/leaflet.css';
 import { buildMarkers } from '../lib/markers.js';
 import { logoDivIcon, clusterIcon } from './mapIcon.js';
