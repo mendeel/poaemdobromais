@@ -8,6 +8,8 @@ export default function Topbar({
   onOpenMenu,
   searchValue,
   onSearchChange,
+  view,
+  onViewChange,
 }) {
   return (
     <div className="sticky top-0 z-30 flex shrink-0 flex-col gap-2.5 border-b border-brd bg-surface px-5 py-3.5 md:static md:flex-row md:items-center md:gap-3.5 md:px-[22px]">
@@ -32,18 +34,40 @@ export default function Topbar({
           <span className="tabular-nums">{totalCount}</span> cupons
         </span>
 
-        <label className="flex items-center gap-2 text-[0.85rem] text-fg-muted">
-          <ArrowDownNarrowWide className="h-4 w-4 text-fg-muted" />
-          <select
-            value={sort}
-            onChange={(e) => onSortChange(e.target.value)}
-            className="min-h-[38px] cursor-pointer rounded-[9px] border border-brd-strong bg-surface px-2.5 py-2 text-[0.85rem] text-fg focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/15"
-          >
-            <option value="nome">Nome A–Z</option>
-            <option value="bairro">Bairro</option>
-            <option value="dist">Distância</option>
-          </select>
-        </label>
+        <div className="flex shrink-0 overflow-hidden rounded-[9px] border border-brd-strong">
+          {[
+            { v: 'list', label: 'Lista' },
+            { v: 'map', label: 'Mapa' },
+          ].map(({ v, label }) => (
+            <button
+              key={v}
+              type="button"
+              onClick={() => onViewChange(v)}
+              aria-pressed={view === v}
+              className={
+                'px-3 py-1.5 text-[0.85rem] font-semibold transition-colors ' +
+                (view === v ? 'bg-primary text-white' : 'bg-surface text-fg-muted hover:text-fg')
+              }
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        {view === 'list' && (
+          <label className="flex items-center gap-2 text-[0.85rem] text-fg-muted">
+            <ArrowDownNarrowWide className="h-4 w-4 text-fg-muted" />
+            <select
+              value={sort}
+              onChange={(e) => onSortChange(e.target.value)}
+              className="min-h-[38px] cursor-pointer rounded-[9px] border border-brd-strong bg-surface px-2.5 py-2 text-[0.85rem] text-fg focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/15"
+            >
+              <option value="nome">Nome A–Z</option>
+              <option value="bairro">Bairro</option>
+              <option value="dist">Distância</option>
+            </select>
+          </label>
+        )}
       </div>
 
       {/* search — shown here only on mobile (sidebar has it on desktop) */}

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import Sidebar from './components/Sidebar.jsx';
 import Topbar from './components/Topbar.jsx';
 import CardGrid from './components/CardGrid.jsx';
+import MapView from './components/MapView.jsx';
 import CupomModal from './components/CupomModal.jsx';
 import { useFilters } from './state/useFilters.js';
 import { useFavorites } from './hooks/useLocalStorage.js';
@@ -15,6 +16,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [selected, setSelected] = useState(null);
   const [navOpen, setNavOpen] = useState(false);
+  const [view, setView] = useState('list');
 
   const { filters, dispatch } = useFilters();
   const [favorites, toggleFavorite] = useFavorites();
@@ -167,16 +169,22 @@ export default function App() {
           onOpenMenu={() => setNavOpen(true)}
           searchValue={filters.search}
           onSearchChange={(v) => dispatch({ type: 'set', key: 'search', value: v })}
+          view={view}
+          onViewChange={setView}
         />
-        <CardGrid
-          cupoms={filtered}
-          filterKey={filterKey}
-          dayNum={dayNum}
-          now={now}
-          favorites={favorites}
-          onToggleFavorite={toggleFavorite}
-          onOpen={setSelected}
-        />
+        {view === 'list' ? (
+          <CardGrid
+            cupoms={filtered}
+            filterKey={filterKey}
+            dayNum={dayNum}
+            now={now}
+            favorites={favorites}
+            onToggleFavorite={toggleFavorite}
+            onOpen={setSelected}
+          />
+        ) : (
+          <MapView cupoms={filtered} onOpen={setSelected} />
+        )}
       </main>
 
       <CupomModal
