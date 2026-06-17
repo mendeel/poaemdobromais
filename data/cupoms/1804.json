@@ -1,0 +1,205 @@
+{
+  "id": "1804",
+  "nome": "Danutri Bistrô",
+  "lugar_nome": "Danutri Bistrô",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Saudável",
+  "descricao": "um prato individual",
+  "regra": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n- Exceto o prato do dia.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "danutri_comidafuncional",
+  "telefone": null,
+  "lat": -30.0247033,
+  "lng": -51.2027263,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773357128UTCC2026031223008_378_a62fc108f096f180f72c71ad5b640619.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_32914009fcd6168df614d3c413ed70c0.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2767,
+      "lugar_nome": "Danutri Bistrô",
+      "endereco": "Rua Padre Chagas, Nº 293, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0247033,
+      "longitude": -51.2027263,
+      "instagram": "danutri_comidafuncional",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "1682",
+  "nome": "UM Bar&Cozinha",
+  "lugar_nome": "UM Bar&Cozinha",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Opção vegetariana",
+  "descricao": "um prato selecionado",
+  "regra": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: Risoto Raíz, Bolinho de Beterraba, Mini Coxinha de Frango e Frango Satay.\n- Risoto raiz: risoto de beterraba defumada, queijo de ovelha artesanal e alho poró, finalizado com toque de azeite cítrico.\n- Bolinhos de beterraba defumada & queijo colonial: feitos com risoto de beterraba defumada, recheados com queijo colonial e finalizados\ncom azeite de hortelã e toque de limão (6un)\n- Mini coxinha de galinha - coxinhas crocantes de frango caipira, servidas com maionese de chimichurri de PANCs e molho de pimenta da casa (6un) \n- Frango Satay - cubos de frango marinados com limão e especiarias, grelhados no espetinho e servidos com molho tailandês de amendoim e folhas de coentro. Acompanha saladinha leve e arroz jasmim perfumado com pimenta vermelha e gergelim preto\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "umbarecozinha",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.02710395,
+  "lng": -51.19304117,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773085934UTCC2026030919014_384_175fd2d5d139741aad8758e128eed437.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/93eeb0569d6979cd94816d90f036c34a.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 180,
+      "lugar_nome": "UM Bar&Cozinha",
+      "endereco": "Avenida Mariland, Nº 1388, Auxiliadora - Porto Alegre / RS",
+      "bairro": "Auxiliadora",
+      "cidade": "Auxiliadora - Porto Alegre / RS",
+      "latitude": -30.02710395,
+      "longitude": -51.19304117,
+      "instagram": "umbarecozinha",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:00 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:00 - 18:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

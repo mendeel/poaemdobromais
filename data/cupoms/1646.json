@@ -1,0 +1,205 @@
+{
+  "id": "1646",
+  "nome": "Barranquinho",
+  "lugar_nome": "Barranquinho",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Opção vegetariana",
+  "descricao": "um fettuccine ao molho com iscas de filé mignon",
+  "regra": "- O desconto é sempre sobre o segundo fettuccine ao molho com iscas de filé mignon igual.\n- Válido para molhos: vermelho ou quatro queijos.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@barranquinhotrattoriagrill",
+  "telefone": null,
+  "lat": -30.04036578,
+  "lng": -51.19269634,
+  "plano": "3",
+  "disponivel": 0,
+  "favorito": 0,
+  "data_utilizacao": "2026-04-10T00:18:32.000Z",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020737UTCC2026030901037_384_0b3fd55c928f71706e651eb87730f8c1.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4648dca04055b30976baf6a7843ade88.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 406,
+      "lugar_nome": "Barranquinho",
+      "endereco": "Av. Protásio Alves, Nº 1538, Petropolis - Porto Alegre / AC",
+      "bairro": "Petropolis",
+      "cidade": "Petropolis - Porto Alegre / AC",
+      "latitude": -30.04036578,
+      "longitude": -51.19269634,
+      "instagram": "@barranquinhotrattoriagrill",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 03:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 03:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 03:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 03:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 03:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 03:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 03:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 03:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 03:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 03:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

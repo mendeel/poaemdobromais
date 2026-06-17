@@ -1,0 +1,205 @@
+{
+  "id": "1727",
+  "nome": "Café Musa Velutina",
+  "lugar_nome": "Café Musa Velutina",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "um combo de cuca enrolada + café (coado 120ml ou espresso simples)",
+  "regra": "- O desconto é sempre sobre o segundo combo de cuca enrolada + café (coado 120ml ou espresso simples) igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "cafemusavelutina",
+  "telefone": null,
+  "lat": -30.0283651,
+  "lng": -51.2140201,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773185504UTCC2026031023044_384_387cab36a467f485d3347c826cbcc333.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_58e99c604582b4d31f50249454df1547.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2659,
+      "lugar_nome": "Café Musa Velutina",
+      "endereco": "Rua Santo Antônio - lado ímpar, Floresta - Porto Alegre / RS",
+      "bairro": "Floresta",
+      "cidade": "Floresta - Porto Alegre / RS",
+      "latitude": -30.0283651,
+      "longitude": -51.2140201,
+      "instagram": "cafemusavelutina",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "12:00 - 17:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "12:00 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "12:00 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "12:00 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "12:00 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "12:00 - 17:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

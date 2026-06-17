@@ -1,0 +1,211 @@
+{
+  "id": "1787",
+  "nome": "Getúlio Pastéis",
+  "lugar_nome": "Getúlio Pastéis",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Pastel / Crepe",
+  "descricao": "um pastel tamanho M",
+  "regra": "- O desconto é sempre sobre o segundo pastel M igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "getuliopasteis",
+  "telefone": null,
+  "lat": -30.0501659,
+  "lng": -51.2215903,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773356039UTCC2026031222059_378_e682068ccab9f56b7b26384a26920cb1.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_c4183ca0f0b4b1a0ada254fa6a025643.png",
+  "caracteristica": [
+    "Espaço Kids",
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2776,
+      "lugar_nome": "Getúlio Pastéis",
+      "endereco": "Avenida Getúlio Vargas, Nº 646, Menino Deus - Porto Alegre / RS",
+      "bairro": "Menino Deus",
+      "cidade": "Menino Deus - Porto Alegre / RS",
+      "latitude": -30.0501659,
+      "longitude": -51.2215903,
+      "instagram": "getuliopasteis",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "19:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "19:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "19:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "19:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "19:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Espaço Kids",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_6_1740064679_d14c8d2d5a061d70a9da0f2edb3c5b9d.svg",
+          "codigo": 6
+        },
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "19:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "19:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "19:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "19:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "19:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

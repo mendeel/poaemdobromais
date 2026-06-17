@@ -1,0 +1,197 @@
+{
+  "id": "1790",
+  "nome": "Restaurante Naha",
+  "lugar_nome": "Restaurante Naha",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Orientais",
+  "descricao": "uma sequência ou combinado (ver regras)",
+  "regra": "-O desconto é sempre sobre a segunda sequência ou combinado tradicional (18 peças) igual.\n- A Sequência só é válida de segunda-feira à quarta-feira.\n- Válido para:\n         - Combinado Tradicional (18 peças): 5 sashimis entre salmão atum e peixe branco, 5 niguiris, 4 uramakis e 4 joys.\n         - Segunda à quarta-feira: uma sequência.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.\n- Não aceitamos reserva.\n- Pagamentos apenas por cartões de débito, crédito ou pix.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "restaurantenaha",
+  "telefone": null,
+  "lat": -30.0216348,
+  "lng": -51.1943278,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773356153UTCC2026031222053_384_0d4a48a09ac0917cf86dfd71b4eefcc3.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/83873f7756839dd6fe44cc5e57891e53.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 241,
+      "lugar_nome": "Restaurante Naha",
+      "endereco": "Rua Vinte e Quatro de Outubro, Nº 1454, Pátio 24, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0216348,
+      "longitude": -51.1943278,
+      "instagram": "restaurantenaha",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "J",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

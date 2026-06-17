@@ -1,0 +1,305 @@
+{
+  "id": "1882",
+  "nome": "Gelateria Di Argento",
+  "lugar_nome": "Gelateria Di Argento",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Sorveterias, Iguatemi Shopping",
+  "descricao": "um gelato p, m ou g",
+  "regra": "- O desconto é sempre sobre o segundo gelato p, m ou g igual ou de menor valor.\n- Gelato P (1 sabor), M (até 2 sabores), G (até 3 sabores).\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "diargentogelateria",
+  "telefone": null,
+  "lat": -30.0273863,
+  "lng": -51.1626638,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773425679UTCC2026031318039_384_c8f45723df44a2a25c821d0d45b45a53.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ebb1e9ee40cb8317fadf64deda6e0182.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2773,
+      "lugar_nome": "Gelateria Di Argento",
+      "endereco": "Avenida João Wallig, Nº 1800, Iguatemi Shopping, Passo da Areia - Porto Alegre / RS",
+      "bairro": "Passo da Areia",
+      "cidade": "Passo da Areia - Porto Alegre / RS",
+      "latitude": -30.0273863,
+      "longitude": -51.1626638,
+      "instagram": "diargentogelateria",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "13:00 - 17:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:01 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:01 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:01 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:01 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:01 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2774,
+      "lugar_nome": "Gelateria Di Argento | Padre Chagas",
+      "endereco": "Rua Padre Chagas, Nº 342, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.02414658,
+      "longitude": -51.20257046,
+      "instagram": "diargentogelateria",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "16:00 - 18:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "16:00 - 18:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "16:00 - 18:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "16:00 - 18:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "16:00 - 18:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "16:00 - 18:30",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:31 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:31 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:31 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:31 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:31 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:31 - 01:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "13:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "13:00 - 17:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:01 - 01:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:01 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:01 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:01 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:01 - 01:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

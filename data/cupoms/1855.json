@@ -1,0 +1,197 @@
+{
+  "id": "1855",
+  "nome": "Usina de Massas",
+  "lugar_nome": "Usina de Massas",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Italiano",
+  "descricao": "uma massa com molho 4 queijos e cubos de filé mignon",
+  "regra": "- O desconto é sempre sobre a segunda massa com molho 4 queijos e cubos de filé mignon igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@usinademassas",
+  "telefone": null,
+  "lat": -30.0228957,
+  "lng": -51.2037506,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360843UTCC2026031300003_384_7d17550e337f34b1970c6caac1fb59ef.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f2ebd175551f8e0437d5d001e3efbef7.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 2026,
+      "lugar_nome": "Usina de Massas",
+      "endereco": "Rua Dinarte Ribeiro, Nº 44, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0228957,
+      "longitude": -51.2037506,
+      "instagram": "@usinademassas",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:30 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:30 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:30 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:30 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:30 - 02:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:30 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:30 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:30 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:30 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:30 - 02:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

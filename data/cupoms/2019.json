@@ -1,0 +1,197 @@
+{
+  "id": "2019",
+  "nome": "Ferro Xiseria",
+  "lugar_nome": "Ferro Xiseria",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Lanche",
+  "descricao": "um Xis (ver regras)",
+  "regra": "- O desconto é sempre sobre o segundo xis igual ou de menor valor.\n- Válido para: Xis Carne Queijo, Xis Frango, Xis salada, Xis cogumelo ou Ferro Dog.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "ferroxiseria",
+  "telefone": null,
+  "lat": -30.0222756,
+  "lng": -51.1930033,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773633955UTCC2026031604055_384_d842e2e01d571a4ea62a277a4e57e57d.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8918f3182b1d4d66b458835fe44c3c65.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 2694,
+      "lugar_nome": "Ferro Xiseria",
+      "endereco": "Rua Vinte e Quatro de Outubro, Nº 1557, Auxiliadora - Porto Alegre / RS",
+      "bairro": "Auxiliadora",
+      "cidade": "Auxiliadora - Porto Alegre / RS",
+      "latitude": -30.0222756,
+      "longitude": -51.1930033,
+      "instagram": "ferroxiseria",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "19:00 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:00 - 02:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "19:00 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:00 - 02:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

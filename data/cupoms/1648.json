@@ -1,0 +1,291 @@
+{
+  "id": "1648",
+  "nome": "Charlie Confeitaria",
+  "lugar_nome": "Charlie Confeitaria",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "um double brownie com nutella e morangos",
+  "regra": "- O desconto é sempre sobre o segundo double brownie com nutella e morangos igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@charliecandies",
+  "telefone": null,
+  "lat": -30.02525133,
+  "lng": -51.18912176,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020974UTCC2026030901034_384_9045d9e4b158d4e8b538e1ff4bc1424e.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_fee48bce63d2d2213bb0a5c1f33ec663.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 314,
+      "lugar_nome": "Charlie Confeitaria",
+      "endereco": "Rua Tenente Coronel Fabricio Pillar, Nº 822, Mont'Serrat - Porto Alegre / RS",
+      "bairro": "Mont'Serrat",
+      "cidade": "Mont'Serrat - Porto Alegre / RS",
+      "latitude": -30.02525133,
+      "longitude": -51.18912176,
+      "instagram": "@charliecandies",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "13:00 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 315,
+      "lugar_nome": "Charlie Confeitaria",
+      "endereco": "Rua Barão de Santo Ângelo, Nº 212, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0239231,
+      "longitude": -51.2051181,
+      "instagram": "@charliecandies",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "13:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "13:00 - 21:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

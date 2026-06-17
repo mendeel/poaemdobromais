@@ -1,0 +1,205 @@
+{
+  "id": "1675",
+  "nome": "Porto Burger",
+  "lugar_nome": "Porto Burger",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Hamburgueria",
+  "descricao": "um tri magrão raiz",
+  "regra": "- O desconto é sempre sobre o segundo tri magrão raiz igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "portoburgeroficial",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.024388,
+  "lng": -51.1790749,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773079483UTCC2026030918043_384_fee8030cb4bb6319703122ae62575842.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/3d0aa06dc2d96ff6a7fbea882f0f5f47.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 120,
+      "lugar_nome": "Porto Burger",
+      "endereco": "Rua Anita Garibaldi, Nº 1681, Boa Vista - Porto Alegre / RS",
+      "bairro": "Boa Vista",
+      "cidade": "Boa Vista - Porto Alegre / RS",
+      "latitude": -30.024388,
+      "longitude": -51.1790749,
+      "instagram": "portoburgeroficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 01:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "20:00 - 01:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:01 - 01:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "20:00 - 01:30",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

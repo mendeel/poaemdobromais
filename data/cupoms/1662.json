@@ -1,0 +1,205 @@
+{
+  "id": "1662",
+  "nome": "Vila Finamor",
+  "lugar_nome": "Vila Finamor",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Orientais",
+  "descricao": "uma sequência terra & mar",
+  "regra": "- O desconto é sempre sobre a segunda sequência terra & mar igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@VILAFINAMOR",
+  "telefone": null,
+  "lat": -30.0300741,
+  "lng": -51.23184746,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023194UTCC2026030902034_384_f88ce51fd96c1e0444bd03a161adb178.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e8ab5f6edbe1eef0a6b5668753f2131a.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 426,
+      "lugar_nome": "Vila Finamor",
+      "endereco": "Rua dos Andradas, Centro Histórico - Porto Alegre / RS",
+      "bairro": "Centro Histórico",
+      "cidade": "Centro Histórico - Porto Alegre / RS",
+      "latitude": -30.0300741,
+      "longitude": -51.23184746,
+      "instagram": "@VILAFINAMOR",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:01 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:01 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:01 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:01 - 01:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:01 - 01:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

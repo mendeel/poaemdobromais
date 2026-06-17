@@ -1,0 +1,197 @@
+{
+  "id": "2010",
+  "nome": "McDonald's Aparício",
+  "lugar_nome": "McDonald's Aparício",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Combos, Lanche",
+  "descricao": "uma mcoferta Big Mac ou Mcoferta Quarteirão",
+  "regra": "- O desconto é sempre sobre a segunda Big Mac ou Mcoferta Quarteirão igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "mequiaparicio",
+  "telefone": null,
+  "lat": -30.0742357,
+  "lng": -51.2027568,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773633030UTCC2026031603030_384_2c997226c3ec01b37aa494ea61c6199b.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_763255da9b34f5488980be90c23b4bf4.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 433,
+      "lugar_nome": "McDonald's Aparício",
+      "endereco": "Rua Coronel Aparício Borges, Nº 539, Glória - Porto Alegre / RS",
+      "bairro": "Glória",
+      "cidade": "Glória - Porto Alegre / RS",
+      "latitude": -30.0742357,
+      "longitude": -51.2027568,
+      "instagram": "mequiaparicio",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "17:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "17:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "17:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "17:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "17:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "17:00 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "17:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "17:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "17:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "17:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "17:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "17:00 - 21:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "1756",
+  "nome": "Yami Café",
+  "lugar_nome": "Yami Café",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "um doce ou bebida selecionada",
+  "regra": "- O desconto é sempre sobre o segundo doce ou bebida selecionada igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "yamicafe",
+  "telefone": null,
+  "lat": -30.02591578,
+  "lng": -51.19542132,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773350607UTCC2026031221027_384_d2e1b4d0d2b0eb368ac914000c45a924.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2924ad9e627a65e35d3f849dc244d518.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 360,
+      "lugar_nome": "Yami Café",
+      "endereco": "Rua Tenente Coronel Fabricio Pillar, Nº 198, Mon't Serrat - Porto Alegre / RS",
+      "bairro": "Mon't Serrat",
+      "cidade": "Mon't Serrat - Porto Alegre / RS",
+      "latitude": -30.02591578,
+      "longitude": -51.19542132,
+      "instagram": "yamicafe",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "15:00 - 21:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "15:00 - 21:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "15:00 - 21:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "15:00 - 21:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:30 - 21:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "15:00 - 21:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "15:00 - 21:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "15:00 - 21:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "15:00 - 21:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "12:30 - 21:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

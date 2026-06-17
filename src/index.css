@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #dc2626;
+  --color-primary-dark: #b91c1c;
+  --color-accent: #b45309;
+  --color-bg: #fbf6f3;
+  --color-surface: #ffffff;
+  --color-fg: #3b1a1a;
+  --color-fg-muted: #8a6f6f;
+  --color-brd: #f0deda;
+  --color-brd-strong: #e4c9c3;
+
+  --font-sans: "Karla", system-ui, -apple-system, sans-serif;
+  --font-display: "Playfair Display SC", serif;
+
+  --radius-card: 14px;
+}
+
+html {
+  font-size: 16.5px; /* slightly larger base; all rem text scales with it */
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  /* clip sideways overflow WITHOUT creating a scroll container — keeps the
+     document as the scroller so the viewport-sticky topbar stays pinned and
+     iOS status-bar tap scrolls to top. (overflow-x:hidden would force
+     overflow-y to compute as auto and break both.) */
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+/* iOS Safari auto-zooms when a focused input's font is < 16px. Force 16px on
+   mobile so focusing search/filters never zooms the page. */
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* thin warm scrollbars for the filter lists + grid */
+@layer utilities {
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-brd-strong) transparent;
+  }
+  .scroll-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scroll-thin::-webkit-scrollbar-thumb {
+    background: var(--color-brd-strong);
+    border-radius: 3px;
+  }
+  /* Skip rendering/painting cards that are off-screen. Card height is fixed
+     at 366px, so reserve that so the scrollbar stays accurate. */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 366px;
+  }
+}

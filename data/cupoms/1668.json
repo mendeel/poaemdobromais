@@ -1,0 +1,197 @@
+{
+  "id": "1668",
+  "nome": "Madame Tertu Bistrô",
+  "lugar_nome": "Madame Tertu",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Opção vegetariana",
+  "descricao": "um prato de carne ou risoto",
+  "regra": "- O desconto é sempre sobre o segundo prato de carne ou risoto igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@madametertu",
+  "telefone": null,
+  "lat": -30.03574864,
+  "lng": -51.20668542,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023641UTCC2026030902001_384_912f8d8fdb9cd29f91439695d68ebd1a.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a6d84e4b69afff75bf6ba4577350d033.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 267,
+      "lugar_nome": "Madame Tertu",
+      "endereco": "R. Giordano Bruno, Nº 279, Rio Branco - Porto Alegre / RS",
+      "bairro": "Rio Branco",
+      "cidade": "Rio Branco - Porto Alegre / RS",
+      "latitude": -30.03574864,
+      "longitude": -51.20668542,
+      "instagram": "@madametertu",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "15:00 - 20:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "15:00 - 20:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "15:00 - 19:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "15:00 - 20:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "15:00 - 20:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "15:00 - 20:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "15:00 - 20:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "15:00 - 19:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "15:00 - 20:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "15:00 - 20:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

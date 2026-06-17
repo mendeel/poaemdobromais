@@ -1,0 +1,197 @@
+{
+  "id": "1893",
+  "nome": "Shakespeare Casa de Chá & Café",
+  "lugar_nome": "Shakespeare Casa de Chá e Café",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Doces / Cafés, Opção vegetariana",
+  "descricao": "um cannoli ou pavlova",
+  "regra": "- O desconto é sempre sobre o segundo canolli ou pavlova igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "shakespearecasadechacafe",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.0233216,
+  "lng": -51.2030356,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773427390UTCC2026031318010_384_d711184cb14aec311698612921c97cde.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/eeaa99b605a74925ec8ca67122821104.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 124,
+      "lugar_nome": "Shakespeare Casa de Chá e Café",
+      "endereco": "Rua Dinarte Ribeiro, Nº 128, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0233216,
+      "longitude": -51.2030356,
+      "instagram": "shakespearecasadechacafe",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "16:00 - 23:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "16:00 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "16:00 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "16:00 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "16:00 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "16:00 - 23:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "16:00 - 23:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "16:00 - 23:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "16:00 - 23:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "16:00 - 23:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "16:00 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "16:00 - 23:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

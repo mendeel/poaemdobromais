@@ -1,0 +1,197 @@
+{
+  "id": "1632",
+  "nome": "Cacau Show",
+  "lugar_nome": "Cacau Show",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Doces / Cafés, Opção vegetariana",
+  "descricao": "um fondue",
+  "regra": "- O desconto é sempre sobre o segundo fondue igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "lojacacaushowcarrefourpoa",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.0123364,
+  "lng": -51.1700584,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773018761UTCC2026030901041_384_cbab5c8f1450ca7748c2633a3f35767e.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/d9367730b73e4da31883a71a2dbd6293.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 14,
+      "lugar_nome": "Cacau Show",
+      "endereco": "Avenida Plínio Brasil Milano, Nº 2343, Carrefour, Passo da Areia - Porto Alegre / RS",
+      "bairro": "Passo da Areia",
+      "cidade": "Passo da Areia - Porto Alegre / RS",
+      "latitude": -30.0123364,
+      "longitude": -51.1700584,
+      "instagram": "lojacacaushowcarrefourpoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "12:00 - 23:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:00 - 23:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:00 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "12:00 - 23:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "12:00 - 23:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "12:00 - 23:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "12:00 - 23:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "12:00 - 23:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "12:00 - 23:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "12:00 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "12:00 - 23:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

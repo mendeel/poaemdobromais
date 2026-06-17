@@ -1,0 +1,291 @@
+{
+  "id": "1869",
+  "nome": "Janela Bar",
+  "lugar_nome": "Janela Bar",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Hamburgueria",
+  "descricao": "um burger cbb simples",
+  "regra": "- O desconto é sempre sobre o segundo burger cbb simples igual.\n- Burger CBB: Costela, bacon e barbecue.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "janelabar.cidadebaixa",
+  "telefone": "(99) 99999-9999",
+  "lat": -30.0419924,
+  "lng": -51.2214096,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773415732UTCC2026031315052_384_a75ff018618de45fac6a67d2029fd8ca.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/4082ed6a3e07ef8fd16916a807dce148.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 12,
+      "lugar_nome": "Janela Bar",
+      "endereco": "Rua Joaquim Nabuco, Nº 281, Cidade Baixa - Porto Alegre / RS",
+      "bairro": "Cidade Baixa",
+      "cidade": "Cidade Baixa - Porto Alegre / RS",
+      "latitude": -30.0419924,
+      "longitude": -51.2214096,
+      "instagram": "janelabar.cidadebaixa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "20:00 - 01:20",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "20:00 - 01:20",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "20:00 - 02:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "20:00 - 03:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "20:00 - 01:20",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 215,
+      "lugar_nome": "Janela Bar Zona Sul",
+      "endereco": "Avenida Wenceslau Escobar, Nº 2050, Cristal - Porto Alegre / RS",
+      "bairro": "Cristal",
+      "cidade": "Cristal - Porto Alegre / RS",
+      "latitude": -30.1064009,
+      "longitude": -51.2535792,
+      "instagram": "janelabar.poazonasul",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "20:30 - 02:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "20:30 - 02:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "20:30 - 02:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "20:30 - 02:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "20:30 - 02:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "20:30 - 02:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "20:00 - 01:20",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "20:00 - 01:20",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "20:00 - 02:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "20:00 - 03:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "20:00 - 01:20",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

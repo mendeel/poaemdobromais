@@ -1,0 +1,205 @@
+{
+  "id": "1763",
+  "nome": "Quincho Parrilla y Bar",
+  "lugar_nome": "Quincho Parrilla y Bar",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Carnes, Opção vegetariana",
+  "descricao": "um corte de carne",
+  "regra": "- O desconto é sempre sobre o segundo corte de carne igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "quincho.pyb",
+  "telefone": null,
+  "lat": -30.0416972,
+  "lng": -51.1973861,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773352779UTCC2026031221039_384_6b4720aa87809d15ea05491e5a1dcbd5.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ce6b48e163ab91d3716425ec38984811.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 410,
+      "lugar_nome": "Quincho Parrilla y Bar",
+      "endereco": "Rua Dona Eugênia, Nº 791, Santa Cecília - Porto Alegre / RS",
+      "bairro": "Santa Cecília",
+      "cidade": "Santa Cecília - Porto Alegre / RS",
+      "latitude": -30.0416972,
+      "longitude": -51.1973861,
+      "instagram": "quincho.pyb",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:45 - 18:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:45 - 18:30",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:30 - 02:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:45 - 18:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:45 - 18:30",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:30 - 02:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

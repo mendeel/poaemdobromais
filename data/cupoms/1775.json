@@ -1,0 +1,205 @@
+{
+  "id": "1775",
+  "nome": "Polpa & Café",
+  "lugar_nome": "Polpa&Café",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Padaria",
+  "descricao": "um prato selecionado",
+  "regra": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor. \n- Válido para: smoothie red Ice em Dobro e baguete de frango com mostarda e mel.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "polpaecafe",
+  "telefone": null,
+  "lat": -30.03587775,
+  "lng": -51.22824144,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773355399UTCC2026031222019_378_418cf73ac77ccf7c9e10695acb1b32b7.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_94d4f1f553af647b8b270c609e6b4422.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2780,
+      "lugar_nome": "Polpa&Café",
+      "endereco": "Borges de Medeiros, Nº 1037, Centro Histórico - Porto Alegre / RS",
+      "bairro": "Centro Histórico",
+      "cidade": "Centro Histórico - Porto Alegre / RS",
+      "latitude": -30.03587775,
+      "longitude": -51.22824144,
+      "instagram": "polpaecafe",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "11:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 23:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "11:00 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "11:00 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "11:00 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "11:00 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "11:00 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "11:00 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:01 - 23:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:01 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

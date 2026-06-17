@@ -1,0 +1,205 @@
+{
+  "id": "1708",
+  "nome": "Restaurante Madregaia",
+  "lugar_nome": "Restaurante Madregaia",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Culinária Internacional",
+  "descricao": "um prato individual",
+  "regra": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "madregaiapoa",
+  "telefone": null,
+  "lat": -30.02021362,
+  "lng": -51.20018905,
+  "plano": "3",
+  "disponivel": 0,
+  "favorito": 1,
+  "data_utilizacao": "2026-05-04T00:29:57.000Z",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773168005UTCC2026031018005_384_6a8cc4602bbe55c6ff54963f38abc4f3.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0fa61a5c8c8d858945cbf61b6b2a5d7c.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2639,
+      "lugar_nome": "Restaurante Madregaia",
+      "endereco": "Rua Doutor Timóteo, Nº 577, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.02021362,
+      "longitude": -51.20018905,
+      "instagram": "madregaiapoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "15:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "15:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "15:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "15:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "15:00 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "15:00 - 21:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:01 - 01:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:01 - 01:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:01 - 01:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:01 - 01:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:01 - 01:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:01 - 01:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:01 - 01:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "15:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "15:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "15:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "15:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "15:00 - 21:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "15:00 - 21:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:01 - 01:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:01 - 01:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:01 - 01:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:01 - 01:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:01 - 01:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:01 - 01:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:01 - 01:30",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

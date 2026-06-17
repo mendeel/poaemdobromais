@@ -1,0 +1,197 @@
+{
+  "id": "1660",
+  "nome": "Niki Lanches",
+  "lugar_nome": "Niki Lanches",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Lanche, Opção vegetariana",
+  "descricao": "um xis carne acebolado",
+  "regra": "- O desconto é sempre sobre o segundo xis carne acebolado igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "niki_lanchesoficial_berlim127",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.0136517,
+  "lng": -51.1987118,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023042UTCC2026030902002_384_10a3140708fdf8b32170107dfa47e9cf.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c0b8d805d81161c35a77bcf3f70bcf45.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 72,
+      "lugar_nome": "Niki Lanches",
+      "endereco": "Avenida Berlim - lado ímpar, Nº 127, São Geraldo - Porto Alegre / RS",
+      "bairro": "São Geraldo",
+      "cidade": "São Geraldo - Porto Alegre / RS",
+      "latitude": -30.0136517,
+      "longitude": -51.1987118,
+      "instagram": "niki_lanchesoficial_berlim127",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:00 - 02:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:00 - 02:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:00 - 02:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:00 - 02:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:00 - 02:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:00 - 02:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:00 - 02:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:00 - 02:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:00 - 02:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:00 - 02:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:00 - 02:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:00 - 02:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

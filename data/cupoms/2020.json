@@ -1,0 +1,205 @@
+{
+  "id": "2020",
+  "nome": "Ferradura",
+  "lugar_nome": "Ferradura",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Pizzaria",
+  "descricao": "uma pizza (ver regras)",
+  "regra": "- O desconto é sempre sobre a segunda pizza igual ou de menor valor.\n- Válido para os sabores: calabresa, milho, baccon e pizza doce de banoffee.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "ferradurapizzaria",
+  "telefone": null,
+  "lat": -30.0222732,
+  "lng": -51.1929792,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773633996UTCC2026031604036_384_2af6efc37754a054f7231fb2f11d7049.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_670d7ac7e0087b8a658937bc2f5d148f.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2693,
+      "lugar_nome": "Ferradura",
+      "endereco": "Rua Vinte e Quatro de Outubro, Nº 1557, Auxiliadora - Porto Alegre / RS",
+      "bairro": "Auxiliadora",
+      "cidade": "Auxiliadora - Porto Alegre / RS",
+      "latitude": -30.0222732,
+      "longitude": -51.1929792,
+      "instagram": "ferradurapizzaria",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "19:00 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:00 - 02:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "19:00 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:00 - 02:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

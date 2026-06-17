@@ -1,0 +1,297 @@
+{
+  "id": "1754",
+  "nome": "O'Pasta Trattoria",
+  "lugar_nome": "O'Pasta Trattoria",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Italiano, Opção vegetariana, Barra Sul Shopping",
+  "descricao": "um prato selecionado",
+  "regra": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: Scalopini individual, Ao funghi individual, primavera individual e frango a parmegiana com spaguetti ao sugo de tomate.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "opastapoa",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.08484372,
+  "lng": -51.24511369,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773350364UTCC2026031221024_384_09a5fd80ac33eb6562c997f7e8f3623f.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/afb505853026ca099c133687b2621c81.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 40,
+      "lugar_nome": "O'Pasta Trattoria",
+      "endereco": "Avenida Diário de Notícias, Nº 300, Barra Shopping Sul, Cristal - Porto Alegre / RS",
+      "bairro": "Cristal",
+      "cidade": "Cristal - Porto Alegre / RS",
+      "latitude": -30.08484372,
+      "longitude": -51.24511369,
+      "instagram": "opastapoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "19:00 - 00:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 412,
+      "lugar_nome": "O'Pasta Trattoria",
+      "endereco": "Av. Taquara, Nº 359, Petropolis - Porto Alegre / RS",
+      "bairro": "Petropolis",
+      "cidade": "Petropolis - Porto Alegre / RS",
+      "latitude": -30.042369,
+      "longitude": -51.1845132,
+      "instagram": "@opastapoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:30 - 19:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:01 - 01:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "19:00 - 00:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

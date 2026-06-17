@@ -1,0 +1,197 @@
+{
+  "id": "1638",
+  "nome": "A Casa Brasileira",
+  "lugar_nome": "A Casa Brasileira",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Doces / Cafés, Opção vegetariana",
+  "descricao": "um prato individual",
+  "regra": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@acasabrasileira.poa",
+  "telefone": null,
+  "lat": -30.032918,
+  "lng": -51.2057434,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773019545UTCC2026030901045_384_ae2a5f46ea9b1c7bb81b38cba83fcebd.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b9cbfe5482c96657775fda1fd8e16e7a.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 319,
+      "lugar_nome": "A Casa Brasileira",
+      "endereco": "Rua Miguel Tostes - lado ímpar, Nº 457, Rio Branco - Porto Alegre / RS",
+      "bairro": "Rio Branco",
+      "cidade": "Rio Branco - Porto Alegre / RS",
+      "latitude": -30.032918,
+      "longitude": -51.2057434,
+      "instagram": "@acasabrasileira.poa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 17:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 17:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 17:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 17:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "13:00 - 17:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "17:01 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "17:01 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "17:01 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "17:01 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "17:01 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "13:00 - 17:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "13:00 - 17:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "13:00 - 17:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "13:00 - 17:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "13:00 - 17:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "17:01 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "17:01 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "17:01 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "17:01 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "17:01 - 21:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

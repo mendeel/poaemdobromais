@@ -1,0 +1,197 @@
+{
+  "id": "2890",
+  "nome": "Altis Gastronomia Executiva",
+  "lugar_nome": "Altis Gastronomia Executiva",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Buffet",
+  "descricao": "um buffet livre",
+  "regra": "- O desconto é sempre sobre o segundo buffet livre igual.\n- O buffet livre pode ter valor diferente durante o final de semana.\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@altis.gastronomia",
+  "telefone": null,
+  "lat": -30.025588,
+  "lng": -51.1833564,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1779803097UTCC2026052613057_390_3f40e3a998d091beccb1d0d80d715ad2.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8c8d84bda51734ee33b9cff1a0dc255f.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 3542,
+      "lugar_nome": "Altis Gastronomia Executiva",
+      "endereco": "Rua Anita Garibaldi, Nº 1246, Mont'Serrat - Porto Alegre / RS",
+      "bairro": "Mont'Serrat",
+      "cidade": "Mont'Serrat - Porto Alegre / RS",
+      "latitude": -30.025588,
+      "longitude": -51.1833564,
+      "instagram": "@altis.gastronomia",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:00 - 17:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:00 - 17:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:00 - 17:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:00 - 17:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 17:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:00 - 17:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:00 - 17:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:00 - 17:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:00 - 17:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 17:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "1658",
+  "nome": "Beatnik",
+  "lugar_nome": "Beatnik",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Opção vegetariana",
+  "descricao": "um shawarma no pão de folha ou kebab bowl ou falafel bowl (vegetariano)",
+  "regra": "- O desconto é sempre sobre o segundo um shawarma no pão de folha ou kebab bowl ou falafel bowl (vegetariano) igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "beatnik_brasil",
+  "telefone": null,
+  "lat": -30.02192263,
+  "lng": -51.19441665,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773022672UTCC2026030902052_384_167a2d55ff2ae4caf46ad1a0d290c8d8.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_6226f4c36fd5ddb76fbea970cbfedbbb.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 357,
+      "lugar_nome": "Beatnik",
+      "endereco": "Rua Vinte e Quatro de Outubro, Nº 1454, Auxiliadora - Porto Alegre / RS",
+      "bairro": "Auxiliadora",
+      "cidade": "Auxiliadora - Porto Alegre / RS",
+      "latitude": -30.02192263,
+      "longitude": -51.19441665,
+      "instagram": "beatnik_brasil",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:00 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:00 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:00 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:00 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:00 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:00 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:00 - 01:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:00 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:00 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:00 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:00 - 01:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:00 - 01:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

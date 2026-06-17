@@ -1,0 +1,197 @@
+{
+  "id": "2176",
+  "nome": "Bar Spoiler",
+  "lugar_nome": "Bar Spoiler",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Petisco de bar, Opção vegetariana",
+  "descricao": "um prato individual ou hambúrguer",
+  "regra": "- O desconto é sempre sobre o segundo prato individual ou hambúrguer igual ou de menor valor.\n- Não é válido para pratos com frutos do mar.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "barspoiler",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.04134,
+  "lng": -51.2179317,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1774890485UTCC2026033017005_384_37a8284f65096e476382f0dc2b0c30d8.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/5e8f0d00a8599b83362fc0ca809d823e.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 55,
+      "lugar_nome": "Bar Spoiler",
+      "endereco": "Rua General Lima e Silva, Nº 1058, Cidade Baixa - Porto Alegre / RS",
+      "bairro": "Cidade Baixa",
+      "cidade": "Cidade Baixa - Porto Alegre / RS",
+      "latitude": -30.04134,
+      "longitude": -51.2179317,
+      "instagram": "barspoiler",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 03:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:00 - 02:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 03:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:00 - 02:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

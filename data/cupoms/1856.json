@@ -1,0 +1,667 @@
+{
+  "id": "1856",
+  "nome": "Z Café",
+  "lugar_nome": "Z Café | Andradas",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "uma torta Z ou torta integral de banana ou maçã",
+  "regra": "- O desconto é sempre sobre a segunda torta Z ou torta integral de banana ou maçã igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "zcafeoficial",
+  "telefone": null,
+  "lat": -30.0309224,
+  "lng": -51.2331789,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360558UTCC2026031300018_378_d94a3e5bbf72031900e5b02d209aa245.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0ff894c7783ab6215e6ae4b831082c53.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 2738,
+      "lugar_nome": "Z Café | Andradas",
+      "endereco": "Rua dos Andradas, Nº 860, Centro Histórico - Porto Alegre / RS",
+      "bairro": "Centro Histórico",
+      "cidade": "Centro Histórico - Porto Alegre / RS",
+      "latitude": -30.0309224,
+      "longitude": -51.2331789,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "11:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "11:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "11:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "11:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "11:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2739,
+      "lugar_nome": "Z Café | Padre Chagas",
+      "endereco": "Rua Padre Chagas, Nº 305, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.0245956,
+      "longitude": -51.2027074,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "11:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "13:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 00:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 00:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 00:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 00:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 00:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 00:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 22:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2740,
+      "lugar_nome": "Z Café | Plinio Mall",
+      "endereco": "Avenida Plinio Brasil Milano, Nº 1689, Plinio Mall, Higienópolis - Porto Alegre / RS",
+      "bairro": "Higienópolis",
+      "cidade": "Higienópolis - Porto Alegre / RS",
+      "latitude": -30.01850226,
+      "longitude": -51.17431685,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "13:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 23:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 22:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2741,
+      "lugar_nome": "Z Café | Viva Open Mall",
+      "endereco": "Avenida Doutor Nilo Peçanha, Nº 3228, Viva Open Mall, Chácara das Pedras - Porto Alegre / RS",
+      "bairro": "Chácara das Pedras",
+      "cidade": "Chácara das Pedras - Porto Alegre / RS",
+      "latitude": -30.02811831,
+      "longitude": -51.15788951,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 00:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 00:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 00:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 00:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 00:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 00:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "17:00 - 23:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2743,
+      "lugar_nome": "Z Café | Zaffari",
+      "endereco": "Avenida Coronel Lucas de Oliveira, Nº 740, Zaffari Lucas de Oliveira, Mont Serrat - Porto Alegre / RS",
+      "bairro": "Mont Serrat",
+      "cidade": "Mont Serrat - Porto Alegre / RS",
+      "latitude": -30.029304,
+      "longitude": -51.1947537,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "11:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "11:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "12:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 23:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 22:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2744,
+      "lugar_nome": "Z Café | Pontal Shopping",
+      "endereco": "Avenida Padre Cacique, Nº 2893, Pontal Shopping, Praia de Belas - Porto Alegre / RS",
+      "bairro": "Praia de Belas",
+      "cidade": "Praia de Belas - Porto Alegre / RS",
+      "latitude": -30.0802693,
+      "longitude": -51.2481287,
+      "instagram": "zcafeoficial",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 23:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "11:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "11:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "11:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "11:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "11:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

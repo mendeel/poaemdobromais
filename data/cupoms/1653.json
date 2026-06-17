@@ -1,0 +1,197 @@
+{
+  "id": "1653",
+  "nome": "Imperial",
+  "lugar_nome": "Imperial",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Opção vegetariana, Opção vegana",
+  "descricao": "um Imperial bacon",
+  "regra": "- O desconto é sempre sobre o segundo Imperial bacon igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "imperialpoa",
+  "telefone": null,
+  "lat": -30.0420198,
+  "lng": -51.2125882,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773021830UTCC2026030902050_384_37ff1e18367c11e00ebf19d8a07ae187.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8f293e179ba32f925c0c5e168a0b779b.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 249,
+      "lugar_nome": "Imperial",
+      "endereco": "Rua Santana, Nº 375, Farroupilha - Porto Alegre / RS",
+      "bairro": "Farroupilha",
+      "cidade": "Farroupilha - Porto Alegre / RS",
+      "latitude": -30.0420198,
+      "longitude": -51.2125882,
+      "instagram": "imperialpoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "20:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "20:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "20:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "20:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "20:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "20:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "20:00 - 02:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "20:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "20:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "20:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "20:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "20:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "20:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "20:00 - 02:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

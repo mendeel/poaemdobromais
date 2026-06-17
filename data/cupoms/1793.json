@@ -1,0 +1,197 @@
+{
+  "id": "1793",
+  "nome": "Todo Vene",
+  "lugar_nome": "Todo Vene",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Tipico, Opção vegetariana",
+  "descricao": "uma arepa",
+  "regra": "- O desconto é sempre sobre a segunda arepa igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@todovenebistro",
+  "telefone": null,
+  "lat": -30.02918275,
+  "lng": -51.20857901,
+  "plano": "3",
+  "disponivel": 0,
+  "favorito": 1,
+  "data_utilizacao": "2026-05-22T21:25:29.000Z",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773356293UTCC2026031222013_384_d432fc93bbf6d2fb59d35d6283a0c7f8.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a967e47ab0a4b38883b313b4c5d978ff.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 333,
+      "lugar_nome": "Todo Vene",
+      "endereco": "Avenida Independência, Nº 1211, Independência - Porto Alegre / RS",
+      "bairro": "Independência",
+      "cidade": "Independência - Porto Alegre / RS",
+      "latitude": -30.02918275,
+      "longitude": -51.20857901,
+      "instagram": "@todovenebistro",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:00 - 22:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:00 - 22:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:00 - 22:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:00 - 22:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:00 - 22:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 19:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "12:00 - 22:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "12:00 - 22:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "12:00 - 22:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "12:00 - 22:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "12:00 - 22:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:00 - 19:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

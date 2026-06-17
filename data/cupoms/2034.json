@@ -1,0 +1,197 @@
+{
+  "id": "2034",
+  "nome": "Restaurante Origens",
+  "lugar_nome": "Restaurante Origens",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Opção vegetariana, Pontal Shopping",
+  "descricao": "um sorrentino de presunto parma e blend de queijos",
+  "regra": "- O desconto é sempre sobre o segundo sorrentino de presunto parma e blend de queijos igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "origensrestaurantedoubletree",
+  "telefone": null,
+  "lat": -30.0793889,
+  "lng": -51.2480556,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773635774UTCC2026031604014_384_752363dfe9a6d097a825cdae3ca3a96c.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_662f33f0c6a3024cb0c0314671c12b2a.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 456,
+      "lugar_nome": "Restaurante Origens",
+      "endereco": "R. Oswaldo de Lia Pires, Nº 100, DoubleTree by Hilton Porto Alegre, Cristal - Porto Alegre / RS",
+      "bairro": "Cristal",
+      "cidade": "Cristal - Porto Alegre / RS",
+      "latitude": -30.0793889,
+      "longitude": -51.2480556,
+      "instagram": "origensrestaurantedoubletree",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:00 - 01:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 01:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 01:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:00 - 01:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

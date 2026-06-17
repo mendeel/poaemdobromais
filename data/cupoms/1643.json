@@ -1,0 +1,197 @@
+{
+  "id": "1643",
+  "nome": "A Braba",
+  "lugar_nome": "A Braba Real",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Pizzaria, Opção vegetariana",
+  "descricao": "uma pizza média",
+  "regra": "- O desconto é sempre sobre a segunda pizza média igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@pizzariaabraba",
+  "telefone": null,
+  "lat": -30.0463518,
+  "lng": -51.2052148,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020229UTCC2026030901009_384_9f5982eeb2568a57a0845550836f90d0.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eed4336b8b179ef222eb7a82b065893b.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 260,
+      "lugar_nome": "A Braba Real",
+      "endereco": "Rua São Luís, Nº 368, Santana - Porto Alegre / RS",
+      "bairro": "Santana",
+      "cidade": "Santana - Porto Alegre / RS",
+      "latitude": -30.0463518,
+      "longitude": -51.2052148,
+      "instagram": "@pizzariaabraba",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:00 - 02:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:00 - 02:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

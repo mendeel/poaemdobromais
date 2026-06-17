@@ -1,0 +1,291 @@
+{
+  "id": "1642",
+  "nome": "Chocolate Lugano",
+  "lugar_nome": "Chocolate Lugano | Moinhos",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "um combo brownie + mocaccino",
+  "regra": "- O desconto é sempre sobre o segundo combo brownie + mocaccino igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "chocolatelugano.moinhospoa",
+  "telefone": null,
+  "lat": -30.0233448,
+  "lng": -51.202062,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020180UTCC2026030901020_384_f3170caf7a49ee6ed1e5a68529887c75.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_38f2a204e0d8379191dda443139c2192.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 244,
+      "lugar_nome": "Chocolate Lugano | Moinhos",
+      "endereco": "Rua Félix da Cunha, Nº 1169, Floresta - Porto Alegre / RS",
+      "bairro": "Floresta",
+      "cidade": "Floresta - Porto Alegre / RS",
+      "latitude": -30.0233448,
+      "longitude": -51.202062,
+      "instagram": "chocolatelugano.moinhospoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "12:30 - 22:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "12:30 - 22:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "12:30 - 22:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "12:30 - 22:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "12:30 - 22:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "12:30 - 22:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2785,
+      "lugar_nome": "Chocolate Lugano | Iguatemi",
+      "endereco": "Avenida João Wallig, Nº 1800, Iguatemi Shopping, Passo da Areia - Porto Alegre / RS",
+      "bairro": "Passo da Areia",
+      "cidade": "Passo da Areia - Porto Alegre / RS",
+      "latitude": -30.0273863,
+      "longitude": -51.1626638,
+      "instagram": "chocolatelugano.moinhospoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 22:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 22:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 22:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 22:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 22:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "15:00 - 19:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "12:30 - 22:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "12:30 - 22:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "12:30 - 22:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "12:30 - 22:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "12:30 - 22:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "12:30 - 22:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

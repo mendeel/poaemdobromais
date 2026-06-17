@@ -1,0 +1,197 @@
+{
+  "id": "1765",
+  "nome": "Rancho 141",
+  "lugar_nome": "Rancho 141",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Restaurante, Carnes, Opção vegetariana",
+  "descricao": "um strogonoff de carne ou Crispy Bacon Burger (ver regras)",
+  "regra": "- O desconto é sempre sobre o segundo strogonoff de carne ou Crispy Bacon Burger igual.\n- O Strogonoff de carne e válido somente para almoço.\n- O Crispy Bacon Burger é válido somente para jantar.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@rancho_141",
+  "telefone": null,
+  "lat": -30.02368169,
+  "lng": -51.20307642,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354188UTCC2026031222008_384_2fcdedcf01c368160874b53b11cdf6e3.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_dc9d7964885047477b7d7af2fe8d42dc.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 352,
+      "lugar_nome": "Rancho 141",
+      "endereco": "Rua Dinarte Ribeiro, Nº 141, Moinhos de Vento - Porto Alegre / RS",
+      "bairro": "Moinhos de Vento",
+      "cidade": "Moinhos de Vento - Porto Alegre / RS",
+      "latitude": -30.02368169,
+      "longitude": -51.20307642,
+      "instagram": "@rancho_141",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "15:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "15:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "15:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "15:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "15:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "15:00 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "15:00 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "15:00 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "15:00 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "15:00 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

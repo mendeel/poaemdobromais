@@ -1,0 +1,636 @@
+{
+    "caracteristica": [
+      {
+        "id": "6",
+        "categoria": "1",
+        "nome": "Espaço Kids",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_6_1740064679_d14c8d2d5a061d70a9da0f2edb3c5b9d.svg"
+      },
+      {
+        "id": "13",
+        "categoria": "1",
+        "nome": "Aceita Pet",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg"
+      }
+    ],
+    "subCategoria": [
+      {
+        "id": "132",
+        "nome": "To Go",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773082917UTCC2026030919057_384_767a8c8e5ca244f033bd35101c505ff8.svg",
+        "novo_icone": null,
+        "destaque": true
+      },
+      {
+        "id": "2",
+        "nome": "Hamburgueria",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956059232_4001ecf9915b87b8b82cc6d5a73029d8.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "1",
+        "nome": "Restaurante",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16938692212_ed749a5750dd9db574a90b41c31df292.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "3",
+        "nome": "Pizzaria",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956059552_24b3e29ea868e4a8a4045b7cf912d6b8.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "4",
+        "nome": "Orientais",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956059802_3fc6326a70ba23b0ae7058907d674d94.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "5",
+        "nome": "Carnes",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956060022_7636a00719b7aca9f3a99997f8bef29a.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "24",
+        "nome": "Iguatemi Shopping",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16971384392_73e0caa51c490637c7e808af29afd601.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "6",
+        "nome": "Petisco de bar",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/CATEGORIA_16977483092_d8641ea81a1ce95c719d9aed2553f7a0.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "7",
+        "nome": "Combos",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956060562_5346aca9e36d28dcaf8eac13cfc4890a.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "25",
+        "nome": "Barra Sul Shopping",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16971387152_a37b97e00e85c4e631916291dfd11a26.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "8",
+        "nome": "Lanche",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/CATEGORIA_16956060822_d80a586a3728a5ef1e20e37a5029adb6.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "26",
+        "nome": "Pontal Shopping",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16972226542_d059ee43b6be2617f6d89fc25d49d098.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "9",
+        "nome": "Pastel / Crepe",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956061102_7d3b2eb8548ab8e9268a8acb32cfd8a6.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "30",
+        "nome": "Mercado público",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1757018066UTCC2025090420026_2_d29fa90b3de3c9d4c990cb7fb542442b.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "23",
+        "nome": "Opção vegetariana",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16967038292_97ba517d12e717883d0cec8acba3b1d5.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "10",
+        "nome": "Rodízio",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956061402_deacac2e8bf49c88a382dffa09628e1d.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "11",
+        "nome": "Mexicano",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956061532_633f232c7f059b0ffb1b9e254142f85b.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "29",
+        "nome": "Opção vegana",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1742921556UTCC2025032516036_2_b63c1e80d888bb92cc8708968fa2d639.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "12",
+        "nome": "Tipico",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956061672_441c26804bd8ef0bcf46199f9a380629.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "13",
+        "nome": "Italiano",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/CATEGORIA_16956061832_e610377313486b29504c8049b45320ec.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "14",
+        "nome": "Étnicos",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956062332_cbe89a6c4ebfd02cef8960aa90ad3399.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "15",
+        "nome": "Buffet",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956062822_b99b086748c592063929669e120d5dbf.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "134",
+        "nome": "Culinária Internacional",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773084605UTCC2026030919005_384_62ee877638c6d666b22d3fba2de9adaf.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "16",
+        "nome": "Brunch",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/16956062952_1774ce204eed9ca3fd0c6cac19dd71d4.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "17",
+        "nome": "Saudável",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956063072_a6d4ec741bcbb184e62c8356e23993c2.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "18",
+        "nome": "Doces / Cafés",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/CATEGORIA_16977484252_0ece26a5abd15eb0a7c026c9c0cfe946.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "19",
+        "nome": "Sorveterias",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/CATEGORIA_16956063952_241df6db1b696b4591e69be2c509fe7e.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "20",
+        "nome": "Açai",
+        "icone": "https://cdn.brasilemdobro.com.br/fortal/subCategoria/16956064232_1d5f5861145f87bff256bf8f55bf67cd.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "138",
+        "nome": "Padaria",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773089927UTCC2026030920047_384_903767ec754153793809fcc655dab3d6.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "133",
+        "nome": "Pub",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773082945UTCC2026030919025_384_48ae2b4d0bde789b28db672b1431f133.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "144",
+        "nome": "Culinária Contemporânea",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773337975UTCC2026031217055_384_1f28f4a39cfc8713c86b7855dca69bb4.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "141",
+        "nome": "Hot Dog",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773175139UTCC2026031020059_384_8115be3cbec7938a57589527ffccb042.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "140",
+        "nome": "Culinária Regional",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773167011UTCC2026031018031_384_e17864c26bf5e64314a217bc23ee3a73.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "145",
+        "nome": "Empório",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773342988UTCC2026031219028_384_cab3742c59f75b48f092ef8d728cc06a.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "142",
+        "nome": "Vinhos",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773268576UTCC2026031122016_384_0e92f17af6eba9d29d285bb1e16b5a3e.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "143",
+        "nome": "Porções",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1773268955UTCC2026031122035_384_b0678a84ba5b6423543f722ab73aabc8.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "44",
+        "nome": "Shopping Praia de Belas",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1762951707UTCC2025111212027_384_d36d49cba6ba8594fe5aaceb753bd753.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "46",
+        "nome": "5ª Avenida Center",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1763381883UTCC2025111712003_384_a3fe6783e12cb8ff45b1f1dbee3dd72f.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "51",
+        "nome": "Viva Open Mall",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1763556508UTCC2025111912028_384_9638077c09d6a2143bbc97d65cc02c5d.svg",
+        "novo_icone": null,
+        "destaque": false
+      },
+      {
+        "id": "53",
+        "nome": "Bourbon Shopping Country",
+        "icone": "https://cdn.brasilemdobro.com.br/poa/subCategoria/SUB_CATEGORIA_1763560319UTCC2025111913059_384_8123f57e8c3d0148bdb9a1a3c3d9723e.svg",
+        "novo_icone": null,
+        "destaque": false
+      }
+    ],
+    "regiao": [
+      {
+        "id": "1",
+        "nome": "Anchieta",
+        "categoria": "#1#",
+        "cupom": "9"
+      },
+      {
+        "id": "2",
+        "nome": "Auxiliadora",
+        "categoria": "#1#",
+        "cupom": "47"
+      },
+      {
+        "id": "3",
+        "nome": "Azenha",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "4",
+        "nome": "Bela Vista",
+        "categoria": "#1#",
+        "cupom": "16"
+      },
+      {
+        "id": "5",
+        "nome": "Boa Vista",
+        "categoria": "#1#",
+        "cupom": "13"
+      },
+      {
+        "id": "6",
+        "nome": "Bom Fim",
+        "categoria": "#1#",
+        "cupom": "41"
+      },
+      {
+        "id": "41",
+        "nome": "Canoas",
+        "categoria": "#1#",
+        "cupom": "0"
+      },
+      {
+        "id": "43",
+        "nome": "Cavalhada",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "7",
+        "nome": "Centro",
+        "categoria": "#1#",
+        "cupom": "4"
+      },
+      {
+        "id": "8",
+        "nome": "Centro Historico",
+        "categoria": "#1#",
+        "cupom": "70"
+      },
+      {
+        "id": "10",
+        "nome": "Chácara das Pedras",
+        "categoria": "#1#",
+        "cupom": "3"
+      },
+      {
+        "id": "9",
+        "nome": "Cidade Baixa",
+        "categoria": "#1#",
+        "cupom": "34"
+      },
+      {
+        "id": "11",
+        "nome": "Cristal",
+        "categoria": "#1#",
+        "cupom": "30"
+      },
+      {
+        "id": "12",
+        "nome": "Cristo Redentor",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "13",
+        "nome": "Farroupilha",
+        "categoria": "#1#",
+        "cupom": "3"
+      },
+      {
+        "id": "14",
+        "nome": "Floresta",
+        "categoria": "#1#",
+        "cupom": "21"
+      },
+      {
+        "id": "78",
+        "nome": "Gramado",
+        "categoria": "#1#",
+        "cupom": "0"
+      },
+      {
+        "id": "77",
+        "nome": "Gravataí",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "15",
+        "nome": "Higienópolis",
+        "categoria": "#1#",
+        "cupom": "4"
+      },
+      {
+        "id": "16",
+        "nome": "Hípica",
+        "categoria": "#1#",
+        "cupom": "3"
+      },
+      {
+        "id": "17",
+        "nome": "Independencia",
+        "categoria": "#1#",
+        "cupom": "15"
+      },
+      {
+        "id": "44",
+        "nome": "Ipanema",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "18",
+        "nome": "Jardim Botânico",
+        "categoria": "#1#",
+        "cupom": "3"
+      },
+      {
+        "id": "73",
+        "nome": "Jardim do Salso",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "19",
+        "nome": "Jardim Europa",
+        "categoria": "#1#",
+        "cupom": "11"
+      },
+      {
+        "id": "140",
+        "nome": "Jardim Isabel",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "139",
+        "nome": "Jardim Itu",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "20",
+        "nome": "Jardim Lindóia",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "21",
+        "nome": "Marechal Rondon",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "138",
+        "nome": "Menino Deus",
+        "categoria": "#1#",
+        "cupom": "6"
+      },
+      {
+        "id": "22",
+        "nome": "Moinhos de Vento",
+        "categoria": "#1#",
+        "cupom": "66"
+      },
+      {
+        "id": "74",
+        "nome": "Mont'Serrat",
+        "categoria": "#1#",
+        "cupom": "8"
+      },
+      {
+        "id": "23",
+        "nome": "Morro Santana",
+        "categoria": "#1#",
+        "cupom": "4"
+      },
+      {
+        "id": "24",
+        "nome": "Navegantes",
+        "categoria": "#1#",
+        "cupom": "14"
+      },
+      {
+        "id": "76",
+        "nome": "Novo Hamburgo",
+        "categoria": "#1#",
+        "cupom": "0"
+      },
+      {
+        "id": "25",
+        "nome": "Partenon",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "26",
+        "nome": "Passo da Areia",
+        "categoria": "#1#",
+        "cupom": "25"
+      },
+      {
+        "id": "46",
+        "nome": "Pedra redonda",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "27",
+        "nome": "Petropolis",
+        "categoria": "#1#",
+        "cupom": "16"
+      },
+      {
+        "id": "45",
+        "nome": "Portão",
+        "categoria": "#1#",
+        "cupom": "2"
+      },
+      {
+        "id": "28",
+        "nome": "Praia de Belas",
+        "categoria": "#1#",
+        "cupom": "15"
+      },
+      {
+        "id": "29",
+        "nome": "Rio Branco",
+        "categoria": "#1#",
+        "cupom": "47"
+      },
+      {
+        "id": "30",
+        "nome": "Santa Cecília",
+        "categoria": "#1#",
+        "cupom": "10"
+      },
+      {
+        "id": "141",
+        "nome": "Santa Isabel",
+        "categoria": "#1#",
+        "cupom": "1"
+      },
+      {
+        "id": "142",
+        "nome": "Santa Isabel",
+        "categoria": "#null#",
+        "cupom": "0"
+      },
+      {
+        "id": "31",
+        "nome": "Santana",
+        "categoria": "#1#",
+        "cupom": "8"
+      },
+      {
+        "id": "32",
+        "nome": "São Geraldo",
+        "categoria": "#1#",
+        "cupom": "15"
+      },
+      {
+        "id": "33",
+        "nome": "São João",
+        "categoria": "#1#",
+        "cupom": "7"
+      },
+      {
+        "id": "34",
+        "nome": "São Sebastião",
+        "categoria": "#1#",
+        "cupom": "0"
+      },
+      {
+        "id": "35",
+        "nome": "Sarandi",
+        "categoria": "#1#",
+        "cupom": "7"
+      },
+      {
+        "id": "137",
+        "nome": "Teresópolis",
+        "categoria": "#1#",
+        "cupom": "0"
+      },
+      {
+        "id": "36",
+        "nome": "Tres Figueiras",
+        "categoria": "#1#",
+        "cupom": "3"
+      },
+      {
+        "id": "37",
+        "nome": "Tristeza",
+        "categoria": "#1#",
+        "cupom": "18"
+      },
+      {
+        "id": "38",
+        "nome": "Vila Assunção",
+        "categoria": "#1#",
+        "cupom": "6"
+      },
+      {
+        "id": "39",
+        "nome": "Vila Ipiranga",
+        "categoria": "#1#",
+        "cupom": "12"
+      },
+      {
+        "id": "40",
+        "nome": "Vila Suzana",
+        "categoria": "#null#",
+        "cupom": "0"
+      }
+    ]
+}

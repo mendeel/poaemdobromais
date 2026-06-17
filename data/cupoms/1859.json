@@ -1,0 +1,197 @@
+{
+  "id": "1859",
+  "nome": "Bella Gula Medcenter",
+  "lugar_nome": "Bella Gula MedCenter",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Doces / Cafés",
+  "descricao": "uma fatia de torta mesclada de chocolate e café simples (expresso ou carioca)",
+  "regra": "- O desconto é sempre sobre a segunda fatia de torta mesclada de chocolate e café simples (expresso ou carioca) igual ou e menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@bellagulamedcenter",
+  "telefone": null,
+  "lat": -30.0327576,
+  "lng": -51.1784378,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773410337UTCC2026031313057_384_f568f9fbe80b85026c8a644cc992bfe4.png",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_5d6905134f8bf59543604b1c34440288.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 2042,
+      "lugar_nome": "Bella Gula MedCenter",
+      "endereco": "Avenida Soledade, Nº 565, Loja 36 e 37, Petrópolis - Porto Alegre / RS",
+      "bairro": "Petrópolis",
+      "cidade": "Petrópolis - Porto Alegre / RS",
+      "latitude": -30.0327576,
+      "longitude": -51.1784378,
+      "instagram": "@bellagulamedcenter",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "11:00 - 15:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "11:00 - 15:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "11:00 - 15:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "11:00 - 15:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "11:00 - 15:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "17:00 - 22:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "17:00 - 22:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "17:00 - 22:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "17:00 - 22:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "17:00 - 22:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "11:00 - 15:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "11:00 - 15:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "11:00 - 15:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "11:00 - 15:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "11:00 - 15:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "17:00 - 22:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "17:00 - 22:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "17:00 - 22:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "17:00 - 22:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "17:00 - 22:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

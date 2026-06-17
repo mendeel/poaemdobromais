@@ -1,0 +1,205 @@
+{
+  "id": "1770",
+  "nome": "Real Fucking Burguer",
+  "lugar_nome": "Real Fucking Burger",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Hamburgueria, Opção vegetariana",
+  "descricao": "qualquer hamburguer clássico",
+  "regra": "- O desconto é sempre sobre o segundo hamburguer clássico igual ou de menor valor.\n-Válido para o cardápio de hamburgueres.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "realfuckingburger",
+  "telefone": "(00) 00000-0000",
+  "lat": -30.03792506,
+  "lng": -51.21050856,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354614UTCC2026031222014_378_0a955375c05781ab9ec7d9f1805a411a.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/a50af1b81486cc953eed33478528dc71.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 115,
+      "lugar_nome": "Real Fucking Burger",
+      "endereco": "Avenida Venâncio Aires, Nº 1025, Santana - Porto Alegre / RS",
+      "bairro": "Santana",
+      "cidade": "Santana - Porto Alegre / RS",
+      "latitude": -30.03792506,
+      "longitude": -51.21050856,
+      "instagram": "realfuckingburger",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 17:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "J",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 17:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

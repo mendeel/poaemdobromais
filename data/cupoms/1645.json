@@ -1,0 +1,385 @@
+{
+  "id": "1645",
+  "nome": "Soberano",
+  "lugar_nome": "Soberano",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Lanche, Opção vegetariana",
+  "descricao": "um xis clássico",
+  "regra": "- O desconto é sempre sobre o segundo lanche clássico igual ou de menor valor.\n- Não é válido para o 'Xis Filé'.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@SOBERANOPOA",
+  "telefone": null,
+  "lat": -30.0600837,
+  "lng": -51.2241621,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020400UTCC2026030901000_384_bd086720936c04556b03b07cb3039969.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8a7261e6dc5b9595599fa01fcd6c33b5.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 69,
+      "lugar_nome": "Soberano",
+      "endereco": "Avenida Coronel Lucas de Oliveira, Nº 1791, Bela Vista - Porto Alegre / RS",
+      "bairro": "Bela Vista",
+      "cidade": "Bela Vista - Porto Alegre / RS",
+      "latitude": -30.0383743,
+      "longitude": -51.1949101,
+      "instagram": "soberanopoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 21:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:01 - 02:45",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:01 - 02:45",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:01 - 02:45",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:01 - 02:45",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:01 - 03:45",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:01 - 03:45",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:01 - 03:45",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 272,
+      "lugar_nome": "Soberano",
+      "endereco": "R. José de Alencar, Nº 738, Menino Deus - Porto Alegre / RS",
+      "bairro": "Menino Deus",
+      "cidade": "Menino Deus - Porto Alegre / RS",
+      "latitude": -30.0600837,
+      "longitude": -51.2241621,
+      "instagram": "@SOBERANOPOA",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:00 - 21:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:00 - 21:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 21:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:01 - 03:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:01 - 03:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:01 - 03:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:01 - 03:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:01 - 03:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:01 - 03:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:01 - 03:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    },
+    {
+      "lugar_codigo": 2510,
+      "lugar_nome": "Soberano",
+      "endereco": "Avenida Sertório, Nº 8000/319, Shopping Center Lar, Sarandi - Porto Alegre / RS",
+      "bairro": "Sarandi",
+      "cidade": "Sarandi - Porto Alegre / RS",
+      "latitude": -29.9993391,
+      "longitude": -51.1312627,
+      "instagram": "@SOBERANOPOA",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "13:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 01:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 01:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:00 - 21:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:00 - 21:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:00 - 21:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:00 - 21:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:00 - 21:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:00 - 21:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:00 - 21:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:01 - 02:45",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:01 - 02:45",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:01 - 02:45",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:01 - 02:45",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:01 - 03:45",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:01 - 03:45",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:01 - 03:45",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

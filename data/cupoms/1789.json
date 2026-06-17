@@ -1,0 +1,197 @@
+{
+  "id": "1789",
+  "nome": "Prime Sushi",
+  "lugar_nome": "Prime Sushi",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Orientais, Buffet, Opção vegetariana",
+  "descricao": "um poke de salmão",
+  "regra": "- O desconto é sempre sobre o segundo poke de salmão igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "primesushipoa",
+  "telefone": "(99) 99999-9999",
+  "lat": -30.0389016,
+  "lng": -51.1236492,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773356123UTCC2026031222023_378_b141bea840ce9992fa8492a85d97e511.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/9906d420c48ffb5d43409570a7559eea.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 204,
+      "lugar_nome": "Prime Sushi",
+      "endereco": "Avenida Protásio Alves, Nº 8830, Morro Santana - Porto Alegre / RS",
+      "bairro": "Morro Santana",
+      "cidade": "Morro Santana - Porto Alegre / RS",
+      "latitude": -30.0389016,
+      "longitude": -51.1236492,
+      "instagram": "primesushipoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "22:00 - 02:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "22:00 - 02:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "22:00 - 02:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "22:00 - 02:30",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

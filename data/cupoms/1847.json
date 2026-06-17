@@ -1,0 +1,197 @@
+{
+  "id": "1847",
+  "nome": "Cantina Toscana",
+  "lugar_nome": "Cantina Toscana",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Italiano, Opção vegetariana",
+  "descricao": "um prato selecionado (ver regras)",
+  "regra": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: \nMassa Toscana: molho de ragú de linguiça, pomodoro, vinho tinto e manjerona;\nFettuccine Alla Palermo: molho bechamel, limão siciliano e alho poró com iscas de frango (versão vegetariana);\nMassa Mamma Filó: molho sugo com polpettas (almôndegas de carne);\nPomodoro Alla Amalfitana (vegetariano): molho sugo com toque de pesto;\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "cantina.toscana",
+  "telefone": "(99) 99999-9999",
+  "lat": -30.1030202,
+  "lng": -51.2526073,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360436UTCC2026031300016_384_e128ed9c82d70414025509c2be87cf4a.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/a0ce9d58295f2a6e36b953c667867e44.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 205,
+      "lugar_nome": "Cantina Toscana",
+      "endereco": "Rua Caiapó, Nº 71, Vila Assunção - Porto Alegre / RS",
+      "bairro": "Vila Assunção",
+      "cidade": "Vila Assunção - Porto Alegre / RS",
+      "latitude": -30.1030202,
+      "longitude": -51.2526073,
+      "instagram": "cantina.toscana",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "22:00 - 02:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "22:00 - 02:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "22:00 - 02:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "22:00 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "22:00 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "J",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "22:00 - 02:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "22:00 - 02:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "22:00 - 02:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "22:00 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "22:00 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

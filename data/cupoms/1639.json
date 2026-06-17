@@ -1,0 +1,197 @@
+{
+  "id": "1639",
+  "nome": "Comfy Pizza Napoletana",
+  "lugar_nome": "Comfy Pizza Napoletana",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Pizzaria, Opção vegetariana",
+  "descricao": "uma pizza",
+  "regra": "- O desconto é sempre sobre a segunda pizza igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@comfypizza",
+  "telefone": null,
+  "lat": -30.1070506,
+  "lng": -51.2536058,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773019954UTCC2026030901034_384_47afaf8b23d4d23b809e412ef9159581.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3445cec1b4086feeba223c9df782b3ad.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 271,
+      "lugar_nome": "Comfy Pizza Napoletana",
+      "endereco": "Rua Doutor Barcelos, Nº 560, Tristeza - Porto Alegre / RS",
+      "bairro": "Tristeza",
+      "cidade": "Tristeza - Porto Alegre / RS",
+      "latitude": -30.1070506,
+      "longitude": -51.2536058,
+      "instagram": "@comfypizza",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:30 - 01:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:30 - 01:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:30 - 01:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:30 - 01:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "21:30 - 02:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "21:30 - 02:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "21:30 - 01:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "J",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:30 - 01:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:30 - 01:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:30 - 01:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:30 - 01:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "21:30 - 02:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "21:30 - 02:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "21:30 - 01:30",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

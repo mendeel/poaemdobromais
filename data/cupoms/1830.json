@@ -1,0 +1,205 @@
+{
+  "id": "1830",
+  "nome": "Chavin",
+  "lugar_nome": "Chavin",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Culinária Internacional",
+  "descricao": "um prato principal",
+  "regra": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "chavin.poa",
+  "telefone": null,
+  "lat": -30.0240413,
+  "lng": -51.1792646,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359673UTCC2026031223033_378_7ad9aba9610f5d364502e51fd13da45f.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4d6418144233ff7964338927458eb2e3.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2745,
+      "lugar_nome": "Chavin",
+      "endereco": "Rua Anita Garibaldi, Nº 1680, Boa Vista - Porto Alegre / RS",
+      "bairro": "Boa Vista",
+      "cidade": "Boa Vista - Porto Alegre / RS",
+      "latitude": -30.0240413,
+      "longitude": -51.1792646,
+      "instagram": "chavin.poa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:30 - 20:30",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "20:30 - 01:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "20:30 - 01:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "20:30 - 01:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "20:30 - 01:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "20:30 - 01:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:30 - 20:30",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "20:30 - 01:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "20:30 - 01:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "20:30 - 01:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "20:30 - 01:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "20:30 - 01:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

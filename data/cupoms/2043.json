@@ -1,0 +1,205 @@
+{
+  "id": "2043",
+  "nome": "Hedonê",
+  "lugar_nome": "Hedonê",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "To Go",
+  "descricao": "um doce ou salgado individual",
+  "regra": "- O desconto é sempre sobre o segundo doce ou salgado individual igual ou de menor valor.\n- Válido para os produtos disponíveis à pronta entrega.\n\nLEIA COM ATENÇÃO\n- Válido para os produtos a pronta entrega na vitrine, consultar disponibilidade do dia.\n- O pagamento deverá ser feito obrigatoriamente na retirada.\n- Válido somente para os produtos anunciados no cupom, os demais produtos acrescentados ao pedido serão cobrados normalmente no momento do pagamento.\n\n- não é necessário a presença de 2 pessoas para retirar o pedido \n- ⁠não é válido para delivery",
+  "regraCategoria": "LEMBRE-SE ANTES DE SAIR DE CASA:\n- Consulte no aplicativo os dias e horários de funcionamento nos quais o cupom é aceito, indicamos sempre conferir diretamente com o estabelecimento se o local está aberto normalmente!\n\n- Não é necessário a presença de 2 pessoas para retirar o pedido \n- ⁠Não é válido para delivery\n- Cupom individual e intransferível.\n- Válido 1 cupom por estabelecimento (se tiver mais de uma unidade é para somente 1 delas).\n- O horário de funcionamento que tiver um traço (-) quer dizer que o estabelecimento está fechado ou não aceita o cupom naquele período.\n- Quando um lugar não aceita no feriado ele também não aceita em ponto facultativo.\n- Caso o estabelecimento tenha mais de 1 loja, o cupom é válido no endereço indicado neste cupom.\n- PROMOÇÃO NÃO CUMULATIVA COM PROMOÇÕES DA CASA.\n- Bebidas, adicionais, pratos kids, taxas de serviço, gorjetas e couvert artístico não estarão inclusos no benefício, somente o prato descrito.\n- A taxa de serviço será cobra",
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@hedone.nutritiva",
+  "telefone": null,
+  "lat": -30.03168649,
+  "lng": -51.21013012,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773665242UTCC2026031612022_384_5e98b305afd1ffaefb9b194f53bda764.jpg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_7f7cec33b7a7b1ffb8c956e69b3c90a9.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2797,
+      "lugar_nome": "Hedonê",
+      "endereco": "Rua Vasco da Gama - lado ímpar, Nº 206, Bom Fim - Porto Alegre / RS",
+      "bairro": "Bom Fim",
+      "cidade": "Bom Fim - Porto Alegre / RS",
+      "latitude": -30.03168649,
+      "longitude": -51.21013012,
+      "instagram": "@hedone.nutritiva",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "16:30 - 21:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:30 - 21:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:30 - 21:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:30 - 21:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:30 - 21:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "16:30 - 21:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "16:30 - 21:30",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "16:30 - 21:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "13:30 - 21:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "13:30 - 21:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "13:30 - 21:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "13:30 - 21:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "16:30 - 21:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "16:30 - 21:30",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}

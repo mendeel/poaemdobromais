@@ -1,0 +1,205 @@
+{
+  "id": "1743",
+  "nome": "Amitié Wine Bar",
+  "lugar_nome": "Amitié Wine Bar",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Bebidas, Iguatemi Shopping",
+  "descricao": "um Amitié em três taças ou trilogia de sabores",
+  "regra": "- O desconto é sempre sobre o segundo Amitié em três taças ou trilogia de sabores igual.\n- Trilogia de Sabores: consiste em três taças harmonizadas com três queijos gaúchos, incluindo o único queijo da América Latina que recebe a denominação de Origem.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "amitiewinebar.iguatemipoa",
+  "telefone": null,
+  "lat": -30.0273863,
+  "lng": -51.1626638,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773249944UTCC2026031117044_384_6885d9fc8e08e69165a430207c6ac741.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_1f8e5e1010d5e31b65132dfcd74da99c.png",
+  "caracteristica": [
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 2682,
+      "lugar_nome": "Amitié Wine Bar",
+      "endereco": "Avenida João Wallig, Nº 1800, Iguatemi Gartens, Passo da Areia - Porto Alegre / RS",
+      "bairro": "Passo da Areia",
+      "cidade": "Passo da Areia - Porto Alegre / RS",
+      "latitude": -30.0273863,
+      "longitude": -51.1626638,
+      "instagram": "amitiewinebar.iguatemipoa",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 18:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "14:30 - 18:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "14:00 - 18:00",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:01 - 01:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:01 - 01:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:01 - 01:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 18:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "14:30 - 18:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "14:00 - 18:00",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:01 - 01:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:01 - 01:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "18:01 - 01:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "2031",
+  "nome": "Los Pibes",
+  "lugar_nome": "Los Pibes Burgers e Xis",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Hamburgueria, Opção vegetariana",
+  "descricao": "um combo de burgers",
+  "regra": "- O desconto é sempre segundo combo de burgers igual ou de menor valor.\n- Não é válido para burgers 'contêiner' e 'los pibes'.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@lospibesburgers",
+  "telefone": null,
+  "lat": -30.0190486,
+  "lng": -51.1752867,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773635350UTCC2026031604010_384_dd498df1a76736ec3139cf57462f0622.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_bee91fc6c397650ee3afb69c6615573d.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 298,
+      "lugar_nome": "Los Pibes Burgers e Xis",
+      "endereco": "Av. Plínio Brasil Milão, Nº 1609, Higienópolis - Porto Alegre / RS",
+      "bairro": "Higienópolis",
+      "cidade": "Higienópolis - Porto Alegre / RS",
+      "latitude": -30.0190486,
+      "longitude": -51.1752867,
+      "instagram": "@lospibesburgers",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "14:30 - 17:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "14:30 - 17:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "21:00 - 00:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "21:00 - 00:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "21:00 - 00:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "21:00 - 00:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "20:00 - 00:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "14:30 - 17:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "14:30 - 17:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "21:00 - 00:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "21:00 - 00:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "21:00 - 00:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "21:00 - 00:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "20:00 - 00:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

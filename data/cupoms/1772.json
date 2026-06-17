@@ -1,0 +1,197 @@
+{
+  "id": "1772",
+  "nome": "Taishi Sushi",
+  "lugar_nome": "Taishi Sushi",
+  "beneficio": "ganhe outro igual.",
+  "sub_categoria": "Orientais",
+  "descricao": "um prato selecionado (ver regras)",
+  "regra": "- O desconto é sempre sobre o segundo prato selecionado igual. \n- Válido para: Uramaki fila skin,Temaki shake e Hot fila.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "taishisushi",
+  "telefone": null,
+  "lat": -30.0272318,
+  "lng": -51.178723,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 1,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354828UTCC2026031222048_378_7858d9e938ab94581bd01b332d6f9f0f.JPG",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_93857c3278e9bea46a70e41218fe44ad.png",
+  "caracteristica": [],
+  "endereco": [
+    {
+      "lugar_codigo": 2783,
+      "lugar_nome": "Taishi Sushi",
+      "endereco": "Praça Japão, Nº 155, Boa Vista - Porto Alegre / RS",
+      "bairro": "Boa Vista",
+      "cidade": "Boa Vista - Porto Alegre / RS",
+      "latitude": -30.0272318,
+      "longitude": -51.178723,
+      "instagram": "taishisushi",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "-",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "-",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "-",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "-",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "-",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "22:00 - 02:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "-",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "22:00 - 02:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "22:00 - 02:30",
+            "today": false
+          }
+        }
+      },
+      "aberto": true,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "-",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "-",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "-",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "-",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "-",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "22:00 - 02:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "-",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "22:00 - 02:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "22:00 - 02:30",
+        "today": false
+      }
+    }
+  },
+  "aberto": true,
+  "online": "N"
+}

@@ -1,0 +1,211 @@
+{
+  "id": "1896",
+  "nome": "Ginkgo",
+  "lugar_nome": "Ginkgo",
+  "beneficio": "ganhe outro igual ou de menor valor.",
+  "sub_categoria": "Restaurante, Doces / Cafés, Opção vegetariana, Opção vegana",
+  "descricao": "uma pasta com molho à escolha",
+  "regra": "- O desconto é sempre sobre a segunda pasta com molho à escolha igual ou de menor valor.\n- Válido para todas as pastas com os molhos de sua preferência.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+  "regraCategoria": null,
+  "tipo": "C",
+  "validade": "05/04/2027",
+  "instagram": "@somosginkgo",
+  "telefone": null,
+  "lat": -30.02095328,
+  "lng": -51.19701954,
+  "plano": "3",
+  "disponivel": 1,
+  "favorito": 0,
+  "data_utilizacao": "",
+  "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773427715UTCC2026031318035_384_86938a21b34622320369ec11bf78210c.jpeg",
+  "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_6d33b5e6a28194d5cb451994c5b4ee5d.png",
+  "caracteristica": [
+    "Espaço Kids",
+    "Aceita Pet"
+  ],
+  "endereco": [
+    {
+      "lugar_codigo": 436,
+      "lugar_nome": "Ginkgo",
+      "endereco": "R. Cel. Bordini, Nº 332, Auxiliadora - Porto Alegre / RS",
+      "bairro": "Auxiliadora",
+      "cidade": "Auxiliadora - Porto Alegre / RS",
+      "latitude": -30.02095328,
+      "longitude": -51.19701954,
+      "instagram": "@somosginkgo",
+      "horario": {
+        "A": {
+          "1": {
+            "day": "Segunda",
+            "horario": "13:00 - 18:30",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "13:00 - 18:30",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "13:00 - 18:30",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "13:00 - 18:30",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "13:00 - 18:30",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "13:00 - 18:30",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "-",
+            "today": false
+          }
+        },
+        "J": {
+          "1": {
+            "day": "Segunda",
+            "horario": "18:31 - 22:00",
+            "today": false
+          },
+          "2": {
+            "day": "Terça",
+            "horario": "18:31 - 22:00",
+            "today": true
+          },
+          "3": {
+            "day": "Quarta",
+            "horario": "18:31 - 22:00",
+            "today": false
+          },
+          "4": {
+            "day": "Quinta",
+            "horario": "18:31 - 22:00",
+            "today": false
+          },
+          "5": {
+            "day": "Sexta",
+            "horario": "18:31 - 22:00",
+            "today": false
+          },
+          "6": {
+            "day": "Sábado",
+            "horario": "18:31 - 23:00",
+            "today": false
+          },
+          "7": {
+            "day": "Domingo",
+            "horario": "18:31 - 23:00",
+            "today": false
+          }
+        }
+      },
+      "aberto": false,
+      "period_default": "A",
+      "notWorking": false,
+      "caracteristicas": [
+        {
+          "nome": "Espaço Kids",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_6_1740064679_d14c8d2d5a061d70a9da0f2edb3c5b9d.svg",
+          "codigo": 6
+        },
+        {
+          "nome": "Aceita Pet",
+          "icone": "https://cdn.brasilemdobro.com.br/poa/caracteristica/CARACTERISTICA_13_1740064679_c0588d07f6f1cf23ad07cecc34aea3bd.svg",
+          "codigo": 13
+        }
+      ],
+      "feriado": {
+        "A": false,
+        "J": false
+      }
+    }
+  ],
+  "horario": {
+    "A": {
+      "1": {
+        "day": "Segunda",
+        "horario": "13:00 - 18:30",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "13:00 - 18:30",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "13:00 - 18:30",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "13:00 - 18:30",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "13:00 - 18:30",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "13:00 - 18:30",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "-",
+        "today": false
+      }
+    },
+    "J": {
+      "1": {
+        "day": "Segunda",
+        "horario": "18:31 - 22:00",
+        "today": false
+      },
+      "2": {
+        "day": "Terça",
+        "horario": "18:31 - 22:00",
+        "today": true
+      },
+      "3": {
+        "day": "Quarta",
+        "horario": "18:31 - 22:00",
+        "today": false
+      },
+      "4": {
+        "day": "Quinta",
+        "horario": "18:31 - 22:00",
+        "today": false
+      },
+      "5": {
+        "day": "Sexta",
+        "horario": "18:31 - 22:00",
+        "today": false
+      },
+      "6": {
+        "day": "Sábado",
+        "horario": "18:31 - 23:00",
+        "today": false
+      },
+      "7": {
+        "day": "Domingo",
+        "horario": "18:31 - 23:00",
+        "today": false
+      }
+    }
+  },
+  "aberto": false,
+  "online": "N"
+}
