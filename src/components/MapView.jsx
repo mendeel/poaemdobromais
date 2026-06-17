@@ -23,7 +23,7 @@ export default function MapView({ cupoms, onOpen }) {
   const markers = useMemo(() => buildMarkers(cupoms), [cupoms]);
 
   return (
-    <div className="min-h-0 flex-1">
+    <div className="min-h-0 flex-1 h-[70dvh] md:h-auto">
       <MapContainer
         center={POA_CENTER}
         zoom={12}

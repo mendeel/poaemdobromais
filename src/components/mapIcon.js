@@ -4,10 +4,21 @@ import L from 'leaflet';
 const RING = '#dc2626';        // --color-primary
 const SURFACE = '#ffffff';     // --color-surface
 
+// Escape HTML-attribute-sensitive characters to prevent markup/handler injection.
+function esc(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/\\/g, '&#92;');
+}
+
 function pinHtml(cupom) {
-  const letter = (cupom.nome || '?').trim().charAt(0).toUpperCase();
+  const letter = esc((cupom.nome || '?').trim().charAt(0).toUpperCase());
   const img = cupom.logo
-    ? `<img src="${cupom.logo}" alt="" loading="lazy"
+    ? `<img src="${esc(cupom.logo)}" alt="" loading="lazy"
          style="width:100%;height:100%;object-fit:cover;border-radius:50%"
          onerror="this.replaceWith(Object.assign(document.createElement('div'),{
            textContent:'${letter}',
