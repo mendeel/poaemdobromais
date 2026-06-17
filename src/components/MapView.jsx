@@ -8,6 +8,7 @@ import MarkerClusterGroupImport from 'react-leaflet-cluster';
 const MarkerClusterGroup = MarkerClusterGroupImport.default ?? MarkerClusterGroupImport;
 import 'leaflet/dist/leaflet.css';
 import { buildMarkers } from '../lib/markers.js';
+import { regraResumo } from '../lib/regra.js';
 import { logoDivIcon, clusterIcon } from './mapIcon.js';
 
 const POA_CENTER = [-30.0346, -51.2177];
@@ -64,9 +65,9 @@ export default function MapView({ cupoms, onOpen }) {
                   <div style={{ color: '#dc2626', fontWeight: 700, fontSize: 13, marginTop: 6 }}>
                     {m.cupom.beneficio}
                   </div>
-                  {m.cupom.endereco?.[0]?.bairro && (
+                  {regraResumo(m.cupom.regra) && (
                     <div style={{ color: '#8a6f6f', fontSize: 12, marginTop: 2 }}>
-                      {m.cupom.endereco[0].bairro}
+                      {regraResumo(m.cupom.regra)}
                     </div>
                   )}
                   <button
