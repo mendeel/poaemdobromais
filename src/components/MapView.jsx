@@ -1,5 +1,5 @@
 // src/components/MapView.jsx
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import MarkerClusterGroupImport from 'react-leaflet-cluster';
 // react-leaflet-cluster ships CJS (exports.default); Vite's dev pre-bundle
@@ -12,13 +12,15 @@ import { logoDivIcon, clusterIcon } from './mapIcon.js';
 
 const POA_CENTER = [-30.0346, -51.2177];
 
-// Pan/zoom to fit the current markers whenever they change.
-function FitBounds({ markers }) {
+// Fit the map to the markers ONCE on first load. Filtering afterwards must not
+// move the map (it was zooming back out on every filter change).
+function FitBoundsOnce({ markers }) {
   const map = useMap();
-  useMemo(() => {
-    if (!markers.length) return;
-    const bounds = markers.map((m) => [m.lat, m.lng]);
-    map.fitBounds(bounds, { padding: [48, 48], maxZoom: 15 });
+  const done = useRef(false);
+  useEffect(() => {
+    if (done.current || !markers.length) return;
+    done.current = true;
+    map.fitBounds(markers.map((m) => [m.lat, m.lng]), { padding: [48, 48], maxZoom: 15 });
   }, [markers, map]);
   return null;
 }
@@ -38,8 +40,12 @@ export default function MapView({ cupoms, onOpen }) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
           url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
-        <FitBounds markers={markers} />
-        <MarkerClusterGroup iconCreateFunction={clusterIcon} showCoverageOnHover={false}>
+        <FitBoundsOnce markers={markers} />
+        <MarkerClusterGroup
+          iconCreateFunction={clusterIcon}
+          showCoverageOnHover={false}
+          maxClusterRadius={40}
+        >
           {markers.map((m) => (
             <Marker key={m.key} position={[m.lat, m.lng]} icon={logoDivIcon(m.cupom)}>
               <Popup>
