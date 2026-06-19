@@ -6,33 +6,36 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
 # ── config ──────────────────────────────────────────────────────────────────
-REFRESH_TOKEN = (
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
-    ".eyJpZCI6IjMwNDciLCJuYW1lIjoiRGFuaWVsIG1lbmRlbCIsImVtYWlsIjoiZGFuaWVs"
-    "Zm1lbmRlbEBnbWFpbC5jb20iLCJ0eXBlIjoiQVBQIiwicGhvbmUiOiI1MTk4MTE4MDcx"
-    "NCIsImRldmljZV9pZCI6IjI3MzJEMjZGLUY4M0YtNDAxNy1COUJFLTE4MzU4MDI5MDEy"
-    "QyIsImRhdGV0aW1lX3Bhc3NfcmVzZXQiOiIyMDI2LTA0LTA2VDIzOjE1OjM2LjAwMFoi"
-    "LCJpYXQiOjE3ODE2NDk5NTQsImV4cCI6MTgxMzE4NTk1NH0"
-    ".Qas6hOzx8Eb2XeOYGpwCVniv_p2lIW2VCdWpVxRO6hw"
-)
-X_TOKEN = "MjIyREM3NzFFQUMwRDY2OTdDMzM1N0IwRjNBM0IxRkU5QzczQUIwRjA1OTY4OTc5REVFRDczOTMyNzckIyVDRjc2QzM3NzU3QjgwNTc4Q0QzOEFCRDI1NTIyQTc3NzYwODc2"
-DEVICE_ID = "2732D26F-F83F-4017-B9BE-18358029012C"
-LAT = "-30.052255086611673"
-LNG = "-51.221907636001546"
-BASE_URL = "https://api.brasilemdobro.com.br"
-DATA_DIR = "data"
+def _require_env(name: str) -> str:
+    value = os.environ.get(name)
+    if not value:
+        sys.exit(f"Missing required environment variable: {name}")
+    return value
+
+
+REFRESH_TOKEN = _require_env("REFRESH_TOKEN")
+X_TOKEN = _require_env("X_TOKEN")
+DEVICE_ID = os.environ.get("DEVICE_ID", "2732D26F-F83F-4017-B9BE-18358029012C")
+LAT = os.environ.get("LAT", "-30.052255086611673")
+LNG = os.environ.get("LNG", "-51.221907636001546")
+BASE_URL = os.environ.get("BASE_URL", "https://api.brasilemdobro.com.br")
+DATA_DIR = os.environ.get("DATA_DIR", "data")
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "10"))
 CUPOM_DIR = os.path.join(DATA_DIR, "cupoms")
 
 STATIC_HEADERS = {
-    "Host": "api.brasilemdobro.com.br",
+    "Host": os.environ.get("API_HOST", "api.brasilemdobro.com.br"),
     "x-token": X_TOKEN,
     "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
     "Cache-Control": "no-cache",
     "deviceid": DEVICE_ID,
-    "x-app-tenant": "poa",
-    "User-Agent": "POA%20em%20Dobro/3 CFNetwork/3860.600.12 Darwin/25.5.0",
+    "x-app-tenant": os.environ.get("APP_TENANT", "poa"),
+    "User-Agent": os.environ.get(
+        "USER_AGENT",
+        "POA%20em%20Dobro/3 CFNetwork/3860.600.12 Darwin/25.5.0",
+    ),
     "Connection": "keep-alive",
-    "x-app-version": "1.3.25",
+    "x-app-version": os.environ.get("APP_VERSION", "1.3.25"),
     "Accept": "application/json, text/plain, */*",
 }
 # ─────────────────────────────────────────────────────────────────────────────
@@ -146,8 +149,8 @@ def main():
         save_json(path, detail)
         return cupom_id, detail, "fetched"
 
-    log("detail", f"starting — {len(ids)} cupons, 10 workers")
-    with ThreadPoolExecutor(max_workers=10) as pool:
+    log("detail", f"starting — {len(ids)} cupons, {MAX_WORKERS} workers")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         futures = {pool.submit(fetch_and_save, cid): cid for cid in ids}
         done = cached = fetched = 0
         for fut in as_completed(futures):
