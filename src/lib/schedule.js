@@ -1,4 +1,7 @@
 // Time-open logic — ported from the original vanilla index.html.
+// API horarios are stored in GMT; display and open/closed checks use local time.
+
+const API_TZ_OFFSET_MIN = -3 * 60; // GMT → America/Sao_Paulo (UTC-3)
 
 export function todayDay() {
   const d = new Date().getDay(); // JS: 0=Sun
@@ -10,7 +13,7 @@ export function nowMin() {
   return n.getHours() * 60 + n.getMinutes();
 }
 
-export function parseRange(str) {
+function parseRangeRaw(str) {
   if (!str || str === '-') return null;
   const p = str.split(' - ');
   if (p.length !== 2) return null;
@@ -21,9 +24,35 @@ export function parseRange(str) {
   return [m(p[0]), m(p[1])];
 }
 
-export function getSchedule(end, dayNum) {
+function shiftMinutes(minutes) {
+  return ((minutes + API_TZ_OFFSET_MIN) % (24 * 60) + 24 * 60) % (24 * 60);
+}
+
+function minutesToStr(minutes) {
+  const h = Math.floor(minutes / 60);
+  const mm = minutes % 60;
+  return `${String(h).padStart(2, '0')}:${String(mm).padStart(2, '0')}`;
+}
+
+function convertHorario(str) {
+  const r = parseRangeRaw(str);
+  if (!r) return str;
+  return `${minutesToStr(shiftMinutes(r[0]))} - ${minutesToStr(shiftMinutes(r[1]))}`;
+}
+
+export function parseRange(str) {
+  const r = parseRangeRaw(str);
+  if (!r) return null;
+  return [shiftMinutes(r[0]), shiftMinutes(r[1])];
+}
+
+function getScheduleRaw(end, dayNum) {
   const period = end?.period_default ?? 'A';
   return end?.horario?.[period]?.[String(dayNum)]?.horario ?? '-';
+}
+
+export function getSchedule(end, dayNum) {
+  return convertHorario(getScheduleRaw(end, dayNum));
 }
 
 function prevDayNum(dayNum) {
@@ -33,7 +62,7 @@ function prevDayNum(dayNum) {
 // Only the address's default period (A or J) is its real operating schedule —
 // the other period belongs to a different mode and must not count as "open".
 function dayRanges(end, dayNum) {
-  const r = parseRange(getSchedule(end, dayNum));
+  const r = parseRange(getScheduleRaw(end, dayNum));
   return r ? [r] : [];
 }
 
