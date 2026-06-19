@@ -53,7 +53,7 @@ export default function Sidebar({
         </span>
         <div>
           <h1 className="font-display text-[1.18rem] font-bold leading-none text-primary">
-            POA Em Dobro++
+            POA Em Dobro+
           </h1>
         </div>
         {onClose && (
@@ -190,7 +190,7 @@ export default function Sidebar({
             type="text"
             value={filters.search}
             onChange={(e) => set('search', e.target.value)}
-            placeholder="Nome ou descrição"
+            placeholder="Nome/descrição"
             className="w-full rounded-[9px] border border-brd-strong bg-bg py-2 pl-8 pr-9 text-[0.9rem] placeholder:text-fg-muted focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/15"
           />
           {filters.search && (

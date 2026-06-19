@@ -103,7 +103,7 @@ export default function App() {
     return (
       <div className="grid h-dvh place-items-center text-fg-muted">
         <div className="animate-pulse font-display text-2xl text-primary">
-          POA Em Dobro++
+          POA Em Dobro+
         </div>
       </div>
     );
