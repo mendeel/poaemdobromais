@@ -1,9 +1,14 @@
+import argparse
 import json
 import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
+
 
 # ── config ──────────────────────────────────────────────────────────────────
 def _require_env(name: str) -> str:
@@ -15,13 +20,14 @@ def _require_env(name: str) -> str:
 
 REFRESH_TOKEN = _require_env("REFRESH_TOKEN")
 X_TOKEN = _require_env("X_TOKEN")
-DEVICE_ID = os.environ.get("DEVICE_ID", "2732D26F-F83F-4017-B9BE-18358029012C")
-LAT = os.environ.get("LAT", "-30.052255086611673")
-LNG = os.environ.get("LNG", "-51.221907636001546")
-BASE_URL = os.environ.get("BASE_URL", "https://api.brasilemdobro.com.br")
+DEVICE_ID = os.environ.get("DEVICE_ID")
+LAT = os.environ.get("LAT")
+LNG = os.environ.get("LNG")
+BASE_URL = os.environ.get("BASE_URL")
 DATA_DIR = os.environ.get("DATA_DIR", "data")
 MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "10"))
-CUPOM_DIR = os.path.join(DATA_DIR, "cupoms")
+ALL_CUPOMS_PATH = os.path.join(DATA_DIR, "all_cupoms.json")
+LIST_RAW_PATH = os.path.join(DATA_DIR, "list_raw.json")
 
 STATIC_HEADERS = {
     "Host": os.environ.get("API_HOST", "api.brasilemdobro.com.br"),
@@ -113,45 +119,57 @@ def fetch_cupom_detail(session: requests.Session, headers: dict, cupom_id: str) 
 
 
 def save_json(path: str, data) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    parent = os.path.dirname(path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def main():
-    os.makedirs(CUPOM_DIR, exist_ok=True)
+def load_detail_cache(force_refresh: bool) -> dict:
+    if force_refresh or not os.path.exists(ALL_CUPOMS_PATH):
+        return {}
+    with open(ALL_CUPOMS_PATH, encoding="utf-8") as f:
+        items = json.load(f)
+    cache = {item["id"]: item for item in items}
+    log("detail", f"loaded {len(cache)} cupoms from all_cupoms.json cache")
+    return cache
+
+
+def main(force_refresh: bool = False):
+    os.makedirs(DATA_DIR, exist_ok=True)
     t0 = time.time()
+
+    if force_refresh:
+        log("main", "force refresh — ignoring cached data")
 
     token = refresh_token()
     headers = build_headers(token)
     session = requests.Session()
 
-    list_raw_path = os.path.join(DATA_DIR, "list_raw.json")
-    if os.path.exists(list_raw_path):
-        with open(list_raw_path, encoding="utf-8") as f:
+    if not force_refresh and os.path.exists(LIST_RAW_PATH):
+        with open(LIST_RAW_PATH, encoding="utf-8") as f:
             list_items = json.load(f)
         log("list", f"loaded list_raw.json ({len(list_items)} items, cached)")
     else:
         list_items = fetch_all_list_items(session, headers)
-        save_json(list_raw_path, list_items)
+        save_json(LIST_RAW_PATH, list_items)
         log("list", f"saved list_raw.json ({len(list_items)} items)")
 
     ids = [item["id"] for item in list_items]
+    cached_details = load_detail_cache(force_refresh)
     details = {}
     errors = []
 
-    def fetch_and_save(cupom_id):
-        path = os.path.join(CUPOM_DIR, f"{cupom_id}.json")
-        if os.path.exists(path):
-            with open(path, encoding="utf-8") as f:
-                return cupom_id, json.load(f), "cached"
+    def fetch_detail(cupom_id):
+        if not force_refresh and cupom_id in cached_details:
+            return cupom_id, cached_details[cupom_id], "cached"
         detail = fetch_cupom_detail(session, headers, cupom_id)
-        save_json(path, detail)
         return cupom_id, detail, "fetched"
 
     log("detail", f"starting — {len(ids)} cupons, {MAX_WORKERS} workers")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(fetch_and_save, cid): cid for cid in ids}
+        futures = {pool.submit(fetch_detail, cid): cid for cid in ids}
         done = cached = fetched = 0
         for fut in as_completed(futures):
             cid = futures[fut]
@@ -169,7 +187,7 @@ def main():
                 log("detail", f"ERROR id={cid}: {e}")
 
     all_cupoms = list(details.values())
-    save_json(os.path.join(DATA_DIR, "all_cupoms.json"), all_cupoms)
+    save_json(ALL_CUPOMS_PATH, all_cupoms)
 
     elapsed = time.time() - t0
     log(
@@ -183,5 +201,15 @@ def main():
 
 if __name__ == "__main__":
     import urllib3
+
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    main()
+
+    parser = argparse.ArgumentParser(description="Scrape cupom data from the API")
+    parser.add_argument(
+        "-f",
+        "--force-refresh",
+        action="store_true",
+        help="ignore cached list_raw.json and all_cupoms.json; fetch everything from the API",
+    )
+    args = parser.parse_args()
+    main(force_refresh=args.force_refresh)

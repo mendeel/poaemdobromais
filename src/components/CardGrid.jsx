@@ -65,7 +65,7 @@ export default function CardGrid({
   return (
     <div
       ref={scrollRef}
-      className="flex-1 p-4 md:touch-pan-y md:overflow-y-auto md:overflow-x-hidden md:overscroll-contain md:scroll-thin md:p-[22px]"
+      className="flex-1 p-4 md:min-h-0 md:touch-pan-y md:overflow-y-auto md:overflow-x-hidden md:overscroll-contain md:scroll-thin md:p-[22px]"
     >
       {/* Remount on filter change (key=gen) for a synced staggered entrance.
           No AnimatePresence/exit — instant swap keeps rapid filter taps

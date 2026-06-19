@@ -2,7 +2,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1871",
     "descricao": "um prato de almoço executivo",
@@ -42,7 +42,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1648",
     "descricao": "um double brownie com nutella e morangos",
@@ -102,7 +102,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1869",
     "descricao": "um burger cbb simples",
@@ -122,7 +122,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1641",
     "descricao": "um hambúrguer",
@@ -142,7 +142,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1868",
     "descricao": "uma casquinha",
@@ -162,7 +162,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1661",
     "descricao": "um prato selecionado de mesma categoria (ver regras)",
@@ -202,7 +202,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1732",
     "descricao": "um prato selecionado (ver regras)",
@@ -222,7 +222,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1781",
     "descricao": "um prato principal (ver regras)",
@@ -242,7 +242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1790",
     "descricao": "uma sequência ou combinado (ver regras)",
@@ -262,7 +262,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1795",
     "descricao": "um prato típico individual ou para compartilhar (ver regras)",
@@ -282,7 +282,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1873",
     "descricao": "um prato selecionado",
@@ -302,7 +302,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1902",
     "descricao": "um rodízio de pizza",
@@ -322,7 +322,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1812",
     "descricao": "uma pizza individual do sabor do mês",
@@ -362,7 +362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2890",
     "descricao": "um buffet livre",
@@ -382,7 +382,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2034",
     "descricao": "um sorrentino de presunto parma e blend de queijos",
@@ -402,7 +402,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1847",
     "descricao": "um prato selecionado (ver regras)",
@@ -442,7 +442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2068",
     "descricao": "um waffle ou bebida",
@@ -502,7 +502,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1789",
     "descricao": "um poke de salmão",
@@ -522,7 +522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1897",
     "descricao": "um rodízio de pastéis",
@@ -550,7 +550,7 @@
     "site": null,
     "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634324UTCC2026031604004_384_bb49d016c8df56ac44137263c04c78d6.jpg",
     "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c472ffeb95a4d31b6726ee28bcfe68a6.png",
-    "nome": "Applebee's",
+    "nome": "Applebee`s",
     "cup_nome": "Applebee's Grill & Bar",
     "beneficio": "ganhe outro igual ou de menor valor.",
     "cup_ordem_geral": 17,
@@ -582,7 +582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1858",
     "descricao": "uma pizza napolitana média",
@@ -622,7 +622,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1659",
     "descricao": "um rodízio de pizza",
@@ -642,7 +642,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1853",
     "descricao": "um combo de café + salgado + doce",
@@ -662,7 +662,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2018",
     "descricao": "um menu degustação",
@@ -682,7 +682,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1760",
     "descricao": "um item do cardápio",
@@ -702,7 +702,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1832",
     "descricao": "um buffet ou brunch",
@@ -742,7 +742,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1866",
     "descricao": "um hambúrguer",
@@ -782,7 +782,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2040",
     "descricao": "um buffet de açaí e sorvetes",
@@ -822,7 +822,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1653",
     "descricao": "um Imperial bacon",
@@ -842,7 +842,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1632",
     "descricao": "um fondue",
@@ -862,7 +862,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1633",
     "descricao": "um prato selecionado",
@@ -882,7 +882,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1634",
     "descricao": "um burger clássico + fritas",
@@ -902,7 +902,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1631",
     "descricao": "um prato individual",
@@ -962,7 +962,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1758",
     "descricao": "um hambúrguer (ver regras)",
@@ -1002,7 +1002,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1851",
     "descricao": "uma pizza média",
@@ -1022,7 +1022,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1874",
     "descricao": "um mil folhas de batata & queijo colonial",
@@ -1042,7 +1042,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1639",
     "descricao": "uma pizza",
@@ -1062,7 +1062,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1638",
     "descricao": "um prato individual",
@@ -1102,7 +1102,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1643",
     "descricao": "uma pizza média",
@@ -1142,7 +1142,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1642",
     "descricao": "um combo brownie + mocaccino",
@@ -1222,7 +1222,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1650",
     "descricao": "um brisket burger",
@@ -1242,7 +1242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1656",
     "descricao": "um petisco",
@@ -1262,7 +1262,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1665",
     "descricao": "um bacalhau a mediterrâneo individual",
@@ -1302,7 +1302,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1668",
     "descricao": "um prato de carne ou risoto",
@@ -1322,7 +1322,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1657",
     "descricao": "uma tostada com ovos mexidos simples",
@@ -1342,7 +1342,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1663",
     "descricao": "um hotland",
@@ -1362,7 +1362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1667",
     "descricao": "um sanduíche de pastrami",
@@ -1442,7 +1442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1628",
     "descricao": "um combo de torta chocoberry + cappuccino de nutella",
@@ -1462,7 +1462,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1682",
     "descricao": "um prato selecionado",
@@ -1482,7 +1482,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1679",
     "descricao": "uma fatia de torta",
@@ -1522,7 +1522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1687",
     "descricao": "uma pizza de 30cm",
@@ -1542,7 +1542,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1688",
     "descricao": "um prato individual",
@@ -1562,7 +1562,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1689",
     "descricao": "um espeto de sobrecoxa de frango",
@@ -1582,7 +1582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1664",
     "descricao": "um item da vitrine",
@@ -1602,7 +1602,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1629",
     "descricao": "um hambúrguer",
@@ -1622,10 +1622,10 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1692",
-    "descricao": "um prato à la carte",
+    "descricao": "um frango caprese",
     "tipo": "C",
     "site": null,
     "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773090362UTCC2026030921002_384_236d5b72b8d9fc2bc39c884c3879ec4e.jpg",
@@ -1642,7 +1642,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1676",
     "descricao": "um sanduíche de bagel",
@@ -1682,7 +1682,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1680",
     "descricao": "um burrito classic ou classic veg",
@@ -1722,7 +1722,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1684",
     "descricao": "um combo de salgado + doce",
@@ -1742,7 +1742,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1712",
     "descricao": "um Burger Cheddar",
@@ -1762,7 +1762,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1710",
     "descricao": "um prato no buffet de almoço ou risoto de rúcula com tomate seco (ver regras)",
@@ -1782,7 +1782,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1706",
     "descricao": "uma fatia de torta",
@@ -1842,7 +1842,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1716",
     "descricao": "um gunkans marcito",
@@ -1922,7 +1922,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1720",
     "descricao": "um item selecionado (ver regras)",
@@ -1962,7 +1962,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1722",
     "descricao": "um combo selecionado",
@@ -1982,7 +1982,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1728",
     "descricao": "uma massa",
@@ -2022,7 +2022,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1738",
     "descricao": "um pão com ovo (com ou sem bacon)",
@@ -2042,7 +2042,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1772",
     "descricao": "um prato selecionado (ver regras)",
@@ -2062,7 +2062,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1783",
     "descricao": "um mil folhas",
@@ -2082,7 +2082,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1827",
     "descricao": "um fish & chips individual",
@@ -2102,7 +2102,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1850",
     "descricao": "um burguer simples",
@@ -2122,7 +2122,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1852",
     "descricao": "um cachorro quente",
@@ -2142,7 +2142,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1854",
     "descricao": "um xis bacon",
@@ -2182,7 +2182,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1898",
     "descricao": "um Cheesecake de Frutas Vermelhas",
@@ -2222,7 +2222,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1904",
     "descricao": "um temaki sofia's (tartar fila)",
@@ -2242,7 +2242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1905",
     "descricao": "um bauru",
@@ -2262,7 +2262,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1906",
     "descricao": "uma croquetas ou empanadas",
@@ -2302,7 +2302,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1908",
     "descricao": "um classic box",
@@ -2342,7 +2342,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2023",
     "descricao": "um burger",
@@ -2362,7 +2362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2025",
     "descricao": "um combo de café",
@@ -2382,7 +2382,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2026",
     "descricao": "um ceviche do peixe do dia",
@@ -2422,7 +2422,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2030",
     "descricao": "um prato selecionado",
@@ -2442,7 +2442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2031",
     "descricao": "um combo de burgers",
@@ -2462,7 +2462,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2032",
     "descricao": "um crie do seu jeito + filé da sobrecoxa (exceto massas artesanais)",
@@ -2482,7 +2482,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2033",
     "descricao": "uma pizza broto tradizionale",
@@ -2502,7 +2502,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2035",
     "descricao": "um prato das gurias",
@@ -2522,7 +2522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2036",
     "descricao": "uma pizza na tábua",
@@ -2542,7 +2542,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2038",
     "descricao": "um menu degustação",
@@ -2562,7 +2562,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2039",
     "descricao": "um filé sommer ou costela",
@@ -2582,7 +2582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2041",
     "descricao": "um xis selecionado",
@@ -2602,7 +2602,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2042",
     "descricao": "um hamburguer quarternask",
@@ -2622,7 +2622,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2043",
     "descricao": "um doce ou salgado individual",
@@ -2642,7 +2642,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2045",
     "descricao": "um burger lagertha",
@@ -2662,7 +2662,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2046",
     "descricao": "uma pizza broto",
@@ -2682,7 +2682,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2047",
     "descricao": "um combo shawarma",
@@ -2702,7 +2702,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2048",
     "descricao": "um xis",
@@ -2742,7 +2742,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2051",
     "descricao": "um sorvete de pudim",
@@ -2802,7 +2802,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2176",
     "descricao": "um prato individual ou hambúrguer",
@@ -2862,7 +2862,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2328",
     "descricao": "uma pizza selecionada (ver regras)",
@@ -2882,7 +2882,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1693",
     "descricao": "um pão",
@@ -2902,10 +2902,10 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1705",
-    "descricao": "um prato selecionado",
+    "descricao": "um prato individual",
     "tipo": "C",
     "site": null,
     "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773167306UTCC2026031018026_384_b84dadb0f840816a30fc7611783ca34b.jpg",
@@ -2922,7 +2922,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1701",
     "descricao": "um café passadinho 180ml + bom fim",
@@ -2942,7 +2942,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1726",
     "descricao": "um hamburguer",
@@ -2962,7 +2962,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1714",
     "descricao": "uma fatia de torta",
@@ -2982,7 +2982,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1725",
     "descricao": "uma carbenet com iscas de carne - pocket",
@@ -3002,7 +3002,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1731",
     "descricao": "um rodízio de crepe simples",
@@ -3022,7 +3022,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1721",
     "descricao": "um creme no pão",
@@ -3042,7 +3042,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1724",
     "descricao": "um bauru master",
@@ -3082,7 +3082,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1691",
     "descricao": "um frappé ou cappuccino cremoso",
@@ -3102,7 +3102,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1647",
     "descricao": "uma entrada ou prato principal selecionado (ver regras)",
@@ -3142,7 +3142,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1711",
     "descricao": "um cookie, brownie ou bombom (exceto sabor Biscoff Lotus)",
@@ -3162,7 +3162,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1709",
     "descricao": "um hambúrguer",
@@ -3182,7 +3182,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1733",
     "descricao": "uma porção de iscas de frango",
@@ -3242,7 +3242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1734",
     "descricao": "um brownie",
@@ -3282,7 +3282,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1739",
     "descricao": "um entrecot",
@@ -3322,7 +3322,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1717",
     "descricao": "um cookie selecionado (ver regras)",
@@ -3382,7 +3382,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1690",
     "descricao": "um experiência Le Pain café da manhã",
@@ -3402,7 +3402,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1747",
     "descricao": "um super bigode",
@@ -3422,7 +3422,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1748",
     "descricao": "um tacacá",
@@ -3462,7 +3462,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1757",
     "descricao": "um matcha latte",
@@ -3482,7 +3482,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1756",
     "descricao": "um doce ou bebida selecionada",
@@ -3502,7 +3502,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1759",
     "descricao": "um item do cardápio",
@@ -3522,7 +3522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1727",
     "descricao": "um combo de cuca enrolada + café (coado 120ml ou espresso simples)",
@@ -3542,7 +3542,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1678",
     "descricao": "uma porção de fainá",
@@ -3562,7 +3562,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1742",
     "descricao": "um bife de chorizo",
@@ -3582,7 +3582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1745",
     "descricao": "um combo getshuyôbi (segunda-feira)",
@@ -3602,7 +3602,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1666",
     "descricao": "um doce (exceto especial da semana)",
@@ -3642,7 +3642,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1746",
     "descricao": "um prato selecionado",
@@ -3662,7 +3662,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1751",
     "descricao": "uma ala minuta all'italiana com sugestões do dia (ver regras)",
@@ -3702,7 +3702,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1755",
     "descricao": "um item da vitrine",
@@ -3722,7 +3722,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1764",
     "descricao": "um prato do dia",
@@ -3742,7 +3742,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1686",
     "descricao": "um cinnamon roll",
@@ -3802,7 +3802,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1769",
     "descricao": "um gelato tamanho grande - até três sabores",
@@ -3822,7 +3822,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1770",
     "descricao": "qualquer hamburguer clássico",
@@ -3842,7 +3842,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1753",
     "descricao": "um sanduíche farroupilha",
@@ -3902,7 +3902,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1766",
     "descricao": "um prato selecionado",
@@ -3922,7 +3922,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1773",
     "descricao": "um smoothie proteico, matchas, cafés quentes ou gelados",
@@ -3962,7 +3962,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1779",
     "descricao": "um combo johnny",
@@ -3982,7 +3982,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1780",
     "descricao": "um item do cardápio",
@@ -4022,7 +4022,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2009",
     "descricao": "um sanduíche",
@@ -4042,7 +4042,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1785",
     "descricao": "um l\u0019Incendie",
@@ -4062,7 +4062,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1791",
     "descricao": "um filé à Lider",
@@ -4082,7 +4082,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1782",
     "descricao": "um combo com hamburguer ferrugem",
@@ -4122,7 +4122,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1787",
     "descricao": "um pastel tamanho M",
@@ -4142,7 +4142,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1792",
     "descricao": "uma isca de frango a milanesa",
@@ -4162,7 +4162,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1807",
     "descricao": "um item selecionado",
@@ -4202,7 +4202,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1737",
     "descricao": "uma degustação de vinho e aperitivo",
@@ -4222,7 +4222,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1796",
     "descricao": "um taco original",
@@ -4242,7 +4242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2044",
     "descricao": "Um Lê Pot ou Blueberry Lemon Pistachio Blondie Bar (ver regras)",
@@ -4262,7 +4262,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1775",
     "descricao": "um prato selecionado",
@@ -4302,7 +4302,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1797",
     "descricao": "uma burrata especial",
@@ -4322,7 +4322,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1798",
     "descricao": "uma pizza calabria",
@@ -4342,7 +4342,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1777",
     "descricao": "um kit 1 ou kit 2",
@@ -4362,7 +4362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1799",
     "descricao": "um filé schnitzel ao molho de nata",
@@ -4402,7 +4402,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1801",
     "descricao": "uma pizza",
@@ -4462,7 +4462,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1806",
     "descricao": "um menu caminhos orientais",
@@ -4482,7 +4482,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1808",
     "descricao": "um kit larica",
@@ -4502,7 +4502,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1811",
     "descricao": "um bife de chorizo",
@@ -4522,7 +4522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1809",
     "descricao": "um gelato copo bambino 1 sabor",
@@ -4582,7 +4582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1813",
     "descricao": "um prato selecionado",
@@ -4622,7 +4622,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1815",
     "descricao": "um cookie selecionado (ver regras)",
@@ -4662,7 +4662,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1817",
     "descricao": "um buffet livre",
@@ -4682,7 +4682,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1818",
     "descricao": "um poke salmão",
@@ -4702,7 +4702,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1820",
     "descricao": "um prato selecionado",
@@ -4742,7 +4742,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1822",
     "descricao": "um yakisoba médio de frango ou veggie",
@@ -4782,7 +4782,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1886",
     "descricao": "um grilled cheese, egg breakfast ou honey toast",
@@ -4802,7 +4802,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1825",
     "descricao": "um matambrito a la pizza",
@@ -4822,7 +4822,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1823",
     "descricao": "uma pizza salgada",
@@ -4862,7 +4862,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1828",
     "descricao": "uma pizza de cebola caramelizada com gorgonzola",
@@ -4882,7 +4882,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1840",
     "descricao": "uma sequência premium",
@@ -4902,7 +4902,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1829",
     "descricao": "um prato selecionado (ver regras)",
@@ -4982,7 +4982,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1830",
     "descricao": "um prato principal",
@@ -5002,7 +5002,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1834",
     "descricao": "uma pizza",
@@ -5042,7 +5042,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1841",
     "descricao": "um prato selecionado",
@@ -5062,7 +5062,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1842",
     "descricao": "um item do cardápio (exceto Paella compartilhada)",
@@ -5082,7 +5082,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1843",
     "descricao": "um falafel ao prato",
@@ -5122,7 +5122,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1845",
     "descricao": "um item selecionado (ver regras)",
@@ -5182,7 +5182,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1859",
     "descricao": "uma fatia de torta mesclada de chocolate e café simples (expresso ou carioca)",
@@ -5202,7 +5202,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1865",
     "descricao": "um entrecot ao molho madeira e massa",
@@ -5222,7 +5222,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1864",
     "descricao": "um pote de sorvete do buffet à kilo",
@@ -5242,7 +5242,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1877",
     "descricao": "um prato do menu de almoço (acompanha salada)",
@@ -5302,7 +5302,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1872",
     "descricao": "um item do cardápio",
@@ -5322,7 +5322,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1878",
     "descricao": "matambrito fatiado ou polenta com american cheese e bacon",
@@ -5342,7 +5342,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1879",
     "descricao": "uma pizza salgada",
@@ -5362,7 +5362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1883",
     "descricao": "um 'milkyshake queridinho' de 700ml ou Café ou Affogato ou Chocolate quente (ver regras)",
@@ -5382,7 +5382,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1876",
     "descricao": "um flat white + doce de pelotas",
@@ -5422,7 +5422,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1890",
     "descricao": "um espaguete selecionado",
@@ -5442,7 +5442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1889",
     "descricao": "um hambúrguer",
@@ -5462,7 +5462,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1892",
     "descricao": "um prato individual",
@@ -5482,7 +5482,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1893",
     "descricao": "um cannoli ou pavlova",
@@ -5502,7 +5502,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1894",
     "descricao": "um mac and cheeseou burger",
@@ -5522,7 +5522,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2013",
     "descricao": "um carne de panela ou pastel misto",
@@ -5562,7 +5562,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1887",
     "descricao": "um combo selecionado",
@@ -5582,7 +5582,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1884",
     "descricao": "duas fatias do sabor do mês + sobremesa do mês",
@@ -5602,7 +5602,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1891",
     "descricao": "um burguer selecionado",
@@ -5622,7 +5622,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1896",
     "descricao": "uma pasta com molho à escolha",
@@ -5702,7 +5702,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "2005",
     "descricao": "um item selecionado (ver regras)",
@@ -5762,7 +5762,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2010",
     "descricao": "uma mcoferta Big Mac ou Mcoferta Quarteirão",
@@ -5782,7 +5782,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2014",
     "descricao": "um prato selecionado (ver regras)",
@@ -5822,7 +5822,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2017",
     "descricao": "uma pizza broto selecionada",
@@ -5842,7 +5842,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "2016",
     "descricao": "um produto selecionado ou rodízio",
@@ -5862,7 +5862,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2022",
     "descricao": "um filé individual",
@@ -5882,7 +5882,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2019",
     "descricao": "um Xis (ver regras)",
@@ -5902,7 +5902,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2020",
     "descricao": "uma pizza (ver regras)",
@@ -5942,7 +5942,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1899",
     "descricao": "uma sequência de nachos, tacos e quesadillas",
@@ -5968,7 +5968,7 @@
     "descricao": "um prato selecionado (ver regras)",
     "tipo": "C",
     "site": null,
-    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773841839UTCC2026031813039_384_bc7f99770411c306feff1c9080314dd2.jpeg",
+    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773841839UTCC2026031813039_384_bee16c60366fe4fc818f9a4ed3856c39.JPEG",
     "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/9b37f8fd03c4e0db61262a614c1bcfeb.png",
     "nome": "Salvador Pontal",
     "cup_nome": "Salvador Pontal",
@@ -6002,7 +6002,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1805",
     "descricao": "um prato individual",
@@ -6022,7 +6022,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1835",
     "descricao": "um prato selecionado",
@@ -6048,7 +6048,7 @@
     "descricao": "um prato selecionado (ver regras)",
     "tipo": "C",
     "site": null,
-    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354702UTCC2026031222042_384_7e62fa416a8ea5263268f00b75941432.jpg",
+    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354702UTCC2026031222042_384_a8bba20e9bfd59c8ae2c4d5c90368db0.JPEG",
     "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8e7eef78b47394a0c4cdc01a88c23172.png",
     "nome": "Salvador Carlos Gomes",
     "cup_nome": "Salvador Carlos Gomes",
@@ -6102,7 +6102,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1646",
     "descricao": "um fettuccine ao molho com iscas de filé mignon",
@@ -6122,7 +6122,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1708",
     "descricao": "um prato individual",
@@ -6142,7 +6142,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1888",
     "descricao": "um prato selecionado",
@@ -6162,7 +6162,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2037",
     "descricao": "uma arepas de pelúa",
@@ -6182,7 +6182,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2050",
     "descricao": "um poke",
@@ -6202,7 +6202,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1749",
     "descricao": "uma moqueca de camarão ou vegana",
@@ -6222,7 +6222,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1793",
     "descricao": "uma arepa",
@@ -6242,7 +6242,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1867",
     "descricao": "um entrecot",
