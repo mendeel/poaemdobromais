@@ -9,6 +9,7 @@ const MarkerClusterGroup = MarkerClusterGroupImport.default ?? MarkerClusterGrou
 import 'leaflet/dist/leaflet.css';
 import { buildMarkers } from '../lib/markers.js';
 import { regraResumo } from '../lib/regra.js';
+import { isOpenAt } from '../lib/schedule.js';
 import { logoDivIcon, clusterIcon } from './mapIcon.js';
 
 const POA_CENTER = [-30.0346, -51.2177];
@@ -26,7 +27,51 @@ function FitBoundsOnce({ markers }) {
   return null;
 }
 
-export default function MapView({ cupoms, onOpen }) {
+function MarkerPopup({ cupom, now, onOpen }) {
+  const openNow = isOpenAt(cupom, now.day, now.minutes);
+
+  return (
+    <div className="w-[200px] font-sans">
+      <div className="flex items-center gap-2">
+        {cupom.logo && (
+          <img
+            src={cupom.logo}
+            alt=""
+            className="h-9 w-9 shrink-0 rounded-lg object-cover"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+          />
+        )}
+        <strong className="text-[14px] text-fg">{cupom.nome}</strong>
+      </div>
+      {regraResumo(cupom.regra) && (
+        <p className="mt-0.5 text-[12px] text-fg-muted">{regraResumo(cupom.regra)}</p>
+      )}
+      <div
+        className={`mt-2 inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[0.72rem] font-bold ${
+          openNow ? 'bg-[#dcfce7] text-[#166534]' : 'bg-[#fee2e2] text-[#991b1b]'
+        }`}
+      >
+        <span
+          className={`h-[7px] w-[7px] rounded-full ${
+            openNow ? 'bg-[#22c55e]' : 'bg-[#ef4444]'
+          }`}
+        />
+        {openNow ? 'Aberto' : 'Fechado'}
+      </div>
+      <button
+        type="button"
+        onClick={() => onOpen(cupom)}
+        className="mt-2 w-full rounded-[9px] bg-primary py-[7px] font-bold text-white"
+      >
+        Ver cupom
+      </button>
+    </div>
+  );
+}
+
+export default function MapView({ cupoms, now, onOpen }) {
   const markers = useMemo(() => buildMarkers(cupoms), [cupoms]);
 
   return (
@@ -50,38 +95,7 @@ export default function MapView({ cupoms, onOpen }) {
           {markers.map((m) => (
             <Marker key={m.key} position={[m.lat, m.lng]} icon={logoDivIcon(m.cupom)}>
               <Popup>
-                <div style={{ width: 200, fontFamily: 'Karla, sans-serif' }}>
-                  <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-                    {m.cupom.logo && (
-                      <img
-                        src={m.cupom.logo}
-                        alt=""
-                        style={{ width: 36, height: 36, borderRadius: 8, objectFit: 'cover', flexShrink: 0 }}
-                        onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                      />
-                    )}
-                    <strong style={{ color: '#3b1a1a', fontSize: 14 }}>{m.cupom.nome}</strong>
-                  </div>
-                  <div style={{ color: '#dc2626', fontWeight: 700, fontSize: 13, marginTop: 6 }}>
-                    {m.cupom.beneficio}
-                  </div>
-                  {regraResumo(m.cupom.regra) && (
-                    <div style={{ color: '#8a6f6f', fontSize: 12, marginTop: 2 }}>
-                      {regraResumo(m.cupom.regra)}
-                    </div>
-                  )}
-                  <button
-                    type="button"
-                    onClick={() => onOpen(m.cupom)}
-                    style={{
-                      marginTop: 8, width: '100%', padding: '7px 0', border: 'none',
-                      borderRadius: 9, background: '#dc2626', color: '#fff',
-                      fontWeight: 700, cursor: 'pointer', fontFamily: 'Karla, sans-serif',
-                    }}
-                  >
-                    Ver cupom
-                  </button>
-                </div>
+                <MarkerPopup cupom={m.cupom} now={now} onOpen={onOpen} />
               </Popup>
             </Marker>
           ))}

@@ -114,7 +114,7 @@ export default function App() {
     // Desktop: fixed app-shell with an internal scroll region.
     <div className="flex min-h-dvh md:h-dvh md:overflow-hidden">
       {/* desktop sidebar */}
-      <aside className="hidden w-[286px] shrink-0 border-r border-brd md:block">
+      <aside className="hidden h-full w-[286px] shrink-0 border-r border-brd md:block">
         <Sidebar
           filters={filters}
           dispatch={dispatch}
@@ -131,7 +131,7 @@ export default function App() {
         {navOpen && (
           <>
             <motion.div
-              className="fixed inset-0 z-40 bg-black/45 md:hidden"
+              className="fixed inset-0 z-[800] bg-black/45 md:hidden"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -139,7 +139,7 @@ export default function App() {
               onClick={() => setNavOpen(false)}
             />
             <motion.aside
-              className="fixed inset-y-0 left-0 z-50 w-full md:hidden"
+              className="fixed inset-y-0 left-0 z-[900] w-full md:hidden"
               initial={{ x: '-100%' }}
               animate={{ x: 0 }}
               exit={{ x: '-100%' }}
@@ -183,7 +183,7 @@ export default function App() {
             onOpen={setSelected}
           />
         ) : (
-          <MapView cupoms={filtered} onOpen={setSelected} />
+          <MapView cupoms={filtered} now={now} onOpen={setSelected} />
         )}
       </main>
 

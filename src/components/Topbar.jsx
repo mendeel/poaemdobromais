@@ -12,7 +12,7 @@ export default function Topbar({
   onViewChange,
 }) {
   return (
-    <div className="sticky top-0 z-30 flex shrink-0 flex-col gap-2.5 border-b border-brd bg-surface px-5 py-3.5 md:static md:flex-row md:items-center md:gap-3.5 md:px-[22px]">
+    <div className="header-bar header-bar-top sticky top-0 z-30 flex shrink-0 flex-col gap-2.5 border-b border-brd bg-surface px-5 py-3.5 md:static md:flex-row md:items-center md:gap-3.5 md:px-[22px] md:py-0">
       <div className="flex items-center gap-3.5">
         <button
           type="button"

@@ -47,7 +47,7 @@ export default function Sidebar({
   return (
     <div className="flex h-full touch-pan-y flex-col gap-[18px] overflow-y-auto overflow-x-hidden overscroll-contain scroll-thin bg-surface px-4 pb-4">
       {/* brand — sticky so the close button stays visible while filters scroll */}
-      <div className="sticky top-0 z-10 -mx-4 flex items-center gap-2.5 border-b border-brd bg-surface px-4 pb-3 pt-5">
+      <div className="header-bar sticky top-0 z-10 -mx-4 flex shrink-0 items-center gap-2.5 border-b border-brd bg-surface px-4">
         <span className="grid h-[34px] w-[34px] shrink-0 place-items-center rounded-[9px] bg-gradient-to-br from-primary to-[#f87171] text-white">
           <UtensilsCrossed className="h-[19px] w-[19px]" />
         </span>

@@ -70,4 +70,12 @@ body {
     content-visibility: auto;
     contain-intrinsic-size: auto 366px;
   }
+  .header-bar {
+    height: 68px;
+  }
+  @media (max-width: 767px) {
+    .header-bar-top {
+      height: auto;
+    }
+  }
 }
