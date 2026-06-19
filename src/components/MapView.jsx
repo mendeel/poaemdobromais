@@ -14,15 +14,22 @@ import { logoDivIcon, clusterIcon } from './mapIcon.js';
 
 const POA_CENTER = [-30.0346, -51.2177];
 
-// Fit the map to the markers ONCE on first load. Filtering afterwards must not
-// move the map (it was zooming back out on every filter change).
-function FitBoundsOnce({ markers }) {
+// Position the map ONCE on first load: prefer the user's current location,
+// fall back to fitting all markers if geolocation is denied/unavailable.
+// Filtering afterwards must not move the map.
+function StartView({ markers }) {
   const map = useMap();
   const done = useRef(false);
   useEffect(() => {
     if (done.current || !markers.length) return;
     done.current = true;
-    map.fitBounds(markers.map((m) => [m.lat, m.lng]), { padding: [48, 48], maxZoom: 15 });
+    const fallback = () => map.setView(POA_CENTER, 12);
+    if (!navigator.geolocation) return fallback();
+    navigator.geolocation.getCurrentPosition(
+      (pos) => map.setView([pos.coords.latitude, pos.coords.longitude], 14),
+      fallback, // ponytail: any error (denied, timeout) just centers on Porto Alegre
+      { timeout: 5000 },
+    );
   }, [markers, map]);
   return null;
 }
@@ -79,6 +86,7 @@ export default function MapView({ cupoms, now, onOpen }) {
       <MapContainer
         center={POA_CENTER}
         zoom={12}
+        attributionControl={false}
         scrollWheelZoom
         style={{ height: '100%', width: '100%' }}
       >
@@ -86,7 +94,7 @@ export default function MapView({ cupoms, now, onOpen }) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
           url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
-        <FitBoundsOnce markers={markers} />
+        <StartView markers={markers} />
         <MarkerClusterGroup
           iconCreateFunction={clusterIcon}
           showCoverageOnHover={false}
