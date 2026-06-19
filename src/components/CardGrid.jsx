@@ -49,7 +49,9 @@ export default function CardGrid({
     );
     io.observe(el);
     return () => io.disconnect();
-  }, [cupoms.length, count, isDesktop]);
+    // gen: the grid remounts (key={gen}) on filter change, replacing the
+    // sentinel node — re-attach the observer to the live one.
+  }, [cupoms.length, count, isDesktop, gen]);
 
   if (!cupoms.length) {
     return (
