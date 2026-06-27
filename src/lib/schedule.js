@@ -46,24 +46,30 @@ export function parseRange(str) {
   return [shiftMinutes(r[0]), shiftMinutes(r[1])];
 }
 
-function getScheduleRaw(end, dayNum) {
-  const period = end?.period_default ?? 'A';
-  return end?.horario?.[period]?.[String(dayNum)]?.horario ?? '-';
+const PERIODS = ['A', 'J'];
+
+function scheduleRawsForDay(end, dayNum) {
+  const horario = end?.horario;
+  if (!horario) return [];
+  return PERIODS.map((p) => horario[p]?.[String(dayNum)]?.horario ?? '-').filter(
+    (s) => s && s !== '-',
+  );
 }
 
 export function getSchedule(end, dayNum) {
-  return convertHorario(getScheduleRaw(end, dayNum));
+  const raws = scheduleRawsForDay(end, dayNum);
+  if (!raws.length) return '-';
+  return raws.map(convertHorario).join(', ');
 }
 
 function prevDayNum(dayNum) {
   return dayNum === 1 ? 7 : dayNum - 1;
 }
 
-// Only the address's default period (A or J) is its real operating schedule —
-// the other period belongs to a different mode and must not count as "open".
 function dayRanges(end, dayNum) {
-  const r = parseRange(getScheduleRaw(end, dayNum));
-  return r ? [r] : [];
+  return scheduleRawsForDay(end, dayNum)
+    .map((raw) => parseRange(raw))
+    .filter(Boolean);
 }
 
 function isMinutesInRange(minutes, [start, end]) {
@@ -101,8 +107,11 @@ export function opensDuring(cupom, dayNum, start, end) {
 
 export function horarioDisplay(cupom, dayNum) {
   const seen = new Set();
-  (cupom.endereco || []).forEach((e) => seen.add(getSchedule(e, dayNum)));
-  const hrs = [...seen].filter((s) => s !== '-');
+  (cupom.endereco || []).forEach((e) => {
+    const h = getSchedule(e, dayNum);
+    if (h !== '-') seen.add(h);
+  });
+  const hrs = [...seen];
   return hrs.length ? hrs[0] : '-';
 }
 
