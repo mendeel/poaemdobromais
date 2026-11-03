@@ -1,13 +1,17 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Sidebar from './components/Sidebar.jsx';
 import Topbar from './components/Topbar.jsx';
 import CardGrid from './components/CardGrid.jsx';
 import MapView from './components/MapView.jsx';
 import CupomModal from './components/CupomModal.jsx';
+import ChangesPanel from './components/ChangesPanel.jsx';
+import UpdateToast from './components/UpdateToast.jsx';
 import { useFilters } from './state/useFilters.js';
 import { useFavorites } from './hooks/useLocalStorage.js';
 import { useNow } from './hooks/useNow.js';
+import { useChanges } from './hooks/useChanges.js';
+import { useDataVersion } from './hooks/useDataVersion.js';
 import { applyFilters } from './lib/filters.js';
 
 export default function App() {
@@ -17,22 +21,46 @@ export default function App() {
   const [selected, setSelected] = useState(null);
   const [navOpen, setNavOpen] = useState(false);
   const [view, setView] = useState('list');
+  const [changesOpen, setChangesOpen] = useState(false);
 
   const { filters, dispatch } = useFilters();
   const [favorites, toggleFavorite] = useFavorites();
   const now = useNow();
 
+  // New data gets published while the app may be open: when meta.json's
+  // version moves past the one we started with, re-fetch everything.
+  const version = useDataVersion();
+  const seenVersion = useRef(null);
+  const [reloadKey, setReloadKey] = useState(0);
+  const [showUpdated, setShowUpdated] = useState(false);
   useEffect(() => {
+    if (!version) return;
+    if (seenVersion.current && seenVersion.current !== version) {
+      setReloadKey((k) => k + 1);
+      setShowUpdated(true);
+    }
+    seenVersion.current = version;
+  }, [version]);
+
+  const dismissUpdated = useCallback(() => setShowUpdated(false), []);
+
+  const changes = useChanges(reloadKey);
+
+  useEffect(() => {
+    const opts = { cache: 'no-cache' };
     Promise.all([
-      fetch('data/all_cupoms.json').then((r) => r.json()),
-      fetch('data/config.json').then((r) => r.json()),
+      fetch('data/all_cupoms.json', opts).then((r) => r.json()),
+      fetch('data/config.json', opts).then((r) => r.json()),
     ])
       .then(([cs, cfg]) => {
         setCupoms(cs);
         setConfig(cfg);
       })
-      .catch((e) => setError(String(e)));
-  }, []);
+      .catch((e) => {
+        // a failed background refresh keeps the data already on screen
+        if (reloadKey === 0) setError(String(e));
+      });
+  }, [reloadKey]);
 
   // request geolocation only when the user picks "distância"
   useEffect(() => {
@@ -44,10 +72,18 @@ export default function App() {
     }
   }, [filters.sort, filters.userLat, dispatch]);
 
-  const subcatOptions = useMemo(
-    () => (config?.subCategoria || []).map((s) => s.nome),
-    [config],
-  );
+  // config order first, then any category the cupons use that config lacks
+  const subcatOptions = useMemo(() => {
+    const names = (config?.subCategoria || []).map((s) => s.nome);
+    const extra = new Set();
+    (cupoms || []).forEach((c) =>
+      (c.sub_categoria || '').split(',').forEach((s) => {
+        const t = s.trim();
+        if (t && !names.includes(t)) extra.add(t);
+      }),
+    );
+    return [...names, ...[...extra].sort((a, b) => a.localeCompare(b, 'pt'))];
+  }, [config, cupoms]);
   const caractOptions = useMemo(
     () => (config?.caracteristica || []).map((c) => c.nome),
     [config],
@@ -62,9 +98,18 @@ export default function App() {
   }, [cupoms]);
 
   const filtered = useMemo(
-    () => (cupoms ? applyFilters(cupoms, filters, favorites, now) : []),
-    [cupoms, filters, favorites, now],
+    () => (cupoms ? applyFilters(cupoms, filters, favorites, now, changes.statusById) : []),
+    [cupoms, filters, favorites, now, changes.statusById],
   );
+
+  const cupomsById = useMemo(() => new Map((cupoms || []).map((c) => [c.id, c])), [cupoms]);
+
+  const openChanges = useCallback(() => {
+    setChangesOpen(true);
+    changes.markSeen();
+  }, [changes.markSeen]);
+  const closeChanges = useCallback(() => setChangesOpen(false), []);
+  const closeCupom = useCallback(() => setSelected(null), []);
 
   // Signature of the inputs that change which/what-order cards show — used to
   // re-run the grid entrance animation. Deliberately excludes `favorites` and
@@ -81,9 +126,11 @@ export default function App() {
         t: filters.customTime,
         d: [...filters.selectedDays],
         f: filters.favorito,
+        n: filters.novidades,
+        cl: changes.selectedId,
         sort: filters.sort,
       }),
-    [filters],
+    [filters, changes.selectedId],
   );
 
   // Card schedule line: the single selected day if exactly one, else today.
@@ -123,6 +170,7 @@ export default function App() {
           caractOptions={caractOptions}
           resultCount={filtered.length}
           totalCount={cupoms.length}
+          novidadesCount={changes.statusById.size}
         />
       </aside>
 
@@ -153,6 +201,7 @@ export default function App() {
                 caractOptions={caractOptions}
                 resultCount={filtered.length}
                 totalCount={cupoms.length}
+                novidadesCount={changes.statusById.size}
                 onClose={() => setNavOpen(false)}
               />
             </motion.aside>
@@ -171,6 +220,9 @@ export default function App() {
           onSearchChange={(v) => dispatch({ type: 'set', key: 'search', value: v })}
           view={view}
           onViewChange={setView}
+          changesCount={changes.statusById.size}
+          hasUnseenChanges={changes.hasUnseen}
+          onOpenChanges={changes.index.length ? openChanges : undefined}
         />
         {view === 'list' ? (
           <CardGrid
@@ -179,6 +231,7 @@ export default function App() {
             dayNum={dayNum}
             now={now}
             favorites={favorites}
+            changeStatus={changes.statusById}
             onToggleFavorite={toggleFavorite}
             onOpen={setSelected}
           />
@@ -192,7 +245,28 @@ export default function App() {
         now={now}
         isFavorite={selected ? favorites.has(selected.id) : false}
         onToggleFavorite={toggleFavorite}
-        onClose={() => setSelected(null)}
+        onClose={closeCupom}
+      />
+
+      <ChangesPanel
+        open={changesOpen}
+        onClose={closeChanges}
+        paused={Boolean(selected)}
+        index={changes.index}
+        selectedId={changes.selectedId}
+        onSelect={changes.select}
+        changelog={changes.changelog}
+        cupomsById={cupomsById}
+        onOpenCupom={setSelected}
+      />
+
+      <UpdateToast
+        show={showUpdated}
+        onDismiss={dismissUpdated}
+        onOpenChanges={() => {
+          setShowUpdated(false);
+          openChanges();
+        }}
       />
     </div>
   );

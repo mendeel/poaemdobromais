@@ -13,6 +13,7 @@ import {
   UtensilsCrossed,
   X,
   ArrowLeft,
+  Sparkles,
 } from 'lucide-react';
 import FilterSection from './ui/FilterSection.jsx';
 import CheckList from './ui/CheckList.jsx';
@@ -27,6 +28,7 @@ export default function Sidebar({
   caractOptions,
   resultCount,
   totalCount,
+  novidadesCount = 0,
   onClose,
 }) {
   const set = (key, value) => dispatch({ type: 'set', key, value });
@@ -35,6 +37,7 @@ export default function Sidebar({
   const hasActiveFilter = Boolean(
     filters.abertoAgora ||
     filters.favorito ||
+    filters.novidades ||
     filters.selectedDays.size ||
     filters.activePresets.size ||
     filters.customTime !== null ||
@@ -91,6 +94,15 @@ export default function Sidebar({
           active={filters.favorito}
           onClick={() => set('favorito', !filters.favorito)}
         />
+        {novidadesCount > 0 && (
+          <PresetButton
+            icon={Sparkles}
+            label={`Novidades (${novidadesCount})`}
+            active={filters.novidades}
+            onClick={() => set('novidades', !filters.novidades)}
+            className="col-span-2"
+          />
+        )}
       </div>
 
       <FilterSection
@@ -267,7 +279,7 @@ export default function Sidebar({
   );
 }
 
-function PresetButton({ icon: Icon, label, time, active, onClick }) {
+function PresetButton({ icon: Icon, label, time, active, onClick, className = '' }) {
   return (
     <button
       type="button"
@@ -277,7 +289,7 @@ function PresetButton({ icon: Icon, label, time, active, onClick }) {
         active
           ? 'border-accent bg-accent text-white'
           : 'border-brd-strong bg-surface text-fg hover:border-accent hover:text-accent'
-      } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30`}
+      } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30 ${className}`}
     >
       <span className="flex items-center gap-1.5 text-[0.82rem] font-semibold">
         <Icon className="h-3.5 w-3.5" /> {label}

@@ -1,4 +1,4 @@
-import { Menu, ArrowDownNarrowWide, Search, X } from 'lucide-react';
+import { Menu, ArrowDownNarrowWide, Search, X, Sparkles } from 'lucide-react';
 
 export default function Topbar({
   filteredCount,
@@ -10,6 +10,9 @@ export default function Topbar({
   onSearchChange,
   view,
   onViewChange,
+  changesCount = 0,
+  hasUnseenChanges = false,
+  onOpenChanges,
 }) {
   // ponytail: one sort element, rendered inline on desktop and on the search row on mobile
   const sortSelect = (
@@ -47,8 +50,25 @@ export default function Topbar({
             {filteredCount}
           </b>{' '}
           de{' '}
-          <span className="tabular-nums">{totalCount}</span> cupons
+          <span className="tabular-nums">{totalCount}</span>
+          {/* mobile drops the noun so the "O que mudou" button fits */}
+          <span className={onOpenChanges ? 'hidden sm:inline' : ''}> cupons</span>
         </span>
+
+        {onOpenChanges && (
+          <button
+            type="button"
+            onClick={onOpenChanges}
+            aria-label={`O que mudou (${changesCount})`}
+            className="relative flex h-[34px] shrink-0 items-center gap-1.5 rounded-[9px] border border-brd-strong bg-surface px-2.5 text-[0.85rem] font-semibold text-fg transition-colors hover:border-accent hover:text-accent"
+          >
+            <Sparkles className="h-4 w-4 text-accent" />
+            <span className="hidden sm:inline">O que mudou</span>
+            {hasUnseenChanges && (
+              <span className="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-primary ring-2 ring-surface" />
+            )}
+          </button>
+        )}
 
         <div className="flex shrink-0 overflow-hidden rounded-[9px] border border-brd-strong">
           {[

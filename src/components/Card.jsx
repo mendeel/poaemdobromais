@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { MapPin, Clock, Heart } from 'lucide-react';
+import { MapPin, Clock, Heart, Sparkles, PencilLine } from 'lucide-react';
 import { DAY_NAMES } from '../lib/constants.js';
 import { regraResumo } from '../lib/regra.js';
 import { horarioDisplay, isOpenAt } from '../lib/schedule.js';
@@ -17,7 +17,7 @@ function CardImage({ src, alt, className, onError }) {
   );
 }
 
-function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen }) {
+function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, changeStatus }) {
   const bairros = [
     ...new Set((c.endereco || []).map((e) => e.bairro).filter(Boolean)),
   ];
@@ -78,6 +78,21 @@ function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen }) {
             fill={isFavorite ? 'currentColor' : 'none'}
           />
         </button>
+
+        {changeStatus && (
+          <span
+            className={`absolute left-[52px] top-[17px] z-[2] inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[0.7rem] font-bold uppercase tracking-wide text-white shadow ${
+              changeStatus === 'new' ? 'bg-primary' : 'bg-accent'
+            }`}
+          >
+            {changeStatus === 'new' ? (
+              <Sparkles className="h-3 w-3" strokeWidth={2.4} />
+            ) : (
+              <PencilLine className="h-3 w-3" strokeWidth={2.4} />
+            )}
+            {changeStatus === 'new' ? 'Novo' : 'Mudou'}
+          </span>
+        )}
 
         <div
           className={`absolute bottom-2.5 left-2.5 z-[2] flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[0.72rem] font-bold ${

@@ -11,7 +11,8 @@ const PRESET_WINDOWS = {
 // Pure: given the full cupom list, the filter state, and the favorites Set,
 // returns the filtered + sorted list. Ported from index.html applyFilters(),
 // minus the Plano filter; "favorito" now means user localStorage favorites.
-export function applyFilters(cupoms, f, favorites, now) {
+// changeStatus: Map of cupom id -> 'new' | 'changed' from the selected update.
+export function applyFilters(cupoms, f, favorites, now, changeStatus) {
   let list = cupoms;
 
   if (f.search) {
@@ -39,6 +40,7 @@ export function applyFilters(cupoms, f, favorites, now) {
     );
   }
   if (f.favorito) list = list.filter((c) => favorites.has(c.id));
+  if (f.novidades && changeStatus) list = list.filter((c) => changeStatus.has(c.id));
 
   // Time-based filters apply across any selected day; fall back to today when
   // no day is picked. Matches mean "open on ANY selected day" for "ANY selected

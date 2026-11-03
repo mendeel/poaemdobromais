@@ -11,6 +11,7 @@ function initialState() {
     customTime: null, // minutes since midnight | null
     selectedDays: new Set(), // 1..7; empty = no day filter
     favorito: false,
+    novidades: false, // only cupons new/changed in the selected update
     sort: 'nome', // 'nome' | 'bairro' | 'dist'
     userLat: null,
     userLng: null,
