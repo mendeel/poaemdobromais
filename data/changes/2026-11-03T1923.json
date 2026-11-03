@@ -1,0 +1,2347 @@
+{
+  "id": "2026-11-03T1923",
+  "from": "2026-06-19T14:23-03:00",
+  "to": "2026-11-03T19:23-03:00",
+  "added": [
+    {
+      "id": "4477",
+      "nome": "A Costela Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f44397a62dc10fc92a81d48ea4b8072a.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790621335UTCC2026092818055_390_98c7bbb3cda91176ad146bd825a7c7c1.jpeg",
+      "descricao": "hamburguer 'O Costela'",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Auxiliadora"
+      ]
+    },
+    {
+      "id": "4489",
+      "nome": "Caruso Gastronomia",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_5de03afa8cdbff79ec9ba230bd7408f3.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790623531UTCC2026092819031_390_395a55052396725c498ca8f8348c00ab.jpeg",
+      "descricao": "prato principal",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Serraria"
+      ]
+    },
+    {
+      "id": "4495",
+      "nome": "Daiko Sen",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_46649ef004f20ddc99ec533bcdf3490a.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790624347UTCC2026092819007_390_675a0e809b56800cf199b2b4204dd82f.png",
+      "descricao": "sequência Daiko Sen",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Praia de Belas"
+      ]
+    },
+    {
+      "id": "4481",
+      "nome": "Hierro Y Fuego",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ddd032bc7a202318ea548ab1ff51350b.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790622277UTCC2026092819037_390_e002fb1f5fba1c305307203b6b3f718e.png",
+      "descricao": "Entrecot Angus 300gr",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Chácara das Pedras"
+      ]
+    },
+    {
+      "id": "4486",
+      "nome": "Meut",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2d43ae77b60fedd6c337783df87d3650.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790622958UTCC2026092819058_390_2abf50feb2db1b52747fdc437f59b131.jpeg",
+      "descricao": "sorvete de máquina (ver regras)",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Bom Fim"
+      ]
+    },
+    {
+      "id": "4482",
+      "nome": "Mix Natural",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a2ea460d52b40d848fa701edaffa2e17.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790622524UTCC2026092819044_390_ae9c603c1d3e54933db1d89536a4211a.png",
+      "descricao": "qualquer wrap ou bowl",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Bela Vista",
+        "Bom Fim",
+        "Centro Histórico"
+      ]
+    },
+    {
+      "id": "4493",
+      "nome": "Yakuza Sushi",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a28c7d9c806f998e799142789ebae969.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1790623968UTCC2026092819048_390_012a3c967b8ea95edc3d4f111d1fc8bb.jpeg",
+      "descricao": "menu Shadow",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Independência"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "id": "2890",
+      "nome": "Altis Gastronomia Executiva",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8c8d84bda51734ee33b9cff1a0dc255f.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1779803097UTCC2026052613057_390_3f40e3a998d091beccb1d0d80d715ad2.jpeg",
+      "descricao": "um buffet livre",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Mont'Serrat"
+      ]
+    },
+    {
+      "id": "2028",
+      "nome": "Atlanta Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3a71acd08b1c363edee79bf981b636e3.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634888UTCC2026031604028_384_2f1540084771292c884976190d4e2143.jpeg",
+      "descricao": "um 2pac ou cremosinho de aipim",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Moinhos de Vento"
+      ]
+    },
+    {
+      "id": "1826",
+      "nome": "Bib's",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0407859afc56f7fa1a252549a71186dc.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359466UTCC2026031223006_384_b855cb1f23769869b24b002966d10e84.jpg",
+      "descricao": "um copo Bib's P",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Praia de Belas"
+      ]
+    },
+    {
+      "id": "1903",
+      "nome": "Cara de Mau - To Go",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_594bf7cb58d1542a91e3f1db80de2d65.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773430958UTCC2026031319038_384_0d01f500c881aa1e6e6ac4ec2d97ce3a.jpg",
+      "descricao": "uma pizza sandwich",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Anchieta"
+      ]
+    },
+    {
+      "id": "1851",
+      "nome": "Chatô Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/9a85ccbf806fcaf3dc2204a85aa0a456.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360660UTCC2026031300000_384_946ff635e0049568df5593fdf1837322.jpg",
+      "descricao": "uma pizza média",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Passo da Areia"
+      ]
+    },
+    {
+      "id": "1816",
+      "nome": "Céu Zona Sul",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/55f7eb994a0b5b85f43b8892e11886e8.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358581UTCC2026031223021_384_ebfff9e3d65066ee834865ef5b2b028f.jpg",
+      "descricao": "um hamburguer selecionado",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Cristal"
+      ]
+    },
+    {
+      "id": "2011",
+      "nome": "Green Station",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/422c6415bdb02043643a5c5519dc467f.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773633302UTCC2026031603002_384_ab35d083d3e2b9227375d856400a0e2f.jpeg",
+      "descricao": "um prato selecionado",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Moinhos de Vento"
+      ]
+    },
+    {
+      "id": "1907",
+      "nome": "Hard Rock Café",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/056deba81f81f5f306bd851153ba0af9.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773432170UTCC2026031320050_384_2e62fe98236ee24cae641550a30af90c.jpg",
+      "descricao": "um prato selecionado",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Cristal"
+      ]
+    },
+    {
+      "id": "1653",
+      "nome": "Imperial",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8f293e179ba32f925c0c5e168a0b779b.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773021830UTCC2026030902050_384_37ff1e18367c11e00ebf19d8a07ae187.jpg",
+      "descricao": "um Imperial bacon",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Farroupilha"
+      ]
+    },
+    {
+      "id": "1904",
+      "nome": "Jappa Boy Sushi",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4f4928538db1cc4b6c52a59239f04901.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773431824UTCC2026031319004_384_a283caa78a711d85cf28e33044c4dda9.png",
+      "descricao": "um temaki sofia's (tartar fila)",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Bela Vista"
+      ]
+    },
+    {
+      "id": "2021",
+      "nome": "Leiteria 639",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ff69b17d25a7b4f946d2c697550e16b6.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634041UTCC2026031604021_384_c4ca4c53eb20b5e5f9fabe326e64bd96.jpeg",
+      "descricao": "um café da manhã",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Cidade Baixa"
+      ]
+    },
+    {
+      "id": "2026",
+      "nome": "Mü Sushi e Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_36c9649a44f02e34a2ec316b4ac9efd7.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634640UTCC2026031604020_384_1e50d4541a9bda9c685e9c9252647c3a.jpeg",
+      "descricao": "um ceviche do peixe do dia",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Auxiliadora"
+      ]
+    },
+    {
+      "id": "1892",
+      "nome": "Vírgula Café",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/944d28a76184d87071b82919cf5f001e.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773427232UTCC2026031318032_384_ae9d0bba94318ef1f39b0c7336483d6e.jpg",
+      "descricao": "um prato individual",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Moinhos de Vento"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "id": "1643",
+      "nome": "A Braba",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eed4336b8b179ef222eb7a82b065893b.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma pizza média",
+          "after": "uma pizza broto tradicional ou doce"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda pizza média igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda pizza broto tradicional ou doce igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1638",
+      "nome": "A Casa Brasileira",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b9cbfe5482c96657775fda1fd8e16e7a.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato individual",
+          "after": "um item individual"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo item individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Doces / Cafés, Opção vegetariana, Restaurante",
+          "after": "Doces / Cafés, Opção vegetariana"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Ter: 10:00 - 18:00\nDom: Fechado",
+          "after": "Ter: Fechado\nDom: 10:00 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1724",
+      "nome": "Agápio Lanches",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_dce42c78cffbb789b98345650f2b30fe.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um bauru master",
+          "after": "um xis"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo bauru master igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo xis igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche",
+          "after": "Xis"
+        }
+      ]
+    },
+    {
+      "id": "1743",
+      "nome": "Amitié Wine Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_1f8e5e1010d5e31b65132dfcd74da99c.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bebidas, Iguatemi Shopping",
+          "after": "Iguatemi Shopping"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Passo da Areia",
+          "before": "Sex: 11:30 - 22:30\nSáb: 11:30 - 22:30\nDom: 11:00 - 22:00",
+          "after": "Sex: 11:30 - 20:00\nSáb: 11:30 - 20:00\nDom: 11:00 - 20:00"
+        }
+      ]
+    },
+    {
+      "id": "2024",
+      "nome": "Applebee`s",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c472ffeb95a4d31b6726ee28bcfe68a6.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato selecionado",
+          "after": "um prato selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: quesadillas, cheddar fries, cowboy burger, cheddar bacon burger, baby back ribs, sizzling steak & cheese, brazilian chorizo, grilled chicken breast, southwestern salad ou three cheese penne.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: quesadillas, cowboy burger, cheddar bacon burger, brazilian chorizo, grilled chicken breast ou three cheese penne.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1797",
+      "nome": "Banca 43 Ipanema",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ce3ca7eedcd8011e046509d1ddcecce8.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Empório",
+          "after": "Petisco de bar"
+        }
+      ]
+    },
+    {
+      "id": "2176",
+      "nome": "Bar Spoiler",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/5e8f0d00a8599b83362fc0ca809d823e.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Cidade Baixa",
+          "before": "Seg: 18:00 - 23:00",
+          "after": "Seg: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1721",
+      "nome": "Bella Café e Bistro",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f82d7c77aefdf2f5fe780021445c2077.png",
+      "changes": [
+        {
+          "field": "instagram",
+          "label": "Instagram",
+          "before": "bellacafeebistro",
+          "after": "bella__caffe"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Pedra Redonda",
+          "before": "Seg: 11:00 - 18:30\nTer: 11:00 - 18:30\nQua: 11:00 - 18:30\nQui: 11:00 - 18:30\nSex: 11:00 - 19:00",
+          "after": "Seg: 11:00 - 18:00\nTer: 11:00 - 18:00\nQua: 11:00 - 18:00\nQui: 11:00 - 18:00\nSex: 11:00 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1848",
+      "nome": "Boxfim 24 de Outubro",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_14cf07b3e3abe248466a355ca2ea29e1.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Opção vegetariana, Xis"
+        }
+      ]
+    },
+    {
+      "id": "1880",
+      "nome": "Brita Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_584f5ce67f35f011b690e1240c9cf24d.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Combos, Hamburgueria, Lanche, Opção vegana, Opção vegetariana",
+          "after": "Combos, Hamburgueria, Opção vegana, Opção vegetariana"
+        }
+      ]
+    },
+    {
+      "id": "1768",
+      "nome": "Cachorro Do Bonfa",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f3d25969e77ba23726492b6c92256360.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Hot Dog, Opção vegetariana"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Cidade Baixa",
+          "before": "Seg: Fechado\nTer: 18:00 - 23:00",
+          "after": "Seg: 18:00 - 23:00\nTer: Fechado"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Seg: 11:00 - 02:00\nTer: 17:00 - 02:00",
+          "after": "Seg: Fechado\nTer: 11:00 - 02:00"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Praia de Belas",
+          "before": "Ter: 12:00 - 19:00\nQua: 12:00 - 19:00\nQui: 12:00 - 19:00\nSex: 12:00 - 19:00\nSáb: 12:00 - 19:00\nDom: 12:00 - 19:00",
+          "after": "Ter: 11:00 - 14:30, 15:30 - 18:00\nQua: 11:00 - 14:30, 15:30 - 18:00\nQui: 11:00 - 14:30, 15:30 - 18:00\nSex: 11:00 - 14:30, 15:30 - 18:00\nSáb: 11:00 - 14:30, 15:30 - 18:00\nDom: 11:00 - 14:30, 15:30 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1727",
+      "nome": "Café Musa Velutina",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_58e99c604582b4d31f50249454df1547.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Floresta",
+          "before": "Ter: Fechado\nDom: 09:00 - 14:00",
+          "after": "Ter: 09:00 - 20:00\nDom: 11:00 - 14:00"
+        }
+      ]
+    },
+    {
+      "id": "1767",
+      "nome": "Cantina Famiglia Lando",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_57b6b0125da9e08177bcd5191a9f02ba.png",
+      "changes": [
+        {
+          "field": "instagram",
+          "label": "Instagram",
+          "before": "@cantinafamigliando",
+          "after": "@cantinafamiglialando"
+        }
+      ]
+    },
+    {
+      "id": "1902",
+      "nome": "Cara de Mau",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_33fc140c08bdf9ffa25139db4c084837.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Anchieta",
+          "before": "Seg: Fechado",
+          "after": "Seg: 19:00 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1758",
+      "nome": "Casa Spoiler",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_1650fe6802b96bd7dc3f1b79ac588fcc.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Seg: 18:00 - 00:00",
+          "after": "Seg: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "2016",
+      "nome": "Chic Brigadeiro",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_c4ea46aa4c3ac2cbda5ed67c98333d73.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um produto selecionado ou rodízio",
+          "after": "um bolo no pote de brigadeiro ou brownie afogado"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo produto selecionado ou rodízio igual. \n- Válido para:\n - Segunda à sexta-feira: Bolo no pote de brigadeiro ou brownie afogado.\n - Sábados: Sequência de brigadeiro.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo um bolo no pote de brigadeiro ou brownie afogado igual. \n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Sáb: 14:00 - 18:00",
+          "after": "Sáb: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1688",
+      "nome": "Chica Maria Cocina y Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_241ef712aa8aa01d3f4bd10eddee1822.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato individual",
+          "after": "um prato individual selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato individual selecionado igual ou de menor valor.\n- Válido para qualquer prato individual de nachos, burrito, quesadilla ou tacos.\n- Não é válido para os pratos executivos.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1884",
+      "nome": "Ciao Slice Shop",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0c5ffcdba6c8f46eff57898617d64c24.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Pizzaria",
+          "after": "Pizzaria"
+        }
+      ]
+    },
+    {
+      "id": "1637",
+      "nome": "Coccaderia.Co",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ae7b6733669ff869cb67a47b38665350.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Cristal — Avenida Diário de Notícias, Segundo Andar, Cristal - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1852",
+      "nome": "Confeitaria Princesa",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_165ffe13907783bcd0823a802d8f70bc.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Seg: 09:00 - 18:00\nTer: 09:00 - 18:00\nQua: 09:00 - 18:00\nQui: 09:00 - 18:00\nSex: 09:00 - 18:00",
+          "after": "Seg: 09:00 - 13:00\nTer: 09:00 - 13:00\nQua: 09:00 - 13:00\nQui: 09:00 - 13:00\nSex: 09:00 - 13:00"
+        }
+      ]
+    },
+    {
+      "id": "2014",
+      "nome": "Coqueiro",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f94ec0d6942223cf04ae17ebb14517a4.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Restaurante",
+          "after": "Restaurante, Xis"
+        }
+      ]
+    },
+    {
+      "id": "1705",
+      "nome": "Cosas Buenas",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0e980ae6d4de2f4fdcb821596b2ee184.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Seg: 10:00 - 19:00\nTer: 10:00 - 19:00\nQua: 10:00 - 19:00\nQui: 10:00 - 22:00\nSex: 10:00 - 22:00",
+          "after": "Seg: 10:00 - 17:00\nTer: 10:00 - 17:00\nQua: 10:00 - 17:00\nQui: 10:00 - 17:00\nSex: 10:00 - 17:00"
+        }
+      ]
+    },
+    {
+      "id": "1740",
+      "nome": "Croq D'or",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b5a362b7a6fa8a9653498264c53a85f9.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Padaria",
+          "after": "Doces / Cafés, Padaria"
+        }
+      ]
+    },
+    {
+      "id": "1628",
+      "nome": "D'Juca Confeitaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d444db30811b4f512b6fd3cfb5daef00.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um combo de torta chocoberry + cappuccino de nutella",
+          "after": "um brownie com sorvete e nutella"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda combo de torta chocoberry + cappuccino de nutella igual ou de menor valor.\n- O segundo é válido para a linha de tortas de pão de ló e café de igual ou menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo brownie com sorvete e nutella igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Cidade Baixa",
+          "before": "Seg: 14:00 - 18:00\nTer: 14:00 - 18:00\nQua: 14:00 - 18:00\nQui: 14:00 - 18:00\nSex: 14:00 - 18:00\nSáb: 14:00 - 18:00\nDom: 14:00 - 18:00",
+          "after": "Seg: Fechado\nTer: 13:30 - 17:30\nQua: 13:30 - 17:30\nQui: 13:30 - 17:30\nSex: 13:30 - 17:30\nSáb: 13:30 - 17:30\nDom: 14:00 - 17:00"
+        }
+      ]
+    },
+    {
+      "id": "1804",
+      "nome": "Danutri Bistrô",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_32914009fcd6168df614d3c413ed70c0.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato individual",
+          "after": "um prato individual (exceto prato do dia)"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: 15:00 - 18:00\nTer: 15:00 - 18:00\nQua: 15:00 - 18:00\nQui: 15:00 - 18:00\nSex: 15:00 - 18:00",
+          "after": "Seg: 11:00 - 18:00\nTer: 11:00 - 18:00\nQua: 11:00 - 18:00\nQui: 11:00 - 18:00\nSex: 11:00 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1891",
+      "nome": "De Rua Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_5ddc9f20a6acfd369421013d49cb9114.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo burguer selecionado igual. \n- Válido para: Smash Burger Clássico Duplo, Smash Burger Bacon Duplo, Smash Burger Caramelizado Duplo, Smash Burger Salada Duplo, Veggie Clássico, Veggie Salada ou Veggie Caramelizado.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo burguer selecionado igual. \n- Válido para: Smash Burger Clássico Duplo, Smash Burger Bacon Duplo, Smash Burger Caramelizado Duplo, Smash Burger Salada Duplo, Veggie Clássico, Veggie Salada ou Veggie Caramelizado.\n- O estabelecimento não abre em dias de previsão de chuva.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Hamburgueria, Lanche, Pontal Shopping",
+          "after": "Hamburgueria, Pontal Shopping"
+        }
+      ]
+    },
+    {
+      "id": "1718",
+      "nome": "Deck 108",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_6e9ce3c676cefd4697f0a47e96c2c56b.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Sex: Fechado",
+          "after": "Sex: 18:00 - 00:00"
+        }
+      ]
+    },
+    {
+      "id": "1810",
+      "nome": "Delta Brick",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_45633041ea66ca07157c66f4ed221786.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bebidas, Opção vegetariana, Petisco de bar, Restaurante",
+          "after": "Opção vegetariana, Petisco de bar, Restaurante"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Navegantes",
+          "before": "Qui: 17:00 - 00:00\nSex: 17:00 - 00:00\nSáb: 17:00 - 00:00",
+          "after": "Qui: 17:00 - 23:00\nSex: 17:00 - 23:00\nSáb: 17:00 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1761",
+      "nome": "Di Toni",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_9bebc07a53a34d975eb84451399031cb.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Auxiliadora — Rua Vinte e Quatro de Outubro, Nº 1454, Auxiliadora - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1897",
+      "nome": "Don Francesco Pastelaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/d3cc1608b170741437de71eb7ae28b18.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana, Rodízio",
+          "after": "Opção vegetariana, Pastel / Crepe, Rodízio"
+        }
+      ]
+    },
+    {
+      "id": "1879",
+      "nome": "Don Zarichta Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2e2634858687befba1a60c123539c28e.png",
+      "changes": [
+        {
+          "field": "endereco",
+          "label": "Endereço · Primavera",
+          "before": "ERS240, Nº 1401, portao - Portão / RS",
+          "after": "Rua Arroio do Meio, Nº 84, Primavera - Novo Hamburgo / RS"
+        }
+      ]
+    },
+    {
+      "id": "1748",
+      "nome": "Du Nordeste",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f76d695ab0bf834051ee8213d2bf067e.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um tacacá",
+          "after": "um escondidinho (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo tacacá igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: Escondidinho Carne Seca; Escondidinho Carne de Sol; Escondidinho de Camarão;\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773253738UTCC2026031118058_384_d9e5f4f8950a81784f9e905b4a6672a1.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773253738UTCC2026031118058_384_2c231239cb2fd8a7e4f477d6a194ac31.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1749",
+      "nome": "Du Nordeste Bom Fim",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/db981c7a1bed01cb6cf0d133c7bb2fb0.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Ter: 11:30 - 15:30",
+          "after": "Ter: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "2041",
+      "nome": "Eco Lanches",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/a32938ea9d73cecde38b223132286b44.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Opção vegetariana, Xis"
+        }
+      ]
+    },
+    {
+      "id": "2008",
+      "nome": "Edu_ Terrário Urbano Bela Vista",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_fe8d4e72c0b05a1255e8b3c885d1dd83.png",
+      "changes": [
+        {
+          "field": "instagram",
+          "label": "Instagram",
+          "before": "terrario.urbano",
+          "after": "edu_terrariourbano"
+        }
+      ]
+    },
+    {
+      "id": "2037",
+      "nome": "El Aguante Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_86351327402fe0eef690f28b22faee38.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Ter: 17:00 - 23:30\nQua: 17:00 - 23:30\nQui: 17:00 - 23:30\nSex: 17:00 - 23:30\nSáb: 17:00 - 23:30\nDom: 16:00 - 22:00",
+          "after": "Ter: 17:00 - 23:00\nQua: 17:00 - 23:00\nQui: 17:00 - 23:00\nSex: 17:00 - 23:00\nSáb: 17:00 - 23:00\nDom: 16:00 - 21:30"
+        }
+      ]
+    },
+    {
+      "id": "1867",
+      "nome": "El Tonel",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_190ee1f36d7ca598138d674881dd1efd.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um entrecot",
+          "after": "um matambre a la pizza"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo entrecot igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo matambre a la pizza igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773415317UTCC2026031315057_384_95bdd904c01d058ac9c7b52d427c0a44.png",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773415317UTCC2026031315057_384_e212df458eadf1ce909a8410089ca873.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1815",
+      "nome": "Empório Do Cookie",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ca4ed33315deda1772f5843e729588a7.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um cookie selecionado (ver regras)",
+          "after": "um cookie oreo (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo cookie selecionado igual ou de menor valor.\n- Válido para os sabores: Red ninho, Oreo, Nutella e Pistache\n\nLEIA COM ATENÇÃO\n- Válido para os produtos a pronta entrega na vitrine, consultar disponibilidade do dia.\n- O pagamento deverá ser feito obrigatoriamente na retirada.\n- Válido somente para os produtos anunciados no cupom, os demais produtos acrescentados ao pedido serão cobrados normalmente no momento do pagamento.\n\n- não é necessário a presença de 2 pessoas para retirar o pedido \n- `não é válido para delivery",
+          "after": "- O desconto é sempre sobre o segundo cookie oreo igual ou de menor valor.\n- Não é válido para linha de cookies belga.\n\nLEIA COM ATENÇÃO\n- Verificar canais para pedido antecipado através do Instagram de cada estabelecimento.\n- Realizar pedido conforme produto indicado no cupom: é necessário pedir antecipadamente DOIS produtos (idênticos aos anunciados pelo restaurante no respectivo cupom) para no pagamento receber isenção de um, mediante validação presencial do cupom.\n- O pagamento deverá ser feito obrigatoriamente na retirada.\n- Válido somente para os produtos anunciados no cupom, os demais produtos acrescentados ao pedido serão cobrados normalmente no momento do pagamento.\n\n- não é necessário a presença de 2 pessoas para retirar o pedido \n- `não é válido para delivery"
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "To Go",
+          "after": "Doces / Cafés, To Go"
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358485UTCC2026031223045_1143_7c8c5c5ca5fa3635b9b9dd2450f0db93.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358485UTCC2026031223045_1143_92639bbc129a325f57eb444b4adb2473.png"
+        },
+        {
+          "field": "endereco",
+          "label": "Endereço · Floresta",
+          "before": "Rua Duque de Caxias, Nº 548, Centro Histórico - Porto Alegre / RS",
+          "after": "Avenida Cristóvão Colombo, Nº 1844, Floresta - Porto Alegre / RS"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Floresta",
+          "before": "Ter: Fechado\nQua: 14:00 - 18:00\nQui: 14:00 - 18:00\nSex: 14:00 - 18:00\nSáb: 14:00 - 18:00",
+          "after": "Ter: 13:00 - 17:00\nQua: 13:00 - 17:00\nQui: 13:00 - 17:00\nSex: 13:00 - 17:00\nSáb: 14:00 - 17:00"
+        }
+      ]
+    },
+    {
+      "id": "2039",
+      "nome": "Encouraçado Butikin",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ad2893624d2dbad3c8b30f5b8dfeaea6.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bebidas, Restaurante",
+          "after": "Restaurante"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Independência",
+          "before": "Ter: 18:00 - 23:30\nQua: 18:00 - 23:30\nQui: 18:00 - 23:30\nSex: 18:00 - 23:30",
+          "after": "Ter: 18:30 - 23:30\nQua: 18:30 - 23:30\nQui: 18:30 - 23:30\nSex: 18:30 - 23:30"
+        }
+      ]
+    },
+    {
+      "id": "2019",
+      "nome": "Ferro Xiseria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8918f3182b1d4d66b458835fe44c3c65.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche",
+          "after": "Xis"
+        }
+      ]
+    },
+    {
+      "id": "1706",
+      "nome": "Flor de Lis",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4c2c3166f7c9d780128dadc8e0386708.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Qua: 12:00 - 20:00\nQui: 12:00 - 20:00\nSex: 12:00 - 20:00\nSáb: 12:00 - 20:00",
+          "after": "Qua: 12:30 - 20:00\nQui: 12:30 - 20:00\nSex: 12:30 - 20:00\nSáb: 12:30 - 20:00"
+        }
+      ]
+    },
+    {
+      "id": "1886",
+      "nome": "Freddie's Deli",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e18414bc6fb632477f245b661086ca72.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche",
+          "after": "Brunch, Hamburgueria, Porções"
+        }
+      ]
+    },
+    {
+      "id": "1864",
+      "nome": "Frutos de Goiás",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_44a242cc14ec0c954d0173caf92e912b.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Jardim São Pedro",
+          "before": "Ter: 13:00 - 20:00\nQua: 13:00 - 20:00\nQui: 13:00 - 20:00\nSex: 13:00 - 20:00\nSáb: 13:00 - 20:00\nDom: 13:00 - 20:00",
+          "after": "Ter: 13:00 - 18:00\nQua: 13:00 - 18:00\nQui: 13:00 - 18:00\nSex: 13:00 - 18:00\nSáb: 13:00 - 18:00\nDom: Fechado"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Praia de Belas",
+          "before": "Dom: 13:30 - 18:00",
+          "after": "Dom: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1729",
+      "nome": "Galeto Mamma Mia",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_18238e1138d38eda1d9460165af69b68.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um galeto completo ou entrecot e pasta ou massa com molho",
+          "after": "um prato a la carte selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo galeto completo, entrecot e pasta ou massa com molho igual.\n\n-Válido para:\nMassas:\n- espaguete \n- `pene\n- `pene integral \n- `talharim\n- `nhoque\n- `tortei \n\nMolhos:\n- sugo\n- `da mamma\n- `do neni\n- `queijo\n- `alho e óleo \n- `pesto\n- `manteiga \n- `tomate seco\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato a la carte selecionado igual.\n\n-Válido para: prato de galeto completo, prato de entrecot e pasta ou prato de massa com molho\nMassas:\n- espaguete \n- pene\n- pene integral \n- talharim\n- nhoque\n- tortei \n\nMolhos:\n- sugo\n- `da mamma\n- `do neni\n- `queijo\n- `alho e óleo \n- `pesto\n- `manteiga \n- `tomate seco\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1739",
+      "nome": "Garibaldi Bar e Assados",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_f8ded462bf5775bc6166dd89e9fb14e2.png",
+      "changes": [
+        {
+          "field": "instagram",
+          "label": "Instagram",
+          "before": "garibaldibareassados",
+          "after": "garibaldibareassado"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Boa Vista",
+          "before": "Sáb: 11:30 - 16:00",
+          "after": "Sáb: 18:00 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "1896",
+      "nome": "Ginkgo",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_6d33b5e6a28194d5cb451994c5b4ee5d.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Seg: 10:00 - 19:00\nTer: 10:00 - 19:00\nQua: 10:00 - 19:00\nQui: 10:00 - 19:00\nSex: 10:00 - 19:00\nSáb: 10:00 - 20:00\nDom: 15:31 - 20:00",
+          "after": "Seg: 12:00 - 15:30\nTer: 12:00 - 15:30\nQua: 12:00 - 15:30\nQui: 12:00 - 15:30\nSex: 12:00 - 15:30\nSáb: 12:00 - 15:30\nDom: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1661",
+      "nome": "Grazie Mille Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b55bb20bee0af320c1506382c59fc70c.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Seg: 17:00 - 23:00\nTer: 17:00 - 23:00\nQua: 17:00 - 23:00\nQui: 17:00 - 23:00\nSex: 17:00 - 23:00\nSáb: 12:00 - 15:00, 19:00 - 22:30",
+          "after": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00\nSáb: 12:00 - 15:00, 18:30 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "2043",
+      "nome": "Hedonê",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_7f7cec33b7a7b1ffb8c956e69b3c90a9.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Ter: 10:30 - 18:30\nQua: 10:30 - 18:30\nQui: 10:30 - 18:30\nSex: 10:30 - 18:30",
+          "after": "Ter: 13:30 - 18:30\nQua: 13:30 - 18:30\nQui: 13:30 - 18:30\nSex: 13:30 - 18:30"
+        }
+      ]
+    },
+    {
+      "id": "1901",
+      "nome": "Hora do Pastel",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/0451db3f9621c0c2a9dc4ab42349b5e9.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana, Pastel / Crepe",
+          "after": "Opção vegetariana, Pastel / Crepe"
+        },
+        {
+          "field": "unidade",
+          "label": "Unidade fechou",
+          "before": "Cristal — Avenida Diário de Notícias, Nº 300, Cristal - Porto Alegre / RS",
+          "after": null
+        },
+        {
+          "field": "endereco",
+          "label": "Endereço · Moinhos de Vento",
+          "before": "Rua Félix da Cunha, Nº 500, Floresta - Porto Alegre / SC",
+          "after": "Avenida Cristóvão Colombo, Nº 1823, Moinhos de Vento - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1692",
+      "nome": "Hygge Restaurante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a78b373e9b40bb414ae6efb1d17b016a.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Tristeza",
+          "before": "Dom: 11:00 - 15:00",
+          "after": "Dom: 11:00 - 14:00"
+        }
+      ]
+    },
+    {
+      "id": "1735",
+      "nome": "Joe e Leo's",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3731a785208f534a590a3964beecc2ff.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato",
+          "after": "um prato selecionado ou buffet livre (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado ou buffet livre igual ou de menor valor.\n\n- Válido para buffet livre: 12h - 15h\n- Válido para hamburguers no almoço e jantar: clássico e delmonico\n- Válido para pizzas somente no jantar: calabresa, marguerita e mussarela.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Jardim Europa",
+          "before": "Seg: 11:45 - 15:00, 18:00 - 23:00\nTer: 11:45 - 15:00, 18:00 - 23:00\nQua: 11:45 - 15:00, 18:00 - 23:00\nQui: 11:45 - 15:00, 18:00 - 23:00\nSex: 11:45 - 15:00, 18:00 - 23:00\nDom: 11:45 - 15:00",
+          "after": "Seg: 11:45 - 14:30, 18:00 - 23:00\nTer: 11:45 - 14:30, 18:00 - 23:00\nQua: 11:45 - 14:30, 18:00 - 23:00\nQui: 11:45 - 14:30, 18:00 - 23:00\nSex: 11:45 - 14:30, 18:00 - 23:00\nDom: 11:45 - 14:30"
+        }
+      ]
+    },
+    {
+      "id": "1685",
+      "nome": "Joe Hamburgueria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eae8cbbcc74c0d5f49a657ed605b6fca.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um hambúrguer",
+          "after": "um hambúrguer (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo hambúrguer igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo hambúrguer igual ou de menor valor.\n- Não é válido para edições limitadas.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1820",
+      "nome": "Kampeki Sushi",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_7284d8b271d13a30614a055beed0583b.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · São João",
+          "before": "Ter: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00\nSáb: Fechado",
+          "after": "Ter: 11:00 - 14:00, 18:00 - 23:00\nQua: 11:00 - 14:00, 18:00 - 23:00\nQui: 11:00 - 14:00, 18:00 - 23:00\nSex: 11:00 - 14:00, 18:00 - 23:00\nSáb: 11:00 - 14:00"
+        }
+      ]
+    },
+    {
+      "id": "1720",
+      "nome": "Kioske do Pirata",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_21b27ad85216b3e9e7d01d511c5b6624.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Ter: 11:00 - 18:00\nQua: 11:00 - 18:00\nQui: 11:00 - 18:00\nSex: 11:00 - 18:00",
+          "after": "Ter: 11:00 - 15:00\nQua: 11:00 - 15:00\nQui: 11:00 - 15:00\nSex: 11:00 - 15:00"
+        }
+      ]
+    },
+    {
+      "id": "1823",
+      "nome": "La Bella Donna Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_67dc57ba4716ca8693b2158d1d4f7fc3.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359231UTCC2026031223011_1143_c1f6b16f65d759e433a6c337a0f6daad.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359231UTCC2026031223011_1143_f152b0bd20323139ae8dc877ce49d785.png"
+        }
+      ]
+    },
+    {
+      "id": "2025",
+      "nome": "La Stella Caffè",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e78538d5a36cafdf80a22d52f53d57e3.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Mont'Serrat",
+          "before": "Ter: 09:00 - 18:00\nQua: 09:00 - 18:00\nQui: 09:00 - 18:00\nSex: 09:00 - 18:00\nSáb: 09:00 - 18:00",
+          "after": "Ter: 09:00 - 17:30\nQua: 09:00 - 17:30\nQui: 09:00 - 17:30\nSex: 09:00 - 17:30\nSáb: 09:00 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": "1690",
+      "nome": "Le Pain & Croissant",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_06f07ea8aee3f4848f48ce13f3b1a043.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Ter: 09:00 - 19:00\nQua: 09:00 - 19:00\nQui: 09:00 - 19:00\nSex: 09:00 - 19:00\nSáb: 09:00 - 14:00, 15:00 - 19:00\nDom: 10:00 - 14:00, 15:00 - 18:00",
+          "after": "Ter: 11:00 - 17:30\nQua: 11:00 - 17:30\nQui: 11:00 - 17:30\nSex: 10:00 - 18:00\nSáb: 10:00 - 18:00\nDom: 11:00 - 17:30"
+        }
+      ]
+    },
+    {
+      "id": "2012",
+      "nome": "Levante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/ab21b647eb85db094f9e64eb7e343f63.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bourbon Shopping Country, Opção vegetariana, Étnicos",
+          "after": "Bourbon Shopping Country, Culinária Internacional, Opção vegetariana"
+        }
+      ]
+    },
+    {
+      "id": "1647",
+      "nome": "Lola CCMQ",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_c59cf01d853a29f32065dc5b62f5a0f9.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda entrada ou prato principal selecionado igual ou de menor valor.\n- Válido para Entradas: \n - Pães, Chips e Pastinhas \n - Papas Bravas\n\n- Válido para Pratos Principais: \n - Costelão\n - Rigatoni Crocante\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda entrada ou prato principal selecionado igual ou de menor valor.\n- Válido para Entradas: \n - Pães, Chips e Pastinhas \n - Papas Bravas\n\n- Válido para Pratos Principais: \n - Schnitzel: bife de lombo de porco à milanesa, musseline de batata e salada de repolho, cebola roxo e ervas.\n - Rigatoni Crocante: rigatoni com molho cremoso de queijos e especiarias, farofinha de copa e filezinho de frango empanado e crocante\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020845UTCC2026030901025_384_e16706d02382a2473c8f299e77c94a40.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020845UTCC2026030901025_384_686a5402c435c82ac5efc8693a84cb81.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1634",
+      "nome": "Lucho Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_60b76392a3c9ff7dc0463028ee6004a6.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Moinhos de Vento — Rua Padre Chagas, Nº 276, Moinhos de Vento - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "2044",
+      "nome": "Lê Bru Confeitaria Saudável",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_930cd482b640eb9f7cd2bbb1579581e2.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773665350UTCC2026031612010_384_50ae72d60644e52cafe6ed679ebc279a.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773665350UTCC2026031612010_384_3a785bc9b98488217b07ebd01c62c9f9.png"
+        }
+      ]
+    },
+    {
+      "id": "2035",
+      "nome": "Machry Armazém e Bistrô",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/66ccd71ccc855a28a80bb48b23ca9d14.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Tristeza",
+          "before": "Seg: 10:00 - 18:00\nTer: 08:30 - 19:00\nQua: 08:30 - 19:00\nQui: 08:30 - 19:00\nSex: 08:30 - 19:00\nDom: 08:30 - 19:00",
+          "after": "Seg: 11:00 - 14:30\nTer: 11:00 - 14:30\nQua: 11:00 - 14:30\nQui: 11:00 - 14:30\nSex: 11:00 - 14:30\nDom: 11:00 - 15:30"
+        }
+      ]
+    },
+    {
+      "id": "1668",
+      "nome": "Madame Tertu Bistrô",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a6d84e4b69afff75bf6ba4577350d033.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Sáb: 12:00 - 17:00",
+          "after": "Sáb: 11:30 - 16:00"
+        }
+      ]
+    },
+    {
+      "id": "1872",
+      "nome": "Mais1Café",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/6cac0950eb6d31556ad4e6e3c37adab5.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Praia de Belas — Av. Praia de Belas, Nº 418, Praia de Belas - Porto Alegre / RS"
+        },
+        {
+          "field": "unidade",
+          "label": "Unidade fechou",
+          "before": "Floresta — Avenida Cristóvão Colombo, Nº 1047, Floresta - Porto Alegre / RS",
+          "after": null
+        },
+        {
+          "field": "unidade",
+          "label": "Unidade fechou",
+          "before": "Bela Vista — Rua Silva Jardim - lado par, Nº 328, Bela Vista - Porto Alegre / RS",
+          "after": null
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Cristal",
+          "before": "Seg: 07:30 - 19:00\nTer: 07:30 - 19:00\nQua: 07:30 - 19:00\nQui: 07:30 - 19:00\nSex: 07:30 - 19:00\nSáb: 07:30 - 19:00",
+          "after": "Seg: 07:30 - 18:00\nTer: 07:30 - 18:00\nQua: 07:30 - 18:00\nQui: 07:30 - 18:00\nSex: 07:30 - 18:00\nSáb: 07:30 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1664",
+      "nome": "Maitê Caino Doceria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ad57d6b4e3feacfcffa1dc283e03b823.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um item da vitrine",
+          "after": "um item da vitrine (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo item da vitrine igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo item da vitrine igual ou de menor valor.\n- Não é válido para: bolos grandes, morango cravejado, divino pote Kinders e espetinho de morango.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1909",
+      "nome": "Mark Hamburgueria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/96f6745258651396565a4f55f2c68b92.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Seg: 15:31 - 22:30",
+          "after": "Seg: 18:01 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "1857",
+      "nome": "Master Burguer",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e17567a720f909452c42e5771e87c4b4.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Tristeza",
+          "before": "Ter: Fechado",
+          "after": "Ter: 18:00 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1788",
+      "nome": "Mato Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_222aa0a681f0c7db6a95470280351652.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Ter: Fechado",
+          "after": "Ter: 18:00 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1829",
+      "nome": "Mayô",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b15ea8417d2f80bc539fbfa2dd19e057.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual. \n- Válido para: \n - Quarta, quinta e sábado: hamburguer do Mayô ou Parmegiana.\n - Sexta: buffet de alaminuta.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual. \n- Válido para: hamburguer do Mayô ou Levíssimo de Tilápia.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359601UTCC2026031223021_384_9a80fcf38956372cdc3e205bca4b8439.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359601UTCC2026031223021_384_91ef8c1d04586a09b9f7f8d8d87b7bbc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "2010",
+      "nome": "McDonald's Aparício",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_763255da9b34f5488980be90c23b4bf4.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Combos, Lanche",
+          "after": "Combos, Hamburgueria"
+        }
+      ]
+    },
+    {
+      "id": "2007",
+      "nome": "Meio Cheio",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_5cf5b6fdadd6ecc399365ebc3384f788.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Santana",
+          "before": "Dom: 17:00 - 22:00",
+          "after": "Dom: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1839",
+      "nome": "Mercado Brasco",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_99074f0023f23878cd8021e1b1eaa2f9.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Bom Fim — Rua Vasco da Gama - lado par, Nº 153, Bom Fim - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1883",
+      "nome": "Milky Moo",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/133cdfe439e714da7075aced304ae0a8.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade fechou",
+          "before": "Moinhos de Vento — Rua Olavo Barreto Viana, Moinhos Shopping, Moinhos de Vento - Porto Alegre / RS",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "1780",
+      "nome": "Mima Focacceria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_454a25c24c72df456dfc6c40db2e0f43.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Doces / Cafés, Lanche",
+          "after": "Brunch, Doces / Cafés"
+        }
+      ]
+    },
+    {
+      "id": "1806",
+      "nome": "Mizu Restaurante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_01f4cc926e47223ac26b444601ce2d5d.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Boa Vista",
+          "before": "Seg: 17:30 - 23:30\nTer: 17:30 - 23:30\nQua: 17:30 - 23:30\nQui: 17:30 - 23:30\nSex: 17:30 - 23:30\nSáb: 17:30 - 23:30",
+          "after": "Seg: 18:30 - 23:30\nTer: 18:30 - 23:30\nQua: 18:30 - 23:30\nQui: 18:30 - 23:30\nSex: 18:30 - 23:30\nSáb: 18:30 - 23:30"
+        }
+      ]
+    },
+    {
+      "id": "1666",
+      "nome": "Moa Cafeteria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/7fc09d936c0920678e1f097b7c6ca3ac.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um doce (exceto especial da semana)",
+          "after": "um muffin ou cookie"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo doce igual ou de menor valor.\n- Não é válido para sobremesa especial da semana.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo um muffin ou cookie igual ou de menor valor.\n- Não é válido para sobremesa especial da semana.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023483UTCC2026030902023_384_2365ff0cee61bdc14b9efa4590c830d8.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023483UTCC2026030902023_384_1b6d80bd7f44227124767b9550478daf.jpeg"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Sáb: 10:00 - 14:00\nDom: 10:00 - 14:00",
+          "after": "Sáb: 10:00 - 18:30\nDom: 10:00 - 18:30"
+        }
+      ]
+    },
+    {
+      "id": "2029",
+      "nome": "Monte Líbano",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_03d5efb6f7e3ca61aa32666125782fbb.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato selecionado",
+          "after": "uma sequência árabe"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual. \n- Válido para: Ala minuta árabe, beirutes ou shawarma.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda sequência árabe igual. \n\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Restaurante, Étnicos",
+          "after": "Culinária Internacional, Restaurante"
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634951UTCC2026031604031_384_46a3677c52984126d1f26b3859f1031b.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773634951UTCC2026031604031_384_58fa792a68a028a7b826e4a5cd5af7af.JPG"
+        }
+      ]
+    },
+    {
+      "id": "1802",
+      "nome": "Mouro's Dog",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/8ebf02aeb985060c5ae85ae90e96e6c6.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Hot Dog, Opção vegetariana"
+        }
+      ]
+    },
+    {
+      "id": "2042",
+      "nome": "Nask Burguer",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e9b1eda8591983e4a042c28ca0ea80be.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Santa Cecília",
+          "before": "Dom: 18:30 - 23:00",
+          "after": "Dom: 18:30 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1660",
+      "nome": "Niki Lanches",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c0b8d805d81161c35a77bcf3f70bcf45.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Opção vegetariana, Xis"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · São Geraldo",
+          "before": "Sex: 11:00 - 23:30\nSáb: 11:00 - 23:30",
+          "after": "Sex: 11:00 - 18:00\nSáb: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1754",
+      "nome": "O'Pasta Trattoria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/afb505853026ca099c133687b2621c81.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato selecionado",
+          "after": "um prato selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: Scalopini individual, Ao funghi individual, primavera individual e frango a parmegiana com spaguetti ao sugo de tomate.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: Scalopini individual, ao funghi individual, primavera individual e frango a parmegiana com spaguetti ao sugo de tomate.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Petropolis",
+          "before": "Dom: 11:30 - 16:00",
+          "after": "Dom: 11:30 - 16:00, 18:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1759",
+      "nome": "O'Sullivans Irish Pub",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3a28a9c6d9f0760f5c8cdf0882670b03.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um item do cardápio",
+          "after": "um Iscas com Brie & Gouda"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo item do cardápio igual ou de menor valor. \n- Não é válido para Iscas com Gouda e Brie.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo Iscas com Brie & Gouda igual ou de menor valor. \n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773351536UTCC2026031221056_384_1b874f256ca8d16cbf1f46b4e5e71228.JPG",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773351536UTCC2026031221056_384_00464bec447524ea40939a21371c524c.jpeg"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · São João",
+          "before": "Sáb: 18:00 - 22:00",
+          "after": "Sáb: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1741",
+      "nome": "Ordinário Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3a8b8ffb2d4d995c4b1fe95bcb9ebe4a.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Qui: 18:00 - 00:00\nSex: 18:00 - 00:00\nSáb: 18:00 - 00:00",
+          "after": "Qui: 18:00 - 22:30\nSex: 18:00 - 22:30\nSáb: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1858",
+      "nome": "Otto Pizza e Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2a70f99379f6f77acf11b8608cc480bc.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma pizza napolitana média",
+          "after": "uma pizza média clássica"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda pizza napolitana média igual ou de menos valor.\n- Não é válido para o sabor: parma e rúcula.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda uma pizza média clássica igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1652",
+      "nome": "Pampa  Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_29ef94722470c574bb017a57644f3c43.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Opção vegetariana, Xis"
+        }
+      ]
+    },
+    {
+      "id": "1687",
+      "nome": "Parma d'Oro Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eaba329d43ec78ee567b08221a852e30.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma pizza de 30cm",
+          "after": "uma pizza broto de 20cm"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda pizza de 30cm igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda pizza uma pizza broto de 20cm igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1825",
+      "nome": "Parrilla Hecho A Mano",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8a112bdf79c5931ae1e3ff05f47adbfd.png",
+      "changes": [
+        {
+          "field": "endereco",
+          "label": "Endereço · Belém Novo",
+          "before": "Rua Doutor Dias de Carvalho, Nº 485, Tristeza - Porto Alegre / RS",
+          "after": "Avenida Juca Batista, Nº 9622, Belém Novo - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1737",
+      "nome": "Peninsula",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_fa7fde9422147b3ae2cae6519af2c6d3.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Mont'Serrat",
+          "before": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00",
+          "after": "Seg: Fechado\nTer: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1657",
+      "nome": "Poa Café Armazém",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/007cee84e2635b151824861d6ab02459.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Brunch, Opção vegetariana",
+          "after": "Doces / Cafés, Opção vegetariana"
+        }
+      ]
+    },
+    {
+      "id": "1849",
+      "nome": "Polska Restaurante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c0ac0fdcae2fd7ccde64acba6f5666e4.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Opção vegetariana, Restaurante, Étnicos",
+          "after": "Culinária Internacional, Opção vegetariana, Restaurante"
+        }
+      ]
+    },
+    {
+      "id": "2038",
+      "nome": "Ponto Zero Bar e Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_337eb5f473addf9d971de2dd7adc1a28.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Sáb: 12:00 - 15:00, 18:00 - 22:30",
+          "after": "Sáb: 18:00 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "1781",
+      "nome": "Prego",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_500b77c0d9a9bd20d1598f1188f0f52a.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n- Não é válido para: Bisteca Fiorentina, Carbonara e Lasanha.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n- Não é válido para: carbonara, rigatoni alla grapa, pesce del giorno, stinco d'agnello, costela & tortei e tagliata di manzo.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Dom: Fechado",
+          "after": "Dom: 12:00 - 15:30"
+        }
+      ]
+    },
+    {
+      "id": "2045",
+      "nome": "Primeiro Reino Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2cba27e342e79f683d4cdd4943caf899.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Mário Quintana",
+          "before": "Seg: 17:30 - 23:45\nTer: 17:30 - 23:45\nQua: 17:30 - 23:45\nQui: 17:30 - 23:45\nSex: Fechado\nSáb: 17:30 - 23:45",
+          "after": "Seg: 11:00 - 23:45\nTer: 11:00 - 23:45\nQua: 11:00 - 23:45\nQui: 11:00 - 23:45\nSex: 11:00 - 17:30\nSáb: 11:00 - 23:45"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Santa Cecília",
+          "before": "Seg: 17:30 - 23:45\nTer: 17:30 - 23:45\nQua: 17:30 - 23:45\nQui: 17:30 - 23:45\nSex: Fechado\nSáb: 17:30 - 23:45",
+          "after": "Seg: 11:00 - 23:45\nTer: 11:00 - 23:45\nQua: 11:00 - 23:45\nQui: 11:00 - 23:45\nSex: 11:00 - 17:30\nSáb: 11:00 - 23:45"
+        }
+      ]
+    },
+    {
+      "id": "1795",
+      "nome": "Ratskeller Restaurante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/81d1d4463c97bff91345536a77e6a76c.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Opção vegetariana, Restaurante, Étnicos",
+          "after": "Culinária Internacional, Opção vegetariana, Restaurante"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Navegantes",
+          "before": "Ter: 19:00 - 23:00\nQua: 19:00 - 23:00\nQui: 19:00 - 23:00\nSex: 19:00 - 23:30",
+          "after": "Ter: 19:00 - 22:30\nQua: 19:00 - 22:30\nQui: 19:00 - 22:30\nSex: 19:00 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "1710",
+      "nome": "Restaurante Hotel Intercity Aeroporto",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2d72674b27ad845b074c52f82b8857b6.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato no buffet de almoço ou prato selecionado igual ou de menor valor.\n- Válido para o prato: risoto de rúcula com tomate seco (11h às 15h).\n- Válido para Buffet de Almoço de Segunda-feira à Sexta-feira (12h às 14h), e aos sábados, com buffet de feijoada (12h - 15h).\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato no buffet de almoço ou prato selecionado igual ou de menor valor.\n- Válido para o prato: risoto de rúcula com tomate seco (11h às 15h).\n- Válido para Buffet de Almoço de Segunda-feira à Sexta-feira (12h às 14h).\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1846",
+      "nome": "Riversides Sushi",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_3ac78df87d6f4ddf2b8c2f893c8f7059.png",
+      "changes": [
+        {
+          "field": "caracteristica",
+          "label": "Características",
+          "before": "Aceita Pet",
+          "after": ""
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: 11:30 - 15:00, 18:30 - 23:00\nTer: 11:30 - 15:00, 18:30 - 23:00\nQua: 11:30 - 15:00, 18:30 - 23:00\nQui: 11:30 - 15:00, 18:30 - 23:00\nSex: 11:30 - 15:00, 18:30 - 23:00",
+          "after": "Seg: 18:30 - 23:00\nTer: 18:30 - 23:00\nQua: 18:30 - 23:00\nQui: 18:30 - 23:00\nSex: 18:30 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1908",
+      "nome": "Rooster Crispy Kitchen",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_cf67cd33e6dc213a805302af6fb7e0e4.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Jardim Itu",
+          "before": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00\nSáb: Fechado",
+          "after": "Seg: 18:00 - 22:00\nTer: 18:00 - 22:00\nQua: 18:00 - 22:00\nQui: 18:00 - 22:00\nSex: 18:00 - 22:00\nSáb: 18:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1640",
+      "nome": "Royal Trudel",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/ac8cb66e03a5e4916dfc7e53218999a8.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Cristal",
+          "before": "Seg: 14:01 - 22:00\nTer: 14:01 - 22:00\nQua: 14:01 - 22:00\nQui: 14:01 - 22:00\nSex: 14:01 - 22:00",
+          "after": "Seg: 10:00 - 22:00\nTer: 10:00 - 22:00\nQua: 10:00 - 22:00\nQui: 10:00 - 22:00\nSex: 10:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1877",
+      "nome": "Rádio Agulha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_37b5aa1e885c696995d7f19eb2c49df2.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bebidas, Restaurante",
+          "after": "Restaurante"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Floresta",
+          "before": "Seg: 11:30 - 14:30",
+          "after": "Seg: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1771",
+      "nome": "Salvador Carlos Gomes",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8e7eef78b47394a0c4cdc01a88c23172.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado, igual ou de menor valor.\n- Válido para: Arroz de carne de panela, Casarecce Cogumelos, Bauru de Caxias, Frango Grelhado ou Nhoque Siciliano.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado, igual ou de menor valor.\n- Válido para: Cupim & Batata Doce Laranja ; Linguine com cogumelos; Nhoque siciliano; Frango grelhado; Frango & fonduta de queijos; Arroz carne de panela; Nhoque zucca; Entrecot com cogumelos;\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354702UTCC2026031222042_384_a8bba20e9bfd59c8ae2c4d5c90368db0.JPEG",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773354702UTCC2026031222042_384_c7f5230b5ed04e21931b84c7f563753b.jpeg"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Sex: 11:30 - 18:00\nSáb: Fechado\nDom: 18:00 - 21:00",
+          "after": "Sex: Fechado\nSáb: 11:30 - 22:00\nDom: 11:30 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": "2066",
+      "nome": "Salvador Pontal",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/9b37f8fd03c4e0db61262a614c1bcfeb.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado, igual ou de menor valor.\n- Válido para: Arroz de carne de panela, Casarecce Cogumelos, Bauru de Caxias, Frango Grelhado ou Nhoque Siciliano.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado, igual ou de menor valor.\n- Válido para: Cupim & Batata Doce Laranja ; Linguine com cogumelos; Nhoque siciliano; Frango grelhado; Frango & fonduta de queijos; Arroz carne de panela; Nhoque zucca; Entrecot com cogumelos;\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773841839UTCC2026031813039_384_bee16c60366fe4fc818f9a4ed3856c39.JPEG",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773841839UTCC2026031813039_384_80eb3283cd038c2d08f4fe305e09d277.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1684",
+      "nome": "Sem Culpa",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b4580b54afb899cef21e87c12770a589.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Seg: 10:30 - 18:30\nTer: 10:30 - 18:30\nQua: 10:30 - 18:30\nQui: 10:30 - 18:30\nSex: 10:30 - 18:30\nDom: 13:30 - 18:30",
+          "after": "Seg: 10:30 - 18:00\nTer: 10:30 - 18:00\nQua: 10:30 - 18:00\nQui: 10:30 - 18:00\nSex: 10:30 - 18:00\nDom: 14:00 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1805",
+      "nome": "Sharin",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/11c8e8bf2615c8e71797e8f015ba1658.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Opção vegana, Opção vegetariana, Restaurante, Étnicos",
+          "after": "Culinária Internacional, Opção vegana, Opção vegetariana, Restaurante"
+        }
+      ]
+    },
+    {
+      "id": "1827",
+      "nome": "Sirène Fish & Chips",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/ff8bde667dece041933a481cdf64b1a0.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359518UTCC2026031223058_384_f8b0d5bd356ae6e7aa333232a30d6486.JPG",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359518UTCC2026031223058_384_6f2924e64a6d79a5cb11bb00c419c14e.JPEG"
+        }
+      ]
+    },
+    {
+      "id": "1645",
+      "nome": "Soberano",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_8a7261e6dc5b9595599fa01fcd6c33b5.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Lanche, Opção vegetariana",
+          "after": "Opção vegetariana, Xis"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Sarandi",
+          "before": "Sáb: 15:01 - 22:00",
+          "after": "Sáb: 18:01 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1733",
+      "nome": "Sofia Karaoke",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_13348abba20cbb958f2e760f476410ee.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma porção de iscas de frango",
+          "after": "uma porção de gyoza de carne suína ou legumes"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda porção de iscas de frango igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda porção de gyoza de carne suína ou legumes\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773193492UTCC2026031101052_384_5ded2a5c015a6abd04be22d1fc69f8d8.png",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773193492UTCC2026031101052_384_6223666bb386f7de03bff5c9586ac10e.jpeg"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Dom: 18:00 - 00:00",
+          "after": "Dom: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "2009",
+      "nome": "Sotaque Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ac1831a8f83607d6033571401318543b.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Bebidas, Lanche, Petisco de bar",
+          "after": "Petisco de bar"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Petrópolis",
+          "before": "Ter: 18:00 - 22:30\nQua: 18:00 - 22:30\nQui: 18:00 - 22:30\nSex: 18:00 - 22:30\nSáb: 18:00 - 22:30",
+          "after": "Ter: Fechado\nQua: 17:00 - 22:30\nQui: 17:00 - 22:30\nSex: 17:00 - 22:30\nSáb: 17:00 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "1885",
+      "nome": "Spia Bar e Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_2734dc89cf4df6388db7b5b44f593360.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: Fechado\nTer: 11:30 - 23:00\nQua: 11:30 - 23:00\nQui: 11:30 - 23:00\nSex: 11:30 - 23:00",
+          "after": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Ter: 11:30 - 15:00, 18:30 - 22:30",
+          "after": "Ter: 18:30 - 22:30"
+        }
+      ]
+    },
+    {
+      "id": "2032",
+      "nome": "Spoleto",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_32f76e6b447bfeb8c6f69d05986f66a5.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um crie do seu jeito + filé da sobrecoxa (exceto massas artesanais)",
+          "after": "um crie do seu jeito + filé de frango (exceto massas artesanais)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo crie do seu jeito + filé de sobrecoxa igual.\n- Não é válido para massas artesanais.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo crie do seu jeito + filé de frango igual.\n- Não é válido para massas artesanais.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Passo da Areia",
+          "before": "Seg: 18:00 - 22:00\nTer: 18:00 - 22:00\nQua: 18:00 - 22:00\nQui: 18:00 - 22:00",
+          "after": "Seg: 11:00 - 22:00\nTer: 11:00 - 22:00\nQua: 11:00 - 22:00\nQui: 11:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1798",
+      "nome": "Squisito Fatta a Mano",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_31b70b2dfb1cd41bbcff098acb6847ba.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma pizza calabria",
+          "after": "uma pizza selecionada"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre a segunda pizza calabria igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre a segunda pizza selecionada igual ou de menor valor.\n- Válido para: Calábria, Pepperoni, Corn & Bacon, Margherita D'Napole, Marinara, Abóbora, Margherita Vegana, Duo Cioccolato, Pistaccio & Choco Branco, Pistaccio & Choco\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Bela Vista",
+          "before": "Seg: 17:30 - 23:00\nTer: 17:30 - 23:00\nQua: 17:30 - 23:00\nQui: 17:30 - 23:00\nSex: 17:30 - 23:00",
+          "after": "Seg: 18:30 - 23:00\nTer: 18:30 - 23:00\nQua: 18:30 - 23:00\nQui: 18:30 - 23:00\nSex: 18:30 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1841",
+      "nome": "Tartoni",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d776092c729295cf8b7b6b444accdff8.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato selecionado",
+          "after": "um prato selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: polpettone com risoto de alho-poró, raviole Verde com molho sugo, filetto Aromático, primavera, calabrese e salmone e limone.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: polpettone com risoto de alho-poró, raviole Verde com molho sugo, primavera, calabrese, maiale a milaneza e salmone e limone.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Italiano, Opção vegetariana, Restaurante",
+          "after": "Bourbon Shopping Country, Italiano, Opção vegetariana, Restaurante"
+        }
+      ]
+    },
+    {
+      "id": "2023",
+      "nome": "Todo Cambia",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_072e4b04e076af6a820c2dbb830f66d4.png",
+      "changes": [
+        {
+          "field": "endereco",
+          "label": "Endereço · Centro Histórico",
+          "before": "Av. Borges de Medeiros, Nº 1043, Centro Histórico - Porto Alegre / RS",
+          "after": "R. Demétrio Ribeiro, Nº 848, Centro Histórico - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "1793",
+      "nome": "Todo Vene",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a967e47ab0a4b38883b313b4c5d978ff.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Independência",
+          "before": "Ter: 09:00 - 19:00\nQua: 09:00 - 19:00\nQui: 09:00 - 19:00\nSex: 09:00 - 19:00\nSáb: 09:00 - 19:00",
+          "after": "Ter: 11:00 - 19:00\nQua: 11:00 - 19:00\nQui: 11:00 - 19:00\nSex: 11:00 - 21:00\nSáb: 11:00 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": "1659",
+      "nome": "Trigo Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/18b43d7e7d0853f5b673174e608ac291.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773022736UTCC2026030902056_384_2cb066b57bd1951f12a9b19f5838db92.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773022736UTCC2026030902056_384_58a46794a7e348677b9aed8f9453a3ee.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1682",
+      "nome": "UM Bar&Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/93eeb0569d6979cd94816d90f036c34a.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato selecionado",
+          "after": "um prato selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: Risoto Raíz, Bolinho de Beterraba, Mini Coxinha de Frango e Frango Satay.\n- Risoto raiz: risoto de beterraba defumada, queijo de ovelha artesanal e alho poró, finalizado com toque de azeite cítrico.\n- Bolinhos de beterraba defumada & queijo colonial: feitos com risoto de beterraba defumada, recheados com queijo colonial e finalizados\ncom azeite de hortelã e toque de limão (6un)\n- Mini coxinha de galinha - coxinhas crocantes de frango caipira, servidas com maionese de chimichurri de PANCs e molho de pimenta da casa (6un) \n- Frango Satay - cubos de frango marinados com limão e especiarias, grelhados no espetinho e servidos com molho tailandês de amendoim e folhas de coentro. Acompanha saladinha leve e arroz jasmim perfumado com pimenta vermelha e gergelim preto\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: Bolinho de Beterraba, Risoto Raíz e Frango na Moranga\n- Bolinhos de beterraba defumada & queijo colonial: feitos com risoto de beterraba defumada, recheados com queijo colonial e finalizados com azeite de hortelã e toque de limão (6un)\n - Risoto raiz: risoto de beterraba defumada, queijo fresco de búfala e alho poró, finalizado com toque de azeite citrico.\n - Frango na Moranga: iscas de frango grelhadas em molho cremoso de moranga, com palha de batata doce e arroz jasmin perfumado.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773085934UTCC2026030919014_384_175fd2d5d139741aad8758e128eed437.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773085934UTCC2026030919014_384_4f4423e0e5d0df059a8731e5c10e8122.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1662",
+      "nome": "Vila Finamor",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e8ab5f6edbe1eef0a6b5668753f2131a.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Seg: Fechado\nSáb: 11:30 - 22:00",
+          "after": "Seg: 11:30 - 15:00\nSáb: 11:30 - 15:00, 18:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1776",
+      "nome": "Village Grill Restaurante",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4bec1f3a6094c46f7b4c18489d30fe03.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um buffet livre",
+          "after": "um prato selecionado (ver regras)"
+        },
+        {
+          "field": "beneficio",
+          "label": "Benefício",
+          "before": "ganhe outro igual.",
+          "after": "ganhe outro igual ou de menor valor."
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo buffet livre igual.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato selecionado igual ou de menor valor.\n- Válido para: strogonoff frango, A La minuta frango milanesa, Parmegiana de frango, Burguer Smash ou Burguer Bacon Z.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Buffet, Opção vegetariana, Restaurante",
+          "after": "Culinária Regional, Restaurante"
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773355415UTCC2026031222035_384_fce8f8903b094092760eb0df645a2464.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773355415UTCC2026031222035_384_a1b7b434c91eff974f12754998ee2c6d.png"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Sáb: Fechado",
+          "after": "Sáb: 11:00 - 14:15"
+        }
+      ]
+    },
+    {
+      "id": "1665",
+      "nome": "Vivenda Portuguesa",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/a0a75c01600641d5c327e8cd104cfd3a.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Floresta",
+          "before": "Sex: Fechado",
+          "after": "Sex: 11:30 - 14:30, 19:00 - 21:45"
+        }
+      ]
+    },
+    {
+      "id": "1760",
+      "nome": "Weiss British Pub",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_62efba55217d0b17e165ed145f8381d0.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um item do cardápio",
+          "after": "um Iscas com Gorgonzola e Brie"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo item do cardápio igual ou de menor valor.\n- Não é válido para Iscas com Gorgonzola e Brie.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo Iscas com Gorgonzola e Brie igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773352002UTCC2026031221042_384_831f924d836b6a76977c1e80e286cb5a.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773352002UTCC2026031221042_384_fdb845bcc4c99e7c3205877d6f4f891e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1702",
+      "nome": "Yaki Asian Food",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_6412e7178dd473b9d4594febd8e8096d.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Petrópolis",
+          "before": "Dom: 11:30 - 16:00",
+          "after": "Dom: 11:30 - 16:00, 18:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1856",
+      "nome": "Z Café",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_0ff894c7783ab6215e6ae4b831082c53.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade fechou",
+          "before": "Moinhos de Vento — Rua Padre Chagas, Nº 305, Moinhos de Vento - Porto Alegre / RS",
+          "after": null
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Praia de Belas",
+          "before": "Sáb: 10:00 - 22:00\nDom: 11:00 - 20:00",
+          "after": "Sáb: Fechado\nDom: 11:00 - 15:00"
+        }
+      ]
+    },
+    {
+      "id": "2047",
+      "nome": "Zaituna Arabe",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_517ddb0aac15a856be35a8c2055c4ecd.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · São Geraldo",
+          "before": "Ter: 18:00 - 22:30\nSáb: 12:00 - 15:00, 18:00 - 22:30\nDom: 12:00 - 15:00, 18:00 - 22:30",
+          "after": "Ter: Fechado\nSáb: 18:00 - 22:30\nDom: 18:00 - 22:30"
+        }
+      ]
+    }
+  ]
+}
