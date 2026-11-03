@@ -239,12 +239,6 @@
           "label": "Prato",
           "before": "uma pizza média",
           "after": "uma pizza broto tradicional ou doce"
-        },
-        {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre a segunda pizza média igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre a segunda pizza broto tradicional ou doce igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
         }
       ]
     },
@@ -258,12 +252,6 @@
           "label": "Prato",
           "before": "um prato individual",
           "after": "um item individual"
-        },
-        {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo prato individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo item individual igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
         },
         {
           "field": "sub_categoria",
@@ -289,12 +277,6 @@
           "label": "Prato",
           "before": "um bauru master",
           "after": "um xis"
-        },
-        {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo bauru master igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo xis igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
         },
         {
           "field": "sub_categoria",
@@ -328,12 +310,6 @@
       "nome": "Applebee`s",
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/c472ffeb95a4d31b6726ee28bcfe68a6.png",
       "changes": [
-        {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um prato selecionado",
-          "after": "um prato selecionado (ver regras)"
-        },
         {
           "field": "regra",
           "label": "Regra",
@@ -841,12 +817,6 @@
           "after": "um matambre a la pizza"
         },
         {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo entrecot igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo matambre a la pizza igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
-        },
-        {
           "field": "image",
           "label": "Foto",
           "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773415317UTCC2026031315057_384_95bdd904c01d058ac9c7b52d427c0a44.png",
@@ -1120,12 +1090,6 @@
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eae8cbbcc74c0d5f49a657ed605b6fca.png",
       "changes": [
         {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um hambúrguer",
-          "after": "um hambúrguer (ver regras)"
-        },
-        {
           "field": "regra",
           "label": "Regra",
           "before": "- O desconto é sempre sobre o segundo hambúrguer igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
@@ -1319,12 +1283,6 @@
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_ad57d6b4e3feacfcffa1dc283e03b823.png",
       "changes": [
         {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um item da vitrine",
-          "after": "um item da vitrine (ver regras)"
-        },
-        {
           "field": "regra",
           "label": "Regra",
           "before": "- O desconto é sempre sobre o segundo item da vitrine igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
@@ -1480,12 +1438,6 @@
           "after": "um muffin ou cookie"
         },
         {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo doce igual ou de menor valor.\n- Não é válido para sobremesa especial da semana.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo um muffin ou cookie igual ou de menor valor.\n- Não é válido para sobremesa especial da semana.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
-        },
-        {
           "field": "image",
           "label": "Foto",
           "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023483UTCC2026030902023_384_2365ff0cee61bdc14b9efa4590c830d8.jpg",
@@ -1581,12 +1533,6 @@
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/afb505853026ca099c133687b2621c81.png",
       "changes": [
         {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um prato selecionado",
-          "after": "um prato selecionado (ver regras)"
-        },
-        {
           "field": "horario",
           "label": "Horário · Petropolis",
           "before": "Dom: 11:30 - 16:00",
@@ -1680,12 +1626,6 @@
           "label": "Prato",
           "before": "uma pizza de 30cm",
           "after": "uma pizza broto de 20cm"
-        },
-        {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre a segunda pizza de 30cm igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre a segunda pizza uma pizza broto de 20cm igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
         }
       ]
     },
@@ -2071,12 +2011,6 @@
           "after": "um crie do seu jeito + filé de frango (exceto massas artesanais)"
         },
         {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo crie do seu jeito + filé de sobrecoxa igual.\n- Não é válido para massas artesanais.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo crie do seu jeito + filé de frango igual.\n- Não é válido para massas artesanais.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
-        },
-        {
           "field": "horario",
           "label": "Horário · Passo da Areia",
           "before": "Seg: 18:00 - 22:00\nTer: 18:00 - 22:00\nQua: 18:00 - 22:00\nQui: 18:00 - 22:00",
@@ -2114,12 +2048,6 @@
       "nome": "Tartoni",
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d776092c729295cf8b7b6b444accdff8.png",
       "changes": [
-        {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um prato selecionado",
-          "after": "um prato selecionado (ver regras)"
-        },
         {
           "field": "regra",
           "label": "Regra",
@@ -2178,12 +2106,6 @@
       "nome": "UM Bar&Cozinha",
       "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/93eeb0569d6979cd94816d90f036c34a.png",
       "changes": [
-        {
-          "field": "descricao",
-          "label": "Prato",
-          "before": "um prato selecionado",
-          "after": "um prato selecionado (ver regras)"
-        },
         {
           "field": "regra",
           "label": "Regra",

@@ -7,6 +7,7 @@ are ignored so they never show up as fake changes.
 Usage: python changes.py OLD.json[.gz] NEW.json[.gz]
 """
 
+import difflib
 import gzip
 import json
 import re
@@ -32,10 +33,31 @@ def _text(value) -> str:
     return re.sub(r"[ \t]+", " ", str(value).replace("\r\n", "\n")).strip()
 
 
+# "(ver regras)" gets appended/removed from dish names without meaning anything
+VER_REGRAS = re.compile(r"\(\s*ver regras?\s*\)", re.IGNORECASE)
+
+
+def _words(s: str) -> list:
+    return re.findall(r"\w+", VER_REGRAS.sub(" ", s).casefold())
+
+
 def _same_text(a: str, b: str) -> bool:
-    """Equal ignoring case, punctuation and spacing (e.g. "Ao" vs "ao")."""
-    key = lambda s: re.sub(r"[\W_]+", " ", s.casefold()).strip()
-    return key(a) == key(b)
+    """Equal ignoring case, punctuation, spacing and "(ver regras)"."""
+    return _words(a) == _words(b)
+
+
+def _echoes(change: dict, source: dict) -> bool:
+    """True if every word edit in `change` also appears in `source` — e.g. the
+    rule text repeating the dish swap ("segundo prato individual" →
+    "segundo item individual" when the dish went "prato" → "item")."""
+    before, after = _words(change["before"]), _words(change["after"])
+    src_before, src_after = " ".join(_words(source["before"])), " ".join(_words(source["after"]))
+    ops = difflib.SequenceMatcher(None, before, after, autojunk=False).get_opcodes()
+    return all(
+        " ".join(before[i1:i2]) in src_before and " ".join(after[j1:j2]) in src_after
+        for tag, i1, i2, j1, j2 in ops
+        if tag != "equal"
+    )
 
 
 def _subcats(c) -> list:
@@ -179,6 +201,11 @@ def cupom_changes(old: dict, new: dict) -> list:
         b, a = _text(old.get(field)), _text(new.get(field))
         if not _same_text(b, a):
             changes.append({"field": field, "label": label, "before": b, "after": a})
+
+    # the rule usually spells out the dish; skip it when that is all it changed
+    by_field = {ch["field"]: ch for ch in changes}
+    if "descricao" in by_field and "regra" in by_field and _echoes(by_field["regra"], by_field["descricao"]):
+        changes.remove(by_field["regra"])
 
     for field, label, getter in (
         ("sub_categoria", "Categorias", _subcats),
