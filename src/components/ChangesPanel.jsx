@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
 import { X, Sparkles, ArrowRight, ChevronRight, MapPin } from 'lucide-react';
 import Pill from './ui/Pill.jsx';
+import { textDiff } from '../lib/textDiff.js';
 
 // Change fields (as written by changes.py) grouped into the filter chips.
 const GROUPS = [
@@ -318,14 +319,42 @@ function ChangeLine({ change: ch }) {
       </div>
     );
   }
+  // both sides present → highlight only the words that changed
+  const diff = ch.before && ch.after ? textDiff(ch.before, ch.after) : null;
   return (
     <div className="flex flex-col gap-1">
       <Label>{ch.label}</Label>
       {ch.before !== null && (
-        <Value tone="before">{ch.before || '(vazio)'}</Value>
+        <Value tone="before">
+          {diff ? <Segments segs={diff.before} tone="before" /> : ch.before || '(vazio)'}
+        </Value>
       )}
-      {ch.after !== null && <Value tone="after">{ch.after || '(vazio)'}</Value>}
+      {ch.after !== null && (
+        <Value tone="after">
+          {diff ? <Segments segs={diff.after} tone="after" /> : ch.after || '(vazio)'}
+        </Value>
+      )}
     </div>
+  );
+}
+
+function Segments({ segs, tone }) {
+  const markClass =
+    tone === 'before'
+      ? 'rounded-[3px] bg-[#fca5a5]/55 px-0.5 text-[#7f1d1d] line-through decoration-[#7f1d1d]/50'
+      : 'rounded-[3px] bg-[#86efac]/70 px-0.5 font-semibold text-[#14532d]';
+  return segs.map((s, i) =>
+    s.gap ? (
+      <span key={i} className="block select-none opacity-60" aria-label="trecho sem mudança">
+        …
+      </span>
+    ) : s.mark ? (
+      <mark key={i} className={markClass}>
+        {s.text}
+      </mark>
+    ) : (
+      <span key={i}>{s.text}</span>
+    ),
   );
 }
 

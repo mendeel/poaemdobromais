@@ -1587,12 +1587,6 @@
           "after": "um prato selecionado (ver regras)"
         },
         {
-          "field": "regra",
-          "label": "Regra",
-          "before": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: Scalopini individual, Ao funghi individual, primavera individual e frango a parmegiana com spaguetti ao sugo de tomate.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
-          "after": "- O desconto é sempre sobre o segundo prato selecionado igual.\n- Válido para: Scalopini individual, ao funghi individual, primavera individual e frango a parmegiana com spaguetti ao sugo de tomate.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
-        },
-        {
           "field": "horario",
           "label": "Horário · Petropolis",
           "before": "Dom: 11:30 - 16:00",

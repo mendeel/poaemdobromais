@@ -32,6 +32,12 @@ def _text(value) -> str:
     return re.sub(r"[ \t]+", " ", str(value).replace("\r\n", "\n")).strip()
 
 
+def _same_text(a: str, b: str) -> bool:
+    """Equal ignoring case, punctuation and spacing (e.g. "Ao" vs "ao")."""
+    key = lambda s: re.sub(r"[\W_]+", " ", s.casefold()).strip()
+    return key(a) == key(b)
+
+
 def _subcats(c) -> list:
     raw = c.get("sub_categoria") or ""
     return sorted({s.strip() for s in raw.split(",") if s.strip()})
@@ -140,7 +146,7 @@ def _unit_changes(old: dict, new: dict) -> list:
         if old_end is None:
             continue
         label = _unit_label(new_end)
-        if _text(old_end.get("endereco")) != _text(new_end.get("endereco")):
+        if not _same_text(_text(old_end.get("endereco")), _text(new_end.get("endereco"))):
             changes.append(
                 {
                     "field": "endereco",
@@ -171,7 +177,7 @@ def cupom_changes(old: dict, new: dict) -> list:
     changes = []
     for field, label in TEXT_FIELDS:
         b, a = _text(old.get(field)), _text(new.get(field))
-        if b != a:
+        if not _same_text(b, a):
             changes.append({"field": field, "label": label, "before": b, "after": a})
 
     for field, label, getter in (
