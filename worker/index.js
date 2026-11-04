@@ -1,5 +1,5 @@
 import ogIndex from 'virtual:og-index';
-import { CATEGORIES, parseVote } from '../src/lib/ratings.js';
+import { CATEGORIES, ESPERA, parseVote } from '../src/lib/ratings.js';
 import { cupomIdFromPath, cupomPath } from '../src/lib/cupomUrl.js';
 import { SITE_NAME, ogTags } from '../src/lib/og.js';
 
@@ -9,7 +9,10 @@ const CACHE_SECONDS = 60;
 const DAILY_VOTES_PER_IP = 60;
 const MAX_BODY_BYTES = 1024;
 
-const AVG_COLUMNS = CATEGORIES.map((c) => `ROUND(AVG(${c.key}), 2) AS ${c.key}`).join(', ');
+const AGG_COLUMNS = [
+  ...CATEGORIES.map((c) => `ROUND(AVG(${c.key}), 2) AS ${c.key}`),
+  ...ESPERA.map((o) => `COUNT(CASE WHEN espera = ${o.value} THEN 1 END) AS ${o.key}`),
+].join(', ');
 
 export default {
   async fetch(request, env, ctx) {
@@ -72,7 +75,7 @@ async function listRatings(url, env, ctx) {
   if (cached) return cached;
 
   const { results } = await env.DB.prepare(
-    `SELECT cupom_id, COUNT(*) AS n, ${AVG_COLUMNS} FROM ratings GROUP BY cupom_id`,
+    `SELECT cupom_id, COUNT(*) AS n, ${AGG_COLUMNS} FROM ratings GROUP BY cupom_id`,
   ).all();
   const byId = {};
   for (const { cupom_id, ...agg } of results) byId[cupom_id] = agg;
@@ -114,16 +117,17 @@ async function submitVote(request, url, env, ctx, cupomId) {
   const { atendimento, comida, ambiente } = vote.scores;
   const [, aggResult] = await env.DB.batch([
     env.DB.prepare(
-      `INSERT INTO ratings (cupom_id, voter_id, ip_hash, atendimento, comida, ambiente, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?)
+      `INSERT INTO ratings (cupom_id, voter_id, ip_hash, atendimento, comida, ambiente, espera, updated_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?)
        ON CONFLICT (cupom_id, voter_id) DO UPDATE SET
          ip_hash = excluded.ip_hash,
          atendimento = excluded.atendimento,
          comida = excluded.comida,
          ambiente = excluded.ambiente,
+         espera = excluded.espera,
          updated_at = excluded.updated_at`,
-    ).bind(cupomId, vote.voterId, ipHash, atendimento, comida, ambiente, now),
-    env.DB.prepare(`SELECT COUNT(*) AS n, ${AVG_COLUMNS} FROM ratings WHERE cupom_id = ?`).bind(cupomId),
+    ).bind(cupomId, vote.voterId, ipHash, atendimento, comida, ambiente, vote.espera, now),
+    env.DB.prepare(`SELECT COUNT(*) AS n, ${AGG_COLUMNS} FROM ratings WHERE cupom_id = ?`).bind(cupomId),
   ]);
 
   // Only clears this colo's copy, which is the one the voter reads from.

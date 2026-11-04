@@ -54,8 +54,9 @@ App: fetch('/api/ratings') ─► worker/index.js ─► D1 `ratings` table
 ### Ratings (worker/index.js)
 
 - Only `/api/*` and `/r/*` run the Worker (`assets.run_worker_first`). Everything else is a static asset.
-- `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente } }`: averages rounded to 2 decimals, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
-- `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All three scores are required, integers 1–5. It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
+- `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente, espera_rapido, espera_esperado, espera_demorado } }`: averages rounded to 2 decimals plus a count per wait answer, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
+- `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente, espera }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All three scores are required, integers 1–5, and so is `espera` (1 = rápido, 2 = como esperado, 3 = demorado). It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
+- **Wait time (`espera`)** is a three-way answer, not stars, and is left out of the overall score. Votes from before it (migration 0002) have `espera` NULL, so the shares (`esperaSummary`) are out of the votes that answered, not `n`. Editing such a vote asks for it. The modal shows a stacked bar (`EsperaBreakdown`). Cards show a "Demora" pill (`SlowBadge`) only when more than half of at least 3 answers say slower (`isUsuallySlow`).
 - Anonymous: `voterId` is 32 random hex chars kept in localStorage. The limit is 60 votes per IP per 24h, counted on `ip_hash` (SHA-256 of the `IP_SALT` secret + `CF-Connecting-IP`). Raw IPs are never stored.
 - Overall score = mean of the three category means. Because every vote has all three scores, this equals the mean of each voter's own average.
 - Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
@@ -110,6 +111,7 @@ Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelo
 | Favourites and "Já fui" visits (localStorage id sets) | `src/hooks/useLocalStorage.js` |
 | Ratings fetch/submit, voter id, own votes | `src/hooks/useRatings.js` |
 | Star display/input, `RatingBadge` (cards, map popup) | `src/components/ui/Stars.jsx` |
+| Wait-time input, breakdown bar, card "Demora" pill | `src/components/ui/Espera.jsx` |
 | Category breakdown, "Já fui" button, vote form (`RatingForm`) in the modal | `src/components/RatingSection.jsx` |
 | Quick rating sheet opened by a card's "Já fui" | `src/components/RateModal.jsx` |
 | Live clock (ticks each minute) | `src/hooks/useNow.js` |

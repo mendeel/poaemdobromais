@@ -27,8 +27,9 @@ function voterId() {
   }
 }
 
-// ratings: { [cupomId]: { n, atendimento, comida, ambiente } } from the API.
-// mine: this visitor's own scores, kept locally to prefill the form.
+// ratings: { [cupomId]: { n, atendimento, comida, ambiente, espera_* } } from the API.
+// mine: this visitor's own vote, kept locally to prefill the form. Votes from
+// before the wait question have no `espera`.
 export function useRatings(reloadKey) {
   const [ratings, setRatings] = useState({});
   const [mine, setMine] = useState(readMine);
