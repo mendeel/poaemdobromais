@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-04T1645",
+  "from": "2026-11-03T19:23-03:00",
+  "to": "2026-11-04T16:45-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1731",
+      "nome": "Açaí das Maravilhas",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_529e9f55eb7aedf73a5c1d16206af113.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um rodízio de crepe simples",
+          "after": "um açaí 300 ml OU um rodízio de crepes (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo rodízio de crepe simples igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo açaí 300 ml OU rodízio de crepes igual ou de menor valor.\n- O rodízio de crepes só é válido de segunda-feira à quinta-feira.\n- O açaí é válido em todos os dias de atendimento. \n- O açaí pode ter até 3 complementos.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1781",
+      "nome": "Prego",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_500b77c0d9a9bd20d1598f1188f0f52a.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n- Não é válido para: carbonara, rigatoni alla grapa, pesce del giorno, stinco d'agnello, costela & tortei e tagliata di manzo.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n- Não é válido para: pappardelle ao ragù de Pato, rigatoni alla grapa, pesce del giorno, stinco d'agnello, costela & tortei e tagliata di manzo.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    }
+  ]
+}
