@@ -10,12 +10,11 @@
   "assets": {
     "run_worker_first": ["/api/*"]
   },
-  // No database_id: the first `wrangler deploy` creates the database and
-  // writes its id back here.
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "poaemdobromais-ratings"
+      "database_name": "poaemdobromais-ratings",
+      "database_id": "dc5523db-4979-4a7a-8250-cf68f2fefdcc"
     }
   ],
   "routes": [{ "pattern": "poaemdobro.mendel.vip", "custom_domain": true }],
