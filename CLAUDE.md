@@ -1,0 +1,110 @@
+# CLAUDE.md
+
+Context for AI assistants. Read this before you explore. `README.md` covers setup and the user-facing overview.
+
+## What this is
+
+A static React app for browsing the **POA em Dobro** 2-for-1 restaurant coupons (Porto Alegre). A Python scraper pulls the coupons from the mobile app's private API into `data/*.json`, and the app reads those files. There is **no backend**.
+
+- Frontend: React 19, Vite 8, Tailwind v4 (`@theme` tokens in `src/index.css`), `motion`, `lucide-react`, `react-leaflet` with `react-leaflet-cluster`
+- Scraper: Python 3.12, `requests`, `python-dotenv`. Only two files: `scrape.py` and `changes.py`.
+- CI: `.github/workflows/update-data.yml` runs the scraper every 6h and commits only real changes
+- Plain JS/JSX, no TypeScript, no linter config. The only test is `node src/lib/markers.test.mjs`.
+
+## Commands
+
+```bash
+npm run dev            # dev server
+npm run build          # → dist/ (data is copied in through the public/data symlink)
+npm run update         # python3 scrape.py  (needs .env)
+python3 scrape.py --resume        # reuse data/list_raw.json after detail failures
+python3 scrape.py --allow-shrink  # accept a drop of more than 40% in coupon count
+python3 changes.py OLD.json[.gz] NEW.json[.gz]   # print a diff report
+node src/lib/markers.test.mjs
+```
+
+Don't run `scrape.py` unless the user asks. It calls a real API, rotates the refresh token in `.env`, and rewrites `data/`.
+
+## Data flow
+
+```
+API ─► scrape.py ─► data/all_cupoms.json, config.json, meta.json, list_raw.json
+          └─► changes.diff_cupoms(prev, new) ─► data/changes/<id>.json + index.json
+                                              └─► data/snapshots/<id>.json.gz
+App: fetch('data/…', {cache:'no-cache'})   (relative paths; public/data → ../data symlink)
+```
+
+### scrape.py
+
+1. `refresh_token()` POSTs to `/api/v3/auth/refresh-token`. **The API rotates refresh tokens**, so the new one is written back to `.env` with `set_key`. A 401/403 means a human has to capture a fresh token from the phone app with Proxyman.
+2. `fetch_all_list_items()` pages through `/api/v2/cupom?lat&lng&page` until a page comes back empty. It drops `tipo == "P"` (sponsored banners) and removes duplicate ids.
+3. Coupon details come from `/api/v2/cupom/{id}?flag=true` in a thread pool. Each request is retried 3 times.
+4. **Safety checks: if any fails, nothing is written.** The checks are: the list is empty; the list shrank below 60% of the previous run (unless `--allow-shrink`); or any detail request failed (`list_raw.json` is still saved so `--resume` can pick up from there).
+5. Diff against the previous `all_cupoms.json`. If there are changes, it writes the changelog, the index and a gz snapshot. If not, `meta.updatedAt` keeps the old stamp and only `checkedAt` moves.
+6. `update_config()` refreshes `config.json` (`caracteristica`, `subCategoria`, `regiao`). If that fails, the run continues.
+7. Every JSON file is written atomically (`.tmp` file, then `os.replace`), with `ensure_ascii=False, indent=2`.
+
+Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelog and snapshot ids are `stamp[:16]` without colons: `2026-11-03T1923`.
+
+### changes.py (diff rules)
+
+- Only fields people care about are compared: `TEXT_FIELDS` (nome, descricao, beneficio, regra, validade, telefone, instagram), sub_categoria, caracteristica, image, and per-unit (`endereco[]`, keyed by `lugar_codigo`) address and hours, plus units that opened or closed.
+- Fields that change on every API request are **ignored**: `aberto`, `today`, `distancia`, `favorito`, `notWorking`…
+- Noise filters, each added on purpose after a false positive:
+  - Text is compared case-, punctuation- and whitespace-insensitively (`_same_text`), and the "(ver regras)" suffix is ignored.
+  - A `regra` change is dropped when every word it changed also changed in `descricao` (`_echoes`).
+  - Daily hours merge contiguous lunch/dinner periods before comparing, because the API re-splits the same hours in different ways.
+- Change entry shape: `{field, label, before, after}`. Changelog file: `{id, from, to, added[], removed[], changed[]}`. `added` and `removed` hold `_summary()` objects. `changed` holds `{id, nome, logo, changes[]}`.
+
+## Domain gotchas (important)
+
+- **API `horario` times are GMT.** Shift them by −3h for local time. This logic exists in **two places that must stay in sync**: `src/lib/schedule.js` (`API_TZ_OFFSET_MIN`) and `changes.py` (`API_TZ_OFFSET_MIN`).
+- **Days are numbered 1 = Seg … 7 = Dom.** Index 0 is unused (`src/lib/constants.js`, `changes.DAY_NAMES`). JS `getDay()` is converted in `todayDay()`.
+- **Hours structure:** `endereco[i].horario[period][day].horario = "HH:MM - HH:MM"` or `"-"`, where period `A` is lunch and `J` is dinner. Overnight ranges (end ≤ start) spill into the next day, and `isOpenAtAddress` checks the previous day for them.
+- A coupon is "open" if **any** of its `endereco` units is open.
+- `sub_categoria` is a comma-separated string. `caracteristica` on a coupon is an array of name strings. In `config.json` it is an array of objects.
+- Coordinates: each unit has `latitude`/`longitude`, and the coupon has top-level `lat`/`lng` as a fallback (`lib/markers.js`).
+- `regraResumo()` (`lib/regra.js`) keeps the product-specific lines of `regra` and stops at the first generic line ("LEIA COM ATENÇÃO", "Válido de…"). It is used on cards and map popups.
+
+## Frontend map
+
+| Concern | Where |
+|---|---|
+| Data loading, reload on new version, derived filter options | `src/App.jsx` |
+| Filter state (reducer: `set`, `toggleSet`, `preset`, `customTime`, `clear`) | `src/state/useFilters.js` |
+| Filtering and sorting (pure function) | `src/lib/filters.js` (`applyFilters`, `PRESET_WINDOWS`) |
+| Open/closed and hours display | `src/lib/schedule.js` |
+| Changelog loading, "new/changed" badges, unseen dot | `src/hooks/useChanges.js` |
+| Polls `meta.json` every 10 min and on tab focus, triggers a reload and toast | `src/hooks/useDataVersion.js` |
+| Favourites (localStorage) | `src/hooks/useLocalStorage.js` |
+| Live clock (ticks each minute) | `src/hooks/useNow.js` |
+| Word-level diff for the "O que mudou" panel | `src/lib/textDiff.js` |
+| Changes panel. `GROUPS` maps changes.py `field` names to filter chips | `src/components/ChangesPanel.jsx` |
+| Map (CARTO Voyager tiles, clustering, start view) | `src/components/MapView.jsx`, `mapIcon.js` |
+| Grid with batched infinite render (24 per batch) | `src/components/CardGrid.jsx` |
+
+localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`.
+
+### Frontend gotchas
+
+- **Adding a change field in `changes.py`?** Also add it to `GROUPS` in `ChangesPanel.jsx`, or it won't appear under any chip.
+- `react-leaflet-cluster` is CJS. `MapView.jsx` unwraps `.default`, and `.npmrc` sets `legacy-peer-deps`. Keep both.
+- `mapIcon.js` uses inline styles with the theme colours duplicated, because Tailwind classes don't reach Leaflet's DOM. Update them if the theme changes.
+- Map tiles need `VITE_CARTO_KEY`, which is read at build time. Keep the OSM/CARTO attribution.
+- Scrolling: on **mobile the document scrolls** (so tapping the iOS status bar scrolls to top). On **desktop it's a fixed shell with internal scroll**. `html, body` use `overflow-x: clip`. Do **not** change that to `hidden`, because it breaks the sticky topbar and status-bar scrolling.
+- Cards are a fixed 366px tall (`.cv-auto` `contain-intrinsic-size`). If card height changes, update that value too.
+- `filterKey` in `App.jsx` re-runs the grid entrance animation. It deliberately leaves out `favorites` and `now`.
+- Overlays sit above Leaflet's panes. The z-index order is: drawer 800/900 < toast 1400 < changes panel 1500 < cupom modal 2000. The modal must stay on top because it opens from inside the panel and the map.
+- Mobile inputs are forced to 16px so iOS doesn't zoom on focus.
+- `vite.config.js` `allowedHosts` lists an ngrok domain used to share the dev/preview server.
+- `playwright-core` is a devDependency that the source doesn't use. It's there for ad-hoc browser checks and screenshots.
+
+## Conventions
+
+- **UI text and user-facing script messages are in Portuguese (pt-BR). Code comments and identifiers are in English.** Domain names stay as the API has them (`cupom`, `endereco`, `bairro`, `regra`, `horario`…).
+- Comments are sparse and explain *why*. Match that style.
+- Keep logic in `src/lib/` as pure functions. Components stay presentational.
+- Tailwind utility classes use the theme tokens (`text-fg`, `text-fg-muted`, `bg-primary`, `border-brd`, `font-display`…). Fonts are Karla (sans) and Playfair Display SC (display).
+- Commits follow Conventional Commits: `feat:`, `fix:`, `refactor:`, `ci:`, `chore(data):`. CI uses `chore(data): atualização automática …`.
+- Never commit `.env` (it holds API tokens, `GH_PAT` and the CARTO key). Never print its values.
+- `data/` is committed and is the published dataset. Don't hand-edit it. Regenerate it with the scraper.
