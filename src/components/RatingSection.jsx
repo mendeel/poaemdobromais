@@ -5,8 +5,9 @@ import { CATEGORIES, esperaLabel, formatCount, formatScore, overallScore } from 
 import { StarsDisplay, StarsInput } from './ui/Stars.jsx';
 import { EsperaBreakdown, EsperaInput } from './ui/Espera.jsx';
 
-const EMPTY = { atendimento: 0, comida: 0, ambiente: 0, espera: 0 };
 const FIELDS = [...CATEGORIES.map((c) => c.key), 'espera'];
+const EMPTY = Object.fromEntries(FIELDS.map((k) => [k, 0]));
+const LABEL_W = 'w-[112px]';
 
 export default function RatingSection({ cupomId, agg, mine, visited, onToggleVisited, onRate }) {
   const [formOpen, setFormOpen] = useState(false);
@@ -39,9 +40,10 @@ export default function RatingSection({ cupomId, agg, mine, visited, onToggleVis
 
       {score !== null && (
         <div className="mt-3 flex flex-col gap-1.5">
-          {CATEGORIES.map((c) => (
+          {/* Places rated only before a category was added have no mean for it. */}
+          {CATEGORIES.filter((c) => agg[c.key] != null).map((c) => (
             <div key={c.key} className="flex items-center gap-2 text-[0.82rem] text-fg">
-              <span className="w-[92px] shrink-0">{c.label}</span>
+              <span className={`${LABEL_W} shrink-0`}>{c.label}</span>
               <StarsDisplay value={agg[c.key]} size={14} />
               <span className="ml-auto font-semibold tabular-nums">{formatScore(agg[c.key])}</span>
             </div>
@@ -122,15 +124,15 @@ function VisitedSummary({ mine, thanked, onRate, onUndo }) {
         <>
           <div className="flex flex-col gap-1">
             <div className="text-[0.82rem] font-semibold text-fg">Sua avaliação</div>
-            {CATEGORIES.map((c) => (
+            {CATEGORIES.filter((c) => mine[c.key]).map((c) => (
               <div key={c.key} className="flex items-center gap-2 text-[0.8rem] text-fg">
-                <span className="w-[92px] shrink-0">{c.label}</span>
+                <span className={`${LABEL_W} shrink-0`}>{c.label}</span>
                 <StarsDisplay value={mine[c.key]} size={13} />
               </div>
             ))}
             {mine.espera && (
               <div className="flex items-center gap-2 text-[0.8rem] text-fg">
-                <span className="w-[92px] shrink-0">Espera</span>
+                <span className={`${LABEL_W} shrink-0`}>Espera</span>
                 <span className="font-semibold">{esperaLabel(mine.espera)}</span>
               </div>
             )}

@@ -4,6 +4,7 @@ export const CATEGORIES = [
   { key: 'atendimento', label: 'Atendimento' },
   { key: 'comida', label: 'Comida' },
   { key: 'ambiente', label: 'Ambiente' },
+  { key: 'custo_beneficio', label: 'Custo-benefício' },
 ];
 
 // Wait time is a three-way answer instead of stars, so it stays out of the
@@ -20,11 +21,12 @@ const MIN_ESPERA_ANSWERS = 3;
 
 const VOTER_ID_RE = /^[0-9a-f]{32}$/;
 
-// Every vote carries all three scores, so the mean of the category means is
-// also the mean of each voter's own overall score.
+// Mean of the category means. Custo-benefício came later (migration 0003), so
+// a place rated only before it has no mean there and the rest still count.
 export function overallScore(agg) {
   if (!agg?.n) return null;
-  return CATEGORIES.reduce((sum, c) => sum + agg[c.key], 0) / CATEGORIES.length;
+  const means = CATEGORIES.map((c) => agg[c.key]).filter((v) => v != null);
+  return means.length ? means.reduce((a, b) => a + b, 0) / means.length : null;
 }
 
 export function formatScore(x) {

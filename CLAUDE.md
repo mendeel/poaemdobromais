@@ -33,7 +33,14 @@ Don't run `scrape.py` unless the user asks. It calls a real API, rotates the ref
 
 Don't run `npm run deploy`, `npm run db:migrate`, `wrangler secret put` or any `--remote` D1 command unless the user asks. They change production.
 
-**GitHub CLI:** the repo belongs to the `mendeel` account, but the machine's active `gh` account is another one. Never run `gh auth switch`. Pass mendeel's token per command, which leaves the active account untouched: `GH_TOKEN=$(gh auth token -u mendeel) gh <command> --repo mendeel/poaemdobromais`. Never print the token.
+**GitHub (push, PRs, any `gh` command):** the repo belongs to the `mendeel` account, but the machine's active `gh` account is usually another one, and `git push` goes through `gh auth git-credential`, so it fails with a 403 under that account. Always do it this way, without waiting to hit the error:
+
+1. Note the active account: `gh auth status` (the one marked `Active account: true`).
+2. `gh auth switch -u mendeel`
+3. Run the `git push` / `gh` commands.
+4. Switch back to the account from step 1 (`gh auth switch -u <account>`), even if a command in step 3 failed.
+
+Never print tokens.
 
 ## Data flow
 
@@ -54,12 +61,12 @@ App: fetch('/api/ratings') ─► worker/index.js ─► D1 `ratings` table
 ### Ratings (worker/index.js)
 
 - Only `/api/*` and `/r/*` run the Worker (`assets.run_worker_first`). Everything else is a static asset.
-- `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente, espera_rapido, espera_esperado, espera_demorado } }`: averages rounded to 2 decimals plus a count per wait answer, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
-- `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente, espera }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All three scores are required, integers 1–5, and so is `espera` (1 = rápido, 2 = como esperado, 3 = demorado). It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
+- `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente, custo_beneficio, espera_rapido, espera_esperado, espera_demorado } }`: averages rounded to 2 decimals plus a count per wait answer, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
+- `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente, custo_beneficio, espera }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All four scores are required, integers 1–5, and so is `espera` (1 = rápido, 2 = como esperado, 3 = demorado). It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
 - **Wait time (`espera`)** is a three-way answer, not stars, and is left out of the overall score. Votes from before it (migration 0002) have `espera` NULL, so the shares (`esperaSummary`) are out of the votes that answered, not `n`. Editing such a vote asks for it. The modal shows a stacked bar (`EsperaBreakdown`). Cards show a "Demora" pill (`SlowBadge`) only when more than half of at least 3 answers say slower (`isUsuallySlow`).
 - Anonymous: `voterId` is 32 random hex chars kept in localStorage. The limit is 60 votes per IP per 24h, counted on `ip_hash` (SHA-256 of the `IP_SALT` secret + `CF-Connecting-IP`). Raw IPs are never stored.
-- Overall score = mean of the three category means. Because every vote has all three scores, this equals the mean of each voter's own average.
-- Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
+- Overall score = mean of the category means. `custo_beneficio` came later (migration 0003), so older votes have it NULL. `AVG()` skips those, a place rated only before it has a null mean there, and `overallScore` then averages the other three. The modal hides a category row with no mean, and "Sua avaliação" hides one the visitor never scored.
+- Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for a nullable column (old votes don't have it), and updating `parseVote` tests. The Worker's SQL is generated from `CATEGORIES`.
 - The app treats the API as optional: if it fails, no stars are shown and nothing else breaks.
 - **Rating requires "Já fui"**: `RatingSection` shows the vote form only for places in `betterped:visited` (`useVisited`) or ones the visitor already rated. A past vote counts as a visit and locks it, so there's no "Desfazer". Marking a visit opens the form, and "Agora não" closes it. This is UI-only: the Worker can't check visits without login, and the per-IP limit is the only server-side guard.
 - Cards also have a "Já fui" toggle next to the heart. `App.jsx` builds `visitedAll` (visited ∪ rated ids), which drives the card pill and the "Já fui" filter. On a rated place the card toggle is locked, same as in the modal. Marking a visit from a card opens `RateModal` (the same `RatingForm`, with "Agora não"), so places can be rated without opening each one. Unmarking just toggles.

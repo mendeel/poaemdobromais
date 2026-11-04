@@ -14,6 +14,15 @@ const AGG_COLUMNS = [
   ...ESPERA.map((o) => `COUNT(CASE WHEN espera = ${o.value} THEN 1 END) AS ${o.key}`),
 ].join(', ');
 
+// Column names come from CATEGORIES, never from the request.
+const VOTE_COLUMNS = [...CATEGORIES.map((c) => c.key), 'espera'];
+const UPSERT_SQL = `INSERT INTO ratings (cupom_id, voter_id, ip_hash, ${VOTE_COLUMNS.join(', ')}, updated_at)
+  VALUES (?, ?, ?, ${VOTE_COLUMNS.map(() => '?').join(', ')}, ?)
+  ON CONFLICT (cupom_id, voter_id) DO UPDATE SET
+    ip_hash = excluded.ip_hash,
+    ${VOTE_COLUMNS.map((k) => `${k} = excluded.${k}`).join(', ')},
+    updated_at = excluded.updated_at`;
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -114,19 +123,9 @@ async function submitVote(request, url, env, ctx, cupomId) {
     return json({ error: 'too many votes' }, 429);
   }
 
-  const { atendimento, comida, ambiente } = vote.scores;
+  const scores = CATEGORIES.map((c) => vote.scores[c.key]);
   const [, aggResult] = await env.DB.batch([
-    env.DB.prepare(
-      `INSERT INTO ratings (cupom_id, voter_id, ip_hash, atendimento, comida, ambiente, espera, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-       ON CONFLICT (cupom_id, voter_id) DO UPDATE SET
-         ip_hash = excluded.ip_hash,
-         atendimento = excluded.atendimento,
-         comida = excluded.comida,
-         ambiente = excluded.ambiente,
-         espera = excluded.espera,
-         updated_at = excluded.updated_at`,
-    ).bind(cupomId, vote.voterId, ipHash, atendimento, comida, ambiente, vote.espera, now),
+    env.DB.prepare(UPSERT_SQL).bind(cupomId, vote.voterId, ipHash, ...scores, vote.espera, now),
     env.DB.prepare(`SELECT COUNT(*) AS n, ${AGG_COLUMNS} FROM ratings WHERE cupom_id = ?`).bind(cupomId),
   ]);
 
