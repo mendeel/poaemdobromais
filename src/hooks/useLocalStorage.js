@@ -1,9 +1,9 @@
 import { useCallback, useState } from 'react';
 
 // Persists a Set<string|number> of ids to localStorage. Returns
-// [set, toggle, has] — the set identity changes on every toggle so React
+// [set, toggle] — the set identity changes on every toggle so React
 // re-renders consumers.
-export function useFavorites(key = 'betterped:favorites') {
+export function useIdSet(key) {
   const [set, setSet] = useState(() => {
     try {
       const raw = localStorage.getItem(key);
@@ -30,4 +30,13 @@ export function useFavorites(key = 'betterped:favorites') {
   );
 
   return [set, toggle];
+}
+
+export function useFavorites(key = 'betterped:favorites') {
+  return useIdSet(key);
+}
+
+// "Já fui": only places marked as visited can be rated.
+export function useVisited(key = 'betterped:visited') {
+  return useIdSet(key);
 }

@@ -54,6 +54,7 @@ App: fetch('api/ratings') ─► worker/index.js ─► D1 `ratings` table
 - Overall score = mean of the three category means. Because every vote has all three scores, this equals the mean of each voter's own average.
 - Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
 - The app treats the API as optional: if it fails, no stars are shown and nothing else breaks.
+- **Rating requires "Já fui"**: `RatingSection` shows the vote form only for places in `betterped:visited` (`useVisited`) or ones the visitor already rated. A past vote counts as a visit and locks it, so there's no "Desfazer". Marking a visit opens the form, and "Agora não" closes it. This is UI-only: the Worker can't check visits without login, and the per-IP limit is the only server-side guard.
 
 ### scrape.py
 
@@ -97,17 +98,17 @@ Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelo
 | Open/closed and hours display | `src/lib/schedule.js` |
 | Changelog loading, "new/changed" badges, unseen dot | `src/hooks/useChanges.js` |
 | Polls `meta.json` every 10 min and on tab focus, triggers a reload and toast | `src/hooks/useDataVersion.js` |
-| Favourites (localStorage) | `src/hooks/useLocalStorage.js` |
+| Favourites and "Já fui" visits (localStorage id sets) | `src/hooks/useLocalStorage.js` |
 | Ratings fetch/submit, voter id, own votes | `src/hooks/useRatings.js` |
 | Star display/input, `RatingBadge` (cards, map popup) | `src/components/ui/Stars.jsx` |
-| Category breakdown + vote form in the modal | `src/components/RatingSection.jsx` |
+| Category breakdown, "Já fui" button, vote form in the modal | `src/components/RatingSection.jsx` |
 | Live clock (ticks each minute) | `src/hooks/useNow.js` |
 | Word-level diff for the "O que mudou" panel | `src/lib/textDiff.js` |
 | Changes panel. `GROUPS` maps changes.py `field` names to filter chips | `src/components/ChangesPanel.jsx` |
 | Map (CARTO Voyager tiles, clustering, start view) | `src/components/MapView.jsx`, `mapIcon.js` |
 | Grid with batched infinite render (24 per batch) | `src/components/CardGrid.jsx` |
 
-localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped:voterId`, `betterped:myRatings`.
+localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped:voterId`, `betterped:myRatings`, `betterped:visited`.
 
 ### Frontend gotchas
 

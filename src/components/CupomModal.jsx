@@ -13,6 +13,8 @@ export default function CupomModal({
   onToggleFavorite,
   rating,
   myRating,
+  visited,
+  onToggleVisited,
   onRate,
   onClose,
 }) {
@@ -66,6 +68,8 @@ export default function CupomModal({
               onToggleFavorite={onToggleFavorite}
               rating={rating}
               myRating={myRating}
+              visited={visited}
+              onToggleVisited={onToggleVisited}
               onRate={onRate}
               onClose={onClose}
             />
@@ -90,6 +94,8 @@ function ModalContent({
   onToggleFavorite,
   rating,
   myRating,
+  visited,
+  onToggleVisited,
   onRate,
   onClose,
 }) {
@@ -184,7 +190,15 @@ function ModalContent({
           <p className="text-[0.9rem] leading-relaxed text-fg-muted">{regra}</p>
         )}
 
-        <RatingSection key={c.id} cupomId={c.id} agg={rating} mine={myRating} onRate={onRate} />
+        <RatingSection
+          key={c.id}
+          cupomId={c.id}
+          agg={rating}
+          mine={myRating}
+          visited={visited}
+          onToggleVisited={onToggleVisited}
+          onRate={onRate}
+        />
 
         {Array.isArray(c.caracteristica) && c.caracteristica.length > 0 && (
           <div className="flex flex-wrap gap-1.5">

@@ -8,7 +8,7 @@ import CupomModal from './components/CupomModal.jsx';
 import ChangesPanel from './components/ChangesPanel.jsx';
 import UpdateToast from './components/UpdateToast.jsx';
 import { useFilters } from './state/useFilters.js';
-import { useFavorites } from './hooks/useLocalStorage.js';
+import { useFavorites, useVisited } from './hooks/useLocalStorage.js';
 import { useNow } from './hooks/useNow.js';
 import { useChanges } from './hooks/useChanges.js';
 import { useDataVersion } from './hooks/useDataVersion.js';
@@ -26,6 +26,7 @@ export default function App() {
 
   const { filters, dispatch } = useFilters();
   const [favorites, toggleFavorite] = useFavorites();
+  const [visited, toggleVisited] = useVisited();
   const now = useNow();
 
   // New data gets published while the app may be open: when meta.json's
@@ -250,6 +251,8 @@ export default function App() {
         onToggleFavorite={toggleFavorite}
         rating={selected ? ratings[selected.id] : undefined}
         myRating={selected ? myRatings[selected.id] : undefined}
+        visited={selected ? visited.has(selected.id) : false}
+        onToggleVisited={toggleVisited}
         onRate={rate}
         onClose={closeCupom}
       />
