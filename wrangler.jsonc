@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "poaemdobromais",
+  // Not a secret; skips the account prompt when a login sees several accounts.
+  "account_id": "9a39f4ebfdd048cb3fd3519a2af44405",
+  "compatibility_date": "2026-11-04",
+  "main": "./worker/index.js",
+  // The Vite plugin points assets at the client build. Only /api/* reaches the
+  // Worker; everything else is served straight from static assets.
+  "assets": {
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "poaemdobromais-ratings",
+      "database_id": "dc5523db-4979-4a7a-8250-cf68f2fefdcc"
+    }
+  ],
+  "routes": [{ "pattern": "poaemdobro.mendel.vip", "custom_domain": true }],
+  "observability": {
+    "enabled": true,
+    "traces": { "enabled": true }
+  }
+}

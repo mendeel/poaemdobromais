@@ -13,6 +13,7 @@ export default function CardGrid({
   now,
   favorites,
   changeStatus,
+  ratings,
   onToggleFavorite,
   onOpen,
 }) {
@@ -102,6 +103,7 @@ export default function CardGrid({
                   now={now}
                   isFavorite={favorites.has(c.id)}
                   changeStatus={changeStatus?.get(c.id)}
+                  rating={ratings[c.id]}
                   onToggleFavorite={onToggleFavorite}
                   onOpen={onOpen}
                 />

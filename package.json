@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "update": "python3 scrape.py"
+    "update": "python3 scrape.py",
+    "deploy": "npm run build && wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate": "wrangler d1 migrations apply DB --remote",
+    "test": "node src/lib/markers.test.mjs && node src/lib/ratings.test.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -19,10 +23,12 @@
     "react-leaflet-cluster": "^2.1.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.67.0",
     "@tailwindcss/vite": "^4.3.1",
     "@vitejs/plugin-react": "^6.0.2",
     "playwright-core": "^1.61.0",
     "tailwindcss": "^4.3.1",
-    "vite": "8.0.16"
+    "vite": "8.0.16",
+    "wrangler": "^4.157.0"
   }
 }

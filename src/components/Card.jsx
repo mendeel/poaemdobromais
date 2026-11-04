@@ -3,6 +3,7 @@ import { MapPin, Clock, Heart, Sparkles, PencilLine } from 'lucide-react';
 import { DAY_NAMES } from '../lib/constants.js';
 import { regraResumo } from '../lib/regra.js';
 import { horarioDisplay, isOpenAt } from '../lib/schedule.js';
+import { RatingBadge } from './ui/Stars.jsx';
 
 function CardImage({ src, alt, className, onError }) {
   if (!src) return null;
@@ -17,7 +18,7 @@ function CardImage({ src, alt, className, onError }) {
   );
 }
 
-function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, changeStatus }) {
+function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, changeStatus, rating }) {
   const bairros = [
     ...new Set((c.endereco || []).map((e) => e.bairro).filter(Boolean)),
   ];
@@ -152,10 +153,11 @@ function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, cha
         )}
 
         <div className="mt-auto flex shrink-0 items-center gap-1.5 border-t border-brd pt-2.5 text-[0.8rem] text-fg">
-          <Clock className="h-[13px] w-[13px] text-fg-muted" />
-          <span>
+          <Clock className="h-[13px] w-[13px] shrink-0 text-fg-muted" />
+          <span className="min-w-0 truncate">
             {DAY_NAMES[dayNum]}: {hor === '-' ? 'Fechado' : hor}
           </span>
+          <RatingBadge agg={rating} className="ml-auto shrink-0" />
         </div>
       </div>
     </article>

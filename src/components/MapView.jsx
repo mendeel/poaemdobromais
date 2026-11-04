@@ -11,6 +11,7 @@ import { buildMarkers } from '../lib/markers.js';
 import { regraResumo } from '../lib/regra.js';
 import { isOpenAt } from '../lib/schedule.js';
 import { logoDivIcon, clusterIcon } from './mapIcon.js';
+import { RatingBadge } from './ui/Stars.jsx';
 
 const POA_CENTER = [-30.0346, -51.2177];
 
@@ -41,7 +42,7 @@ function StartView({ markers }) {
   return null;
 }
 
-function MarkerPopup({ cupom, now, onOpen }) {
+function MarkerPopup({ cupom, rating, now, onOpen }) {
   const openNow = isOpenAt(cupom, now.day, now.minutes);
 
   return (
@@ -59,6 +60,7 @@ function MarkerPopup({ cupom, now, onOpen }) {
         )}
         <strong className="text-[14px] text-fg">{cupom.nome}</strong>
       </div>
+      <RatingBadge agg={rating} className="mt-1 text-[12px]" />
       {regraResumo(cupom.regra) && (
         <p className="mt-0.5 text-[12px] text-fg-muted">{regraResumo(cupom.regra)}</p>
       )}
@@ -85,7 +87,7 @@ function MarkerPopup({ cupom, now, onOpen }) {
   );
 }
 
-export default function MapView({ cupoms, now, onOpen }) {
+export default function MapView({ cupoms, ratings, now, onOpen }) {
   const markers = useMemo(() => buildMarkers(cupoms), [cupoms]);
 
   return (
@@ -109,7 +111,7 @@ export default function MapView({ cupoms, now, onOpen }) {
           {markers.map((m) => (
             <Marker key={m.key} position={[m.lat, m.lng]} icon={logoDivIcon(m.cupom)}>
               <Popup>
-                <MarkerPopup cupom={m.cupom} now={now} onOpen={onOpen} />
+                <MarkerPopup cupom={m.cupom} rating={ratings[m.cupom.id]} now={now} onOpen={onOpen} />
               </Popup>
             </Marker>
           ))}
