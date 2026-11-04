@@ -6,9 +6,11 @@
   "compatibility_date": "2026-11-04",
   "main": "./worker/index.js",
   // The Vite plugin points assets at the client build. Only /api/* reaches the
-  // Worker; everything else is served straight from static assets.
+  // Worker; everything else is served straight from static assets. Unknown
+  // paths (shared cupom links like /r/123-nome) get index.html.
   "assets": {
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*"],
+    "not_found_handling": "single-page-application"
   },
   "d1_databases": [
     {

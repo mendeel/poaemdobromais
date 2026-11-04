@@ -13,13 +13,16 @@ import { useNow } from './hooks/useNow.js';
 import { useChanges } from './hooks/useChanges.js';
 import { useDataVersion } from './hooks/useDataVersion.js';
 import { useRatings } from './hooks/useRatings.js';
+import { useCupomRoute } from './hooks/useCupomRoute.js';
 import { applyFilters } from './lib/filters.js';
+
+const TITLE = 'POA Em Dobro+';
 
 export default function App() {
   const [cupoms, setCupoms] = useState(null);
   const [config, setConfig] = useState(null);
   const [error, setError] = useState(null);
-  const [selected, setSelected] = useState(null);
+  const [selectedId, openCupom, closeCupom] = useCupomRoute();
   const [navOpen, setNavOpen] = useState(false);
   const [view, setView] = useState('list');
   const [changesOpen, setChangesOpen] = useState(false);
@@ -52,8 +55,8 @@ export default function App() {
   useEffect(() => {
     const opts = { cache: 'no-cache' };
     Promise.all([
-      fetch('data/all_cupoms.json', opts).then((r) => r.json()),
-      fetch('data/config.json', opts).then((r) => r.json()),
+      fetch('/data/all_cupoms.json', opts).then((r) => r.json()),
+      fetch('/data/config.json', opts).then((r) => r.json()),
     ])
       .then(([cs, cfg]) => {
         setCupoms(cs);
@@ -100,23 +103,49 @@ export default function App() {
     ].sort((a, b) => a.localeCompare(b, 'pt'));
   }, [cupoms]);
 
+  // A past vote counts as a visit (see RatingSection), so rated places are
+  // "Já fui" everywhere too.
+  const visitedAll = useMemo(
+    () => new Set([...visited, ...Object.keys(myRatings)]),
+    [visited, myRatings],
+  );
+
   const filtered = useMemo(
-    () => (cupoms ? applyFilters(cupoms, filters, favorites, now, changes.statusById) : []),
-    [cupoms, filters, favorites, now, changes.statusById],
+    () =>
+      cupoms
+        ? applyFilters(cupoms, filters, {
+            favorites,
+            visited: visitedAll,
+            newIds: changes.newIds,
+            ratings,
+            now,
+          })
+        : [],
+    [cupoms, filters, favorites, visitedAll, changes.newIds, ratings, now],
   );
 
   const cupomsById = useMemo(() => new Map((cupoms || []).map((c) => [c.id, c])), [cupoms]);
+  const selected = (selectedId && cupomsById.get(selectedId)) || null;
+
+  // A link to a cupom that no longer exists falls back to the home page.
+  useEffect(() => {
+    if (cupoms && selectedId && !cupomsById.has(selectedId)) closeCupom();
+  }, [cupoms, cupomsById, selectedId, closeCupom]);
+
+  useEffect(() => {
+    document.title = selected ? `${selected.nome} · ${TITLE}` : TITLE;
+  }, [selected]);
 
   const openChanges = useCallback(() => {
     setChangesOpen(true);
     changes.markSeen();
   }, [changes.markSeen]);
   const closeChanges = useCallback(() => setChangesOpen(false), []);
-  const closeCupom = useCallback(() => setSelected(null), []);
 
   // Signature of the inputs that change which/what-order cards show — used to
-  // re-run the grid entrance animation. Deliberately excludes `favorites` and
-  // `now` so favoriting a card (or a minute tick) doesn't re-animate the grid.
+  // re-run the grid entrance animation. Deliberately excludes `favorites`,
+  // `visited`, `ratings` and `now` so tapping a card's heart/"Já fui" (or a
+  // minute tick) doesn't re-animate the grid.
   const filterKey = useMemo(
     () =>
       JSON.stringify({
@@ -129,7 +158,9 @@ export default function App() {
         t: filters.customTime,
         d: [...filters.selectedDays],
         f: filters.favorito,
+        v: filters.visitado,
         n: filters.novidades,
+        mn: filters.minNota,
         cl: changes.selectedId,
         sort: filters.sort,
       }),
@@ -173,7 +204,7 @@ export default function App() {
           caractOptions={caractOptions}
           resultCount={filtered.length}
           totalCount={cupoms.length}
-          novidadesCount={changes.statusById.size}
+          novidadesCount={changes.newIds.size}
         />
       </aside>
 
@@ -204,7 +235,7 @@ export default function App() {
                 caractOptions={caractOptions}
                 resultCount={filtered.length}
                 totalCount={cupoms.length}
-                novidadesCount={changes.statusById.size}
+                novidadesCount={changes.newIds.size}
                 onClose={() => setNavOpen(false)}
               />
             </motion.aside>
@@ -223,7 +254,6 @@ export default function App() {
           onSearchChange={(v) => dispatch({ type: 'set', key: 'search', value: v })}
           view={view}
           onViewChange={setView}
-          changesCount={changes.statusById.size}
           hasUnseenChanges={changes.hasUnseen}
           onOpenChanges={changes.index.length ? openChanges : undefined}
         />
@@ -234,13 +264,16 @@ export default function App() {
             dayNum={dayNum}
             now={now}
             favorites={favorites}
-            changeStatus={changes.statusById}
+            visited={visitedAll}
+            rated={myRatings}
+            newIds={changes.newIds}
             ratings={ratings}
             onToggleFavorite={toggleFavorite}
-            onOpen={setSelected}
+            onToggleVisited={toggleVisited}
+            onOpen={openCupom}
           />
         ) : (
-          <MapView cupoms={filtered} ratings={ratings} now={now} onOpen={setSelected} />
+          <MapView cupoms={filtered} ratings={ratings} now={now} onOpen={openCupom} />
         )}
       </main>
 
@@ -266,7 +299,7 @@ export default function App() {
         onSelect={changes.select}
         changelog={changes.changelog}
         cupomsById={cupomsById}
-        onOpenCupom={setSelected}
+        onOpenCupom={openCupom}
       />
 
       <UpdateToast

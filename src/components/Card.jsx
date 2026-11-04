@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { MapPin, Clock, Heart, Sparkles, PencilLine } from 'lucide-react';
+import { MapPin, Clock, Heart, Sparkles, Check } from 'lucide-react';
 import { DAY_NAMES } from '../lib/constants.js';
 import { regraResumo } from '../lib/regra.js';
 import { horarioDisplay, isOpenAt } from '../lib/schedule.js';
@@ -18,7 +18,19 @@ function CardImage({ src, alt, className, onError }) {
   );
 }
 
-function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, changeStatus, rating }) {
+function Card({
+  cupom: c,
+  dayNum,
+  now,
+  isFavorite,
+  isVisited,
+  visitLocked,
+  isNew,
+  rating,
+  onToggleFavorite,
+  onToggleVisited,
+  onOpen,
+}) {
   const bairros = [
     ...new Set((c.endereco || []).map((e) => e.bairro).filter(Boolean)),
   ];
@@ -64,36 +76,59 @@ function Card({ cupom: c, dayNum, now, isFavorite, onToggleFavorite, onOpen, cha
           />
         )}
 
-        <button
-          type="button"
-          aria-label={isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
-          aria-pressed={isFavorite}
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite(c.id);
-          }}
-          className="absolute left-2.5 top-2.5 z-[2] grid h-9 w-9 place-items-center rounded-full bg-white/90 text-primary shadow backdrop-blur transition-transform active:scale-90"
-        >
-          <Heart
-            className="h-[18px] w-[18px]"
-            fill={isFavorite ? 'currentColor' : 'none'}
-          />
-        </button>
-
-        {changeStatus && (
-          <span
-            className={`absolute left-[52px] top-[17px] z-[2] inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[0.7rem] font-bold uppercase tracking-wide text-white shadow ${
-              changeStatus === 'new' ? 'bg-primary' : 'bg-accent'
-            }`}
+        <div className="absolute left-2.5 top-2.5 z-[2] flex items-center gap-1.5">
+          <button
+            type="button"
+            aria-label={isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+            aria-pressed={isFavorite}
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleFavorite(c.id);
+            }}
+            className="grid h-9 w-9 place-items-center rounded-full bg-white/90 text-primary shadow backdrop-blur transition-transform active:scale-90"
           >
-            {changeStatus === 'new' ? (
+            <Heart
+              className="h-[18px] w-[18px]"
+              fill={isFavorite ? 'currentColor' : 'none'}
+            />
+          </button>
+
+          {/* A rated place stays visited, same as in RatingSection. */}
+          <button
+            type="button"
+            aria-label={
+              visitLocked ? 'Já fui (avaliado)' : isVisited ? 'Já fui (desmarcar)' : 'Marcar como já fui'
+            }
+            aria-pressed={isVisited}
+            aria-disabled={visitLocked || undefined}
+            title={
+              visitLocked
+                ? 'Você já avaliou este lugar'
+                : isVisited
+                  ? 'Desmarcar “Já fui”'
+                  : 'Marcar como já fui'
+            }
+            onClick={(e) => {
+              e.stopPropagation();
+              if (!visitLocked) onToggleVisited(c.id);
+            }}
+            className={`flex h-9 items-center justify-center gap-1 rounded-full shadow backdrop-blur transition-transform active:scale-90 ${
+              isVisited
+                ? 'bg-[#16a34a] pl-2.5 pr-3 text-[0.75rem] font-bold text-white'
+                : 'w-9 bg-white/90 text-fg-muted hover:text-[#16a34a]'
+            } ${visitLocked ? 'cursor-default active:scale-100' : ''}`}
+          >
+            <Check className="h-[17px] w-[17px]" strokeWidth={2.6} />
+            {isVisited && 'Já fui'}
+          </button>
+
+          {isNew && (
+            <span className="inline-flex items-center gap-1 rounded-full bg-primary px-2.5 py-1 text-[0.7rem] font-bold uppercase tracking-wide text-white shadow">
               <Sparkles className="h-3 w-3" strokeWidth={2.4} />
-            ) : (
-              <PencilLine className="h-3 w-3" strokeWidth={2.4} />
-            )}
-            {changeStatus === 'new' ? 'Novo' : 'Mudou'}
-          </span>
-        )}
+              Novo
+            </span>
+          )}
+        </div>
 
         <div
           className={`absolute bottom-2.5 left-2.5 z-[2] flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[0.72rem] font-bold ${

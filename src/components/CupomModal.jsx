@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
-import { X, MapPin, AtSign, Map, Heart, Gift, Check, Clock, ChevronDown } from 'lucide-react';
+import { X, MapPin, AtSign, Map, Heart, Check, Clock, ChevronDown, Share2 } from 'lucide-react';
 import { DAY_NAMES_FULL } from '../lib/constants.js';
+import { cupomPath } from '../lib/cupomUrl.js';
 import { regraResumo } from '../lib/regra.js';
 import { getSchedule, isOpenAt } from '../lib/schedule.js';
 import RatingSection from './RatingSection.jsx';
@@ -80,6 +81,62 @@ export default function CupomModal({
   );
 }
 
+// Native share sheet on touch devices; desktops (where it would open the OS
+// share menu) just copy the link.
+function ShareButton({ cupom }) {
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!copied) return;
+    const t = setTimeout(() => setCopied(false), 2000);
+    return () => clearTimeout(t);
+  }, [copied]);
+
+  const share = async () => {
+    const url = window.location.origin + cupomPath(cupom);
+    if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
+      try {
+        await navigator.share({ title: cupom.nome, url });
+      } catch {
+        /* user closed the share sheet */
+      }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+    } catch {
+      window.prompt('Copie o link:', url);
+    }
+  };
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={share}
+        aria-label="Compartilhar link"
+        title="Compartilhar link"
+        className="absolute right-3 top-[100px] grid h-9 w-9 place-items-center rounded-full bg-white/90 text-fg shadow backdrop-blur transition-transform active:scale-90"
+      >
+        {copied ? (
+          <Check className="h-[18px] w-[18px] text-[#16a34a]" strokeWidth={2.6} />
+        ) : (
+          <Share2 className="h-[17px] w-[17px]" />
+        )}
+      </button>
+      <span
+        aria-live="polite"
+        className={`pointer-events-none absolute right-14 top-[106px] rounded-full bg-black/75 px-2.5 py-1 text-[0.72rem] font-semibold text-white transition-opacity ${
+          copied ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
+        {copied ? 'Link copiado' : ''}
+      </span>
+    </>
+  );
+}
+
 function instagramUrl(handle) {
   if (!handle) return null;
   return handle.startsWith('http')
@@ -144,6 +201,7 @@ function ModalContent({
         >
           <Heart className="h-[18px] w-[18px]" fill={isFavorite ? 'currentColor' : 'none'} />
         </button>
+        <ShareButton cupom={c} />
         <span
           className={`absolute bottom-3 right-4 flex items-center gap-1.5 rounded-full px-3 py-1 text-[0.75rem] font-bold ${
             openNow ? 'bg-[#dcfce7] text-[#166534]' : 'bg-[#fee2e2] text-[#991b1b]'

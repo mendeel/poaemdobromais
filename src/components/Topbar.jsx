@@ -10,7 +10,6 @@ export default function Topbar({
   onSearchChange,
   view,
   onViewChange,
-  changesCount = 0,
   hasUnseenChanges = false,
   onOpenChanges,
 }) {
@@ -24,6 +23,7 @@ export default function Topbar({
         className="min-h-[38px] w-full cursor-pointer rounded-[9px] border border-brd-strong bg-surface px-2.5 py-2 text-[0.85rem] text-fg focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/15"
       >
         <option value="nome">Nome A–Z</option>
+        <option value="nota">Melhor nota</option>
         <option value="bairro">Bairro</option>
         <option value="dist">Distância</option>
       </select>
@@ -59,7 +59,7 @@ export default function Topbar({
           <button
             type="button"
             onClick={onOpenChanges}
-            aria-label={`O que mudou (${changesCount})`}
+            aria-label="O que mudou"
             className="relative flex h-[34px] shrink-0 items-center gap-1.5 rounded-[9px] border border-brd-strong bg-surface px-2.5 text-[0.85rem] font-semibold text-fg transition-colors hover:border-accent hover:text-accent"
           >
             <Sparkles className="h-4 w-4 text-accent" />

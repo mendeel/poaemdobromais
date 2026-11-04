@@ -41,8 +41,8 @@ Don't run `npm run deploy`, `npm run db:migrate`, `wrangler secret put` or any `
 API ─► scrape.py ─► data/all_cupoms.json, config.json, meta.json, list_raw.json
           └─► changes.diff_cupoms(prev, new) ─► data/changes/<id>.json + index.json
                                               └─► data/snapshots/<id>.json.gz
-App: fetch('data/…', {cache:'no-cache'})   (relative paths; public/data → ../data symlink)
-App: fetch('api/ratings') ─► worker/index.js ─► D1 `ratings` table
+App: fetch('/data/…', {cache:'no-cache'})   (absolute paths; public/data → ../data symlink)
+App: fetch('/api/ratings') ─► worker/index.js ─► D1 `ratings` table
 ```
 
 ### Ratings (worker/index.js)
@@ -55,6 +55,7 @@ App: fetch('api/ratings') ─► worker/index.js ─► D1 `ratings` table
 - Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
 - The app treats the API as optional: if it fails, no stars are shown and nothing else breaks.
 - **Rating requires "Já fui"**: `RatingSection` shows the vote form only for places in `betterped:visited` (`useVisited`) or ones the visitor already rated. A past vote counts as a visit and locks it, so there's no "Desfazer". Marking a visit opens the form, and "Agora não" closes it. This is UI-only: the Worker can't check visits without login, and the per-IP limit is the only server-side guard.
+- Cards also have a "Já fui" toggle next to the heart. `App.jsx` builds `visitedAll` (visited ∪ rated ids), which drives the card pill and the "Já fui" filter. On a rated place the card toggle is locked, same as in the modal.
 
 ### scrape.py
 
@@ -94,9 +95,11 @@ Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelo
 |---|---|
 | Data loading, reload on new version, derived filter options | `src/App.jsx` |
 | Filter state (reducer: `set`, `toggleSet`, `preset`, `customTime`, `clear`) | `src/state/useFilters.js` |
-| Filtering and sorting (pure function) | `src/lib/filters.js` (`applyFilters`, `PRESET_WINDOWS`) |
+| Filtering and sorting, incl. "Já fui", minimum score and "Melhor nota" (pure function) | `src/lib/filters.js` (`applyFilters`, `PRESET_WINDOWS`) |
+| Shareable cupom URLs `/r/<id>-<slug>` (only the id is read) | `src/lib/cupomUrl.js` |
+| Open cupom ↔ URL (pushState, back button closes the modal) | `src/hooks/useCupomRoute.js` |
 | Open/closed and hours display | `src/lib/schedule.js` |
-| Changelog loading, "new/changed" badges, unseen dot | `src/hooks/useChanges.js` |
+| Changelog loading, "Novo" badge + "Novidades" filter (additions only; edits live in the panel), unseen dot | `src/hooks/useChanges.js` |
 | Polls `meta.json` every 10 min and on tab focus, triggers a reload and toast | `src/hooks/useDataVersion.js` |
 | Favourites and "Já fui" visits (localStorage id sets) | `src/hooks/useLocalStorage.js` |
 | Ratings fetch/submit, voter id, own votes | `src/hooks/useRatings.js` |
@@ -124,6 +127,8 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped
 - `vite.config.js` `allowedHosts` lists an ngrok domain used to share the dev/preview server.
 - `playwright-core` is a devDependency that the source doesn't use. It's there for ad-hoc browser checks and screenshots (`chromium.launch({ channel: 'chrome' })` uses the installed Chrome).
 - The card footer holds the hours (truncated) and the `RatingBadge`. Keep the badge in that row so the card stays 366px tall.
+- Cupom links are real paths (`/r/123-nome`), served by `assets.not_found_handling: "single-page-application"` in `wrangler.jsonc`. So every `fetch` must use an absolute path (`/data/…`, `/api/…`): a relative one would resolve under `/r/` and get `index.html` back.
+- Closing the modal calls `history.back()` when the modal was opened in the app, and `replaceState('/')` when the visitor landed on a shared link. A link to a cupom that no longer exists falls back to `/`.
 - `wrangler.jsonc` sets the custom domain under `routes`. Keep it there so every deploy keeps the domain attached to the Worker.
 
 ## Conventions

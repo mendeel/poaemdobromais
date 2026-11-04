@@ -1,4 +1,5 @@
 import { isOpenAt, opensDuring, horarioDisplay, dist2 } from './schedule.js';
+import { overallScore } from './ratings.js';
 
 // minutes-since-midnight windows, matching the sidebar preset labels
 const PRESET_WINDOWS = {
@@ -8,12 +9,14 @@ const PRESET_WINDOWS = {
   jantar: [19 * 60, 23 * 60], // 19:00–23:00
 };
 
-// Pure: given the full cupom list, the filter state, and the favorites Set,
-// returns the filtered + sorted list. Ported from index.html applyFilters(),
-// minus the Plano filter; "favorito" now means user localStorage favorites.
-// changeStatus: Map of cupom id -> 'new' | 'changed' from the selected update.
-export function applyFilters(cupoms, f, favorites, now, changeStatus) {
+// Pure: given the full cupom list and the filter state, returns the filtered +
+// sorted list. Context:
+//   favorites, visited: Sets of cupom ids (localStorage)
+//   newIds: Set of cupom ids added in the selected update
+//   ratings: { [cupomId]: agg } from the ratings API
+export function applyFilters(cupoms, f, { favorites, visited, newIds, ratings = {}, now }) {
   let list = cupoms;
+  const score = (c) => overallScore(ratings[c.id]);
 
   if (f.search) {
     const q = f.search.toLowerCase();
@@ -40,7 +43,9 @@ export function applyFilters(cupoms, f, favorites, now, changeStatus) {
     );
   }
   if (f.favorito) list = list.filter((c) => favorites.has(c.id));
-  if (f.novidades && changeStatus) list = list.filter((c) => changeStatus.has(c.id));
+  if (f.visitado) list = list.filter((c) => visited.has(c.id));
+  if (f.novidades && newIds) list = list.filter((c) => newIds.has(c.id));
+  if (f.minNota !== null) list = list.filter((c) => (score(c) ?? 0) >= f.minNota);
 
   // Time-based filters apply across any selected day; fall back to today when
   // no day is picked. Matches mean "open on ANY selected day" for "ANY selected
@@ -63,6 +68,13 @@ export function applyFilters(cupoms, f, favorites, now, changeStatus) {
   }
 
   list = [...list].sort((a, b) => {
+    if (f.sort === 'nota') {
+      // best first; unrated places go last, more votes break ties
+      const diff = (score(b) ?? -1) - (score(a) ?? -1);
+      if (diff) return diff;
+      const votes = (ratings[b.id]?.n ?? 0) - (ratings[a.id]?.n ?? 0);
+      if (votes) return votes;
+    }
     if (f.sort === 'bairro') {
       return (a.endereco?.[0]?.bairro ?? '').localeCompare(
         b.endereco?.[0]?.bairro ?? '',

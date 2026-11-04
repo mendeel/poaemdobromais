@@ -34,7 +34,7 @@ export function useRatings(reloadKey) {
   const [mine, setMine] = useState(readMine);
 
   useEffect(() => {
-    fetch('api/ratings', { cache: 'no-cache' })
+    fetch('/api/ratings', { cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then(setRatings)
       // ratings are optional: without the API the app just shows no stars
@@ -42,7 +42,7 @@ export function useRatings(reloadKey) {
   }, [reloadKey]);
 
   const rate = useCallback(async (cupomId, scores) => {
-    const res = await fetch(`api/ratings/${cupomId}`, {
+    const res = await fetch(`/api/ratings/${cupomId}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ voterId: voterId(), ...scores }),

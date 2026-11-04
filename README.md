@@ -2,7 +2,7 @@
 
 A faster, friendlier way to browse the **POA em Dobro** 2-for-1 restaurant coupons in Porto Alegre.
 
-The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida and ambiente, no login needed).
+The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, mark the places you've been to ("Já fui"), see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida and ambiente, no login needed). The list can be sorted and filtered by score, and every place has its own link (`/r/<id>-<nome>`) to share.
 
 Live at <https://poaemdobro.mendel.vip>, hosted on Cloudflare Workers.
 
@@ -27,7 +27,8 @@ The UI is in Brazilian Portuguese.
 ### Ratings
 
 - People rate a place with 1–5 stars in each of three categories: atendimento, comida, ambiente. All three are required.
-- Only places marked **"Já fui aqui"** in the detail view can be rated. Marking one opens the rating form right away. "Agora não" skips it, and "Avaliar agora" comes back later. The mark can be undone until the place is rated. Without a login this is enforced in the browser, not by the API.
+- Places can be marked **"Já fui"** from the card (next to the heart) or in the detail view. Visited places get a green "Já fui" pill in the list and have their own filter.
+- Only places marked **"Já fui aqui"** can be rated. Marking one opens the rating form right away. "Agora não" skips it, and "Avaliar agora" comes back later. The mark can be undone until the place is rated. Without a login this is enforced in the browser, not by the API.
 - Cards and map popups show the overall score (the mean of the three category averages) and the vote count. The detail view shows each category.
 - No login. The browser keeps a random voter id in localStorage, so voting again on the same place replaces the earlier vote.
 - Abuse limit: 60 votes per IP per day. Only a salted SHA-256 hash of the IP is stored.
