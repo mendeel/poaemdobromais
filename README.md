@@ -21,7 +21,8 @@ The UI is in Brazilian Portuguese.
 2. **`changes.py`** compares the new data with the previous run and records what was added, removed or changed.
 3. **The web app** (`src/`) is static files. It reads the JSON from `data/`.
 4. **The ratings API** (`worker/index.js`) is the only server code: a small Cloudflare Worker with a D1 (SQLite) database. Everything else is served as static assets without running the Worker.
-5. **GitHub Actions** runs the scraper every 6 hours and commits the new data, but only when something actually changed. Each data commit and each code push to `main` deploys the site.
+5. **GitHub Actions** runs the scraper every 6 hours and commits the new data, but only when something actually changed.
+6. **Cloudflare Workers Builds** (Cloudflare's Git integration) deploys every push to `main`, data commits included.
 
 ### Ratings
 
@@ -84,16 +85,7 @@ To compare any two datasets by hand: `python changes.py OLD.json[.gz] NEW.json[.
 
 Repo secrets it needs: `REFRESH_TOKEN`, `X_TOKEN`, `DEVICE_ID`, `LAT`, `LNG`, `BASE_URL`, `GH_PAT`.
 
-It commits `data/` only when `data/changes/` or `data/config.json` changed. Fields that change on every run, like "open now", never cause a commit. After a commit it calls `deploy.yml` to publish the new data.
-
-`.github/workflows/deploy.yml` builds, runs the tests and deploys to Cloudflare. It runs on pushes to `main` (except docs-only changes), after each data commit, or by hand from the Actions tab. Repo secrets it needs:
-
-| Secret | What it is |
-|---|---|
-| `CLOUDFLARE_API_TOKEN` | Cloudflare API token from the **Edit Cloudflare Workers** template, scoped to this account and the `mendel.vip` zone |
-| `VITE_CARTO_KEY` | Same value as in `.env`. It's baked into the build, so without it the map shows a watermark. |
-
-The account id is in `wrangler.jsonc`. The job refuses to deploy while `wrangler.jsonc` has no `database_id`, so it can't create duplicate databases before the first manual deploy (see below).
+It commits `data/` only when `data/changes/` or `data/config.json` changed. Fields that change on every run, like "open now", never cause a commit. Cloudflare Workers Builds then deploys the new commit (see [Deploying](#deploying)).
 
 ## Project layout
 
@@ -112,7 +104,7 @@ public/data → ../data  Symlink, so Vite serves and bundles the data
 worker/index.js        Ratings API (Cloudflare Worker)
 migrations/            D1 schema migrations for the ratings database
 wrangler.jsonc         Worker config: name, account, custom domain, D1 binding
-.github/workflows/     update-data.yml (scraper every 6h), deploy.yml (build + deploy)
+.github/workflows/     update-data.yml (scraper every 6h)
 src/
   App.jsx              Loads data, wires filters and views together
   components/          Sidebar, Topbar, CardGrid/Card, MapView, CupomModal, ChangesPanel…
@@ -139,7 +131,12 @@ docs/superpowers/      Design spec and plan for the map view
 
 The site runs on **Cloudflare Workers** (free plan): Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, configured in `wrangler.jsonc`. Static files are served as Worker static assets, and only `/api/*` runs the Worker code.
 
-Deploys normally happen in GitHub Actions (see above). To deploy from your machine:
+Deploys happen in **Cloudflare Workers Builds**, which is connected to this GitHub repo. Every push to `main`, including the data commits from GitHub Actions, is built and deployed. Pushes to other branches upload a preview version without deploying it. Settings are in the Cloudflare dashboard, under Worker `poaemdobromais` → Settings → Builds:
+
+- Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
+- Build variable `VITE_CARTO_KEY`, the same value as in `.env`. It's baked into the build, so without it the map shows a watermark.
+
+To deploy from your machine:
 
 ```bash
 npx wrangler login               # once
