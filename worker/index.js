@@ -1,4 +1,7 @@
+import ogIndex from 'virtual:og-index';
 import { CATEGORIES, parseVote } from '../src/lib/ratings.js';
+import { cupomIdFromPath, cupomPath } from '../src/lib/cupomUrl.js';
+import { SITE_NAME, ogTags } from '../src/lib/og.js';
 
 const LIST_PATH = '/api/ratings';
 const VOTE_PATH_RE = /^\/api\/ratings\/(\d{1,12})$/;
@@ -11,6 +14,12 @@ const AVG_COLUMNS = CATEGORIES.map((c) => `ROUND(AVG(${c.key}), 2) AS ${c.key}`)
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    if (url.pathname.startsWith('/r/')) {
+      return cupomPage(url, env).catch((err) => {
+        console.error(JSON.stringify({ message: 'cupom page failed', path: url.pathname, error: String(err) }));
+        return env.ASSETS.fetch(new URL('/', url));
+      });
+    }
     try {
       if (url.pathname === LIST_PATH && request.method === 'GET') {
         return await listRatings(url, env, ctx);
@@ -26,6 +35,30 @@ export default {
     }
   },
 };
+
+// Shared cupom links get the app shell with that place's title, description
+// and photo in <head>, so chat apps show a real preview. The app itself opens
+// the cupom from the URL; unknown ids just get the plain shell.
+async function cupomPage(url, env) {
+  const shell = await env.ASSETS.fetch(new URL('/', url));
+  const id = cupomIdFromPath(url.pathname);
+  const cupom = id && ogIndex[id];
+  if (!cupom || !shell.ok) return shell;
+
+  const canonical = url.origin + cupomPath({ id, nome: cupom.nome });
+  const remove = { element: (el) => el.remove() };
+  const response = new HTMLRewriter()
+    .on('meta[name="description"]', remove)
+    .on('meta[property^="og:"]', remove)
+    .on('meta[name^="twitter:"]', remove)
+    .on('title', { element: (el) => el.setInnerContent(`${cupom.nome} · ${SITE_NAME}`) })
+    .on('head', { element: (el) => el.append(ogTags(cupom, canonical), { html: true }) })
+    .transform(shell);
+
+  const headers = new Headers(response.headers);
+  headers.delete('ETag'); // the body no longer matches the shell's ETag
+  return new Response(response.body, { status: 200, headers });
+}
 
 function json(data, status = 200, headers = {}) {
   return Response.json(data, { status, headers });

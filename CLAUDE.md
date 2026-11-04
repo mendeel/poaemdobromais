@@ -8,7 +8,7 @@ A React app for browsing the **POA em Dobro** 2-for-1 restaurant coupons (Porto 
 
 - Frontend: React 19, Vite 8, Tailwind v4 (`@theme` tokens in `src/index.css`), `motion`, `lucide-react`, `react-leaflet` with `react-leaflet-cluster`
 - Hosting: Cloudflare Workers, free plan. Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, config in `wrangler.jsonc`. Built with `@cloudflare/vite-plugin`. Deploys come from **Cloudflare Workers Builds**, the Git integration configured in the Cloudflare dashboard, not in this repo. It runs `npm run build` and then `npx wrangler deploy` on every push to `main`, including the CI data commits. Other branches get preview versions. `VITE_CARTO_KEY` is a build variable there. Don't add a GitHub Actions deploy, because it would deploy twice.
-- Ratings API: `worker/index.js` with D1 binding `DB` (database `poaemdobromais-ratings`), schema in `migrations/`
+- Ratings API + link previews for `/r/*`: `worker/index.js` with D1 binding `DB` (database `poaemdobromais-ratings`) and assets binding `ASSETS`, schema in `migrations/`
 - Scraper: Python 3.12, `requests`, `python-dotenv`. Only two files: `scrape.py` and `changes.py`.
 - CI: `.github/workflows/update-data.yml` runs the scraper every 6h, commits only real changes (Workers Builds then deploys them)
 - Plain JS/JSX, no TypeScript, no linter config. Tests: `npm test` (`src/lib/*.test.mjs`, plain `node:assert`).
@@ -45,9 +45,15 @@ App: fetch('/data/…', {cache:'no-cache'})   (absolute paths; public/data → .
 App: fetch('/api/ratings') ─► worker/index.js ─► D1 `ratings` table
 ```
 
+### Link previews (worker/index.js)
+
+- `/r/*` also runs the Worker. `cupomPage()` fetches the app shell from the `ASSETS` binding and uses `HTMLRewriter` to swap the `<title>`, description, `og:*` and `twitter:*` tags for that place's own (name, offer + bairros, photo), so WhatsApp etc. show a real preview. Unknown ids get the plain shell, and any failure falls back to it.
+- The Worker doesn't parse `all_cupoms.json`. `vite.config.js` turns it into the virtual module `virtual:og-index` (`ogIndex()` in `src/lib/og.js`, about 90 KB) at build time. Each data commit triggers a Workers Builds build, so previews stay current. In `vite dev`, restart after the data changes.
+- The default tags in `index.html` are what the home page and unknown links show. The Worker removes them before adding its own, so keep them as plain `<meta name|property=…>` tags.
+
 ### Ratings (worker/index.js)
 
-- Only `/api/*` runs the Worker (`assets.run_worker_first`). Everything else is a static asset.
+- Only `/api/*` and `/r/*` run the Worker (`assets.run_worker_first`). Everything else is a static asset.
 - `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente } }`: averages rounded to 2 decimals, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
 - `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All three scores are required, integers 1–5. It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
 - Anonymous: `voterId` is 32 random hex chars kept in localStorage. The limit is 60 votes per IP per 24h, counted on `ip_hash` (SHA-256 of the `IP_SALT` secret + `CF-Connecting-IP`). Raw IPs are never stored.
