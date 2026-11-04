@@ -5,10 +5,14 @@
   "account_id": "9a39f4ebfdd048cb3fd3519a2af44405",
   "compatibility_date": "2026-11-04",
   "main": "./worker/index.js",
-  // The Vite plugin points assets at the client build. Only /api/* reaches the
-  // Worker; everything else is served straight from static assets.
+  // The Vite plugin points assets at the client build. Only /api/* (ratings)
+  // and /r/* (cupom links, which get link-preview tags) reach the Worker;
+  // everything else is served straight from static assets, and other unknown
+  // paths get index.html.
   "assets": {
-    "run_worker_first": ["/api/*"]
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/r/*"],
+    "not_found_handling": "single-page-application"
   },
   "d1_databases": [
     {

@@ -11,7 +11,7 @@ export function useDataVersion() {
   useEffect(() => {
     let alive = true;
     const check = () =>
-      fetch('data/meta.json', { cache: 'no-cache' })
+      fetch('/data/meta.json', { cache: 'no-cache' })
         .then((r) => (r.ok ? r.json() : null))
         .then((meta) => {
           if (alive && meta?.updatedAt) setVersion(meta.updatedAt);

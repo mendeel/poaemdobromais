@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 const SEEN_KEY = 'betterped:lastSeenChange';
 
 // Loads the update history written by scrape.py (data/changes/). The selected
-// changelog (latest by default) drives the card badges and "Novidades" filter.
+// changelog (latest by default) drives the "Novo" badge and "Novidades" filter.
 // Bump `reloadKey` to re-read the index after new data was published.
 export function useChanges(reloadKey = 0) {
   const [index, setIndex] = useState([]);
@@ -18,7 +18,7 @@ export function useChanges(reloadKey = 0) {
   });
 
   useEffect(() => {
-    fetch('data/changes/index.json', { cache: 'no-cache' })
+    fetch('/data/changes/index.json', { cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : []))
       .then((idx) => {
         setIndex(idx);
@@ -29,7 +29,7 @@ export function useChanges(reloadKey = 0) {
 
   useEffect(() => {
     if (!selectedId || logs[selectedId]) return;
-    fetch(`data/changes/${selectedId}.json`)
+    fetch(`/data/changes/${selectedId}.json`)
       .then((r) => r.json())
       .then((log) => setLogs((prev) => ({ ...prev, [selectedId]: log })))
       .catch(() => {});
@@ -37,14 +37,11 @@ export function useChanges(reloadKey = 0) {
 
   const changelog = selectedId ? (logs[selectedId] ?? null) : null;
 
-  // cupom id -> 'new' | 'changed'
-  const statusById = useMemo(() => {
-    const m = new Map();
-    if (!changelog) return m;
-    changelog.added.forEach((c) => m.set(c.id, 'new'));
-    changelog.changed.forEach((c) => m.set(c.id, 'changed'));
-    return m;
-  }, [changelog]);
+  // Only additions are flagged in the list; edits stay in the changes panel.
+  const newIds = useMemo(
+    () => new Set((changelog?.added ?? []).map((c) => c.id)),
+    [changelog],
+  );
 
   const latestId = index[0]?.id ?? null;
   const hasUnseen = Boolean(latestId && latestId !== lastSeen);
@@ -64,7 +61,7 @@ export function useChanges(reloadKey = 0) {
     selectedId,
     select: setSelectedId,
     changelog,
-    statusById,
+    newIds,
     hasUnseen,
     markSeen,
   };

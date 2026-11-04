@@ -2,7 +2,7 @@
 
 A faster, friendlier way to browse the **POA em Dobro** 2-for-1 restaurant coupons in Porto Alegre.
 
-The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida and ambiente, no login needed).
+The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, mark the places you've been to ("Já fui"), see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida and ambiente, no login needed). The list can be sorted and filtered by score, and every place has its own link (`/r/<id>-<nome>`) to share. In chat apps those links show the place's name, offer and photo.
 
 Live at <https://poaemdobro.mendel.vip>, hosted on Cloudflare Workers.
 
@@ -20,14 +20,15 @@ The UI is in Brazilian Portuguese.
 1. **`scrape.py`** logs in to the app's API with a refresh token, downloads the coupon list and every coupon's details, and writes them to `data/`.
 2. **`changes.py`** compares the new data with the previous run and records what was added, removed or changed.
 3. **The web app** (`src/`) is static files. It reads the JSON from `data/`.
-4. **The ratings API** (`worker/index.js`) is the only server code: a small Cloudflare Worker with a D1 (SQLite) database. Everything else is served as static assets without running the Worker.
+4. **The Worker** (`worker/index.js`) is the only server code. It serves the ratings API with a D1 (SQLite) database, and adds link-preview tags (title, description, photo) to shared `/r/…` links. Everything else is served as static assets without running the Worker.
 5. **GitHub Actions** runs the scraper every 6 hours and commits the new data, but only when something actually changed.
 6. **Cloudflare Workers Builds** (Cloudflare's Git integration) deploys every push to `main`, data commits included.
 
 ### Ratings
 
 - People rate a place with 1–5 stars in each of three categories: atendimento, comida, ambiente. All three are required.
-- Only places marked **"Já fui aqui"** in the detail view can be rated. Marking one opens the rating form right away. "Agora não" skips it, and "Avaliar agora" comes back later. The mark can be undone until the place is rated. Without a login this is enforced in the browser, not by the API.
+- Places can be marked **"Já fui"** from the card (next to the heart) or in the detail view. Visited places get a green "Já fui" pill in the list and have their own filter.
+- Only places marked **"Já fui aqui"** can be rated. Marking one opens the rating form right away. "Agora não" skips it, and "Avaliar agora" comes back later. The mark can be undone until the place is rated. Without a login this is enforced in the browser, not by the API.
 - Cards and map popups show the overall score (the mean of the three category averages) and the vote count. The detail view shows each category.
 - No login. The browser keeps a random voter id in localStorage, so voting again on the same place replaces the earlier vote.
 - Abuse limit: 60 votes per IP per day. Only a salted SHA-256 hash of the IP is stored.

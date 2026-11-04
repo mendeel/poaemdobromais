@@ -12,9 +12,12 @@ export default function CardGrid({
   dayNum,
   now,
   favorites,
-  changeStatus,
+  visited,
+  rated,
+  newIds,
   ratings,
   onToggleFavorite,
+  onToggleVisited,
   onOpen,
 }) {
   const reduce = useReducedMotion();
@@ -102,9 +105,12 @@ export default function CardGrid({
                   dayNum={dayNum}
                   now={now}
                   isFavorite={favorites.has(c.id)}
-                  changeStatus={changeStatus?.get(c.id)}
+                  isVisited={visited.has(c.id)}
+                  visitLocked={Boolean(rated[c.id])}
+                  isNew={newIds.has(c.id)}
                   rating={ratings[c.id]}
                   onToggleFavorite={onToggleFavorite}
+                  onToggleVisited={onToggleVisited}
                   onOpen={onOpen}
                 />
               </CardErrorBoundary>

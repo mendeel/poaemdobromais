@@ -14,11 +14,16 @@ import {
   X,
   ArrowLeft,
   Sparkles,
+  Heart,
+  CircleCheck,
+  Award,
 } from 'lucide-react';
 import FilterSection from './ui/FilterSection.jsx';
 import CheckList from './ui/CheckList.jsx';
 import Pill from './ui/Pill.jsx';
 import { DAY_NAMES } from '../lib/constants.js';
+
+const MIN_NOTA_OPTIONS = [3, 3.5, 4, 4.5];
 
 export default function Sidebar({
   filters,
@@ -37,7 +42,9 @@ export default function Sidebar({
   const hasActiveFilter = Boolean(
     filters.abertoAgora ||
     filters.favorito ||
+    filters.visitado ||
     filters.novidades ||
+    filters.minNota !== null ||
     filters.selectedDays.size ||
     filters.activePresets.size ||
     filters.customTime !== null ||
@@ -89,10 +96,17 @@ export default function Sidebar({
           onClick={() => set('abertoAgora', !filters.abertoAgora)}
         />
         <PresetButton
-          icon={Star}
+          icon={Heart}
           label="Favorito"
           active={filters.favorito}
           onClick={() => set('favorito', !filters.favorito)}
+        />
+        <PresetButton
+          icon={CircleCheck}
+          label="Já fui"
+          active={filters.visitado}
+          onClick={() => set('visitado', !filters.visitado)}
+          className={novidadesCount > 0 ? '' : 'col-span-2'}
         />
         {novidadesCount > 0 && (
           <PresetButton
@@ -100,10 +114,31 @@ export default function Sidebar({
             label={`Novidades (${novidadesCount})`}
             active={filters.novidades}
             onClick={() => set('novidades', !filters.novidades)}
-            className="col-span-2"
           />
         )}
       </div>
+
+      <FilterSection
+        icon={Award}
+        label="Nota mínima"
+        onClear={filters.minNota !== null ? () => set('minNota', null) : undefined}
+      >
+        <div className="grid grid-cols-4 gap-1.5">
+          {MIN_NOTA_OPTIONS.map((n) => (
+            <Pill
+              key={n}
+              active={filters.minNota === n}
+              onClick={() => set('minNota', filters.minNota === n ? null : n)}
+              className="px-1"
+            >
+              <span className="inline-flex items-center justify-center gap-1">
+                <Star className="h-3 w-3" fill="currentColor" strokeWidth={1.8} />
+                {n.toLocaleString('pt-BR')}+
+              </span>
+            </Pill>
+          ))}
+        </div>
+      </FilterSection>
 
       <FilterSection
         icon={Calendar}
