@@ -16,6 +16,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -67,6 +69,7 @@ jobs:
       # Volatile fields (aberto, today…) change on every run; only commit when
       # the changelog or the filter config actually changed.
       - name: Commit se houve mudança
+        id: commit
         run: |
           if git diff --quiet -- data/changes data/config.json && \
              [ -z "$(git ls-files --others --exclude-standard data/changes)" ]; then
@@ -79,3 +82,10 @@ jobs:
           git add data
           git commit -m "chore(data): atualização automática $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

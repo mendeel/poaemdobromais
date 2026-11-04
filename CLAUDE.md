@@ -7,10 +7,10 @@ Context for AI assistants. Read this before you explore. `README.md` covers setu
 A React app for browsing the **POA em Dobro** 2-for-1 restaurant coupons (Porto Alegre). A Python scraper pulls the coupons from the mobile app's private API into `data/*.json`, and the app reads those files. The only server code is a small **ratings API** (Cloudflare Worker + D1).
 
 - Frontend: React 19, Vite 8, Tailwind v4 (`@theme` tokens in `src/index.css`), `motion`, `lucide-react`, `react-leaflet` with `react-leaflet-cluster`
-- Hosting: Cloudflare Workers, free plan. Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, config in `wrangler.jsonc`. Built with `@cloudflare/vite-plugin`. Deployed by hand with `npm run deploy`; nothing deploys automatically.
+- Hosting: Cloudflare Workers, free plan. Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, config in `wrangler.jsonc`. Built with `@cloudflare/vite-plugin`. `.github/workflows/deploy.yml` deploys on pushes to `main` and after every data commit, which `update-data.yml` triggers through `workflow_call`, since pushes made with `GITHUB_TOKEN` don't trigger workflows. CI secrets: `CLOUDFLARE_API_TOKEN`, `VITE_CARTO_KEY`. CI refuses to deploy while `wrangler.jsonc` has no `database_id`.
 - Ratings API: `worker/index.js` with D1 binding `DB` (database `poaemdobromais-ratings`), schema in `migrations/`
 - Scraper: Python 3.12, `requests`, `python-dotenv`. Only two files: `scrape.py` and `changes.py`.
-- CI: `.github/workflows/update-data.yml` runs the scraper every 6h and commits only real changes
+- CI: `.github/workflows/update-data.yml` runs the scraper every 6h, commits only real changes, then calls `deploy.yml`
 - Plain JS/JSX, no TypeScript, no linter config. Tests: `npm test` (`src/lib/*.test.mjs`, plain `node:assert`).
 
 ## Commands
@@ -32,6 +32,8 @@ node src/lib/markers.test.mjs
 Don't run `scrape.py` unless the user asks. It calls a real API, rotates the refresh token in `.env`, and rewrites `data/`.
 
 Don't run `npm run deploy`, `npm run db:migrate`, `wrangler secret put` or any `--remote` D1 command unless the user asks. They change production.
+
+**GitHub CLI:** the repo belongs to the `mendeel` account, but the machine's active `gh` account is another one. Never run `gh auth switch`. Pass mendeel's token per command, which leaves the active account untouched: `GH_TOKEN=$(gh auth token -u mendeel) gh <command> --repo mendeel/poaemdobromais`. Never print the token.
 
 ## Data flow
 

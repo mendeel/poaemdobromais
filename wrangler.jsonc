@@ -1,6 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "poaemdobromais",
+  // Not a secret; lets CI deploy with just CLOUDFLARE_API_TOKEN.
+  "account_id": "9a39f4ebfdd048cb3fd3519a2af44405",
   "compatibility_date": "2026-11-04",
   "main": "./worker/index.js",
   // The Vite plugin points assets at the client build. Only /api/* reaches the
