@@ -137,6 +137,7 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped
 - Cupom links are real paths (`/r/123-nome`), served by `assets.not_found_handling: "single-page-application"` in `wrangler.jsonc`. So every `fetch` must use an absolute path (`/data/…`, `/api/…`): a relative one would resolve under `/r/` and get `index.html` back.
 - Closing the modal calls `history.back()` when the modal was opened in the app, and `replaceState('/')` when the visitor landed on a shared link. A link to a cupom that no longer exists falls back to `/`.
 - `wrangler.jsonc` sets the custom domain under `routes`. Keep it there so every deploy keeps the domain attached to the Worker.
+- `preview_urls: true` keeps version URLs on (`<version>-poaemdobromais.<subdomain>.workers.dev`), which branch builds use as test links. Without it, `routes` turns them off by default. They are public and use the **production** D1, so votes sent there are real.
 
 ## Conventions
 
