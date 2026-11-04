@@ -14,6 +14,13 @@ import { logoDivIcon, clusterIcon } from './mapIcon.js';
 
 const POA_CENTER = [-30.0346, -51.2177];
 
+// CARTO basemaps require a (free) key since Sept 2026; without it tiles show an
+// "API key required" watermark. Get one at https://carto.com/basemaps/apikey.
+const CARTO_KEY = import.meta.env.VITE_CARTO_KEY;
+const TILE_URL = `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png${
+  CARTO_KEY ? `?key=${encodeURIComponent(CARTO_KEY)}` : ''
+}`;
+
 // Position the map ONCE on first load: prefer the user's current location,
 // fall back to fitting all markers if geolocation is denied/unavailable.
 // Filtering afterwards must not move the map.
@@ -86,13 +93,12 @@ export default function MapView({ cupoms, now, onOpen }) {
       <MapContainer
         center={POA_CENTER}
         zoom={12}
-        attributionControl={false}
         scrollWheelZoom
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url={TILE_URL}
         />
         <StartView markers={markers} />
         <MarkerClusterGroup
