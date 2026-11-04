@@ -4,18 +4,24 @@ Context for AI assistants. Read this before you explore. `README.md` covers setu
 
 ## What this is
 
-A static React app for browsing the **POA em Dobro** 2-for-1 restaurant coupons (Porto Alegre). A Python scraper pulls the coupons from the mobile app's private API into `data/*.json`, and the app reads those files. There is **no backend**.
+A React app for browsing the **POA em Dobro** 2-for-1 restaurant coupons (Porto Alegre). A Python scraper pulls the coupons from the mobile app's private API into `data/*.json`, and the app reads those files. The only server code is a small **ratings API** (Cloudflare Worker + D1).
 
 - Frontend: React 19, Vite 8, Tailwind v4 (`@theme` tokens in `src/index.css`), `motion`, `lucide-react`, `react-leaflet` with `react-leaflet-cluster`
+- Hosting: Cloudflare Workers, free plan. Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, config in `wrangler.jsonc`. Built with `@cloudflare/vite-plugin`. Deployed by hand with `npm run deploy`; nothing deploys automatically.
+- Ratings API: `worker/index.js` with D1 binding `DB` (database `poaemdobromais-ratings`), schema in `migrations/`
 - Scraper: Python 3.12, `requests`, `python-dotenv`. Only two files: `scrape.py` and `changes.py`.
 - CI: `.github/workflows/update-data.yml` runs the scraper every 6h and commits only real changes
-- Plain JS/JSX, no TypeScript, no linter config. The only test is `node src/lib/markers.test.mjs`.
+- Plain JS/JSX, no TypeScript, no linter config. Tests: `npm test` (`src/lib/*.test.mjs`, plain `node:assert`).
 
 ## Commands
 
 ```bash
-npm run dev            # dev server
-npm run build          # → dist/ (data is copied in through the public/data symlink)
+npm run dev            # dev server + ratings Worker with a local D1 (.wrangler/)
+npm run build          # → dist/client (site + data via the public/data symlink), dist/poaemdobromais (Worker)
+npm run deploy         # build + wrangler deploy to production
+npm run db:migrate:local   # apply migrations/ to the local D1 (needed once before dev)
+npm run db:migrate         # apply migrations/ to the production D1
+npm test
 npm run update         # python3 scrape.py  (needs .env)
 python3 scrape.py --resume        # reuse data/list_raw.json after detail failures
 python3 scrape.py --allow-shrink  # accept a drop of more than 40% in coupon count
@@ -25,6 +31,8 @@ node src/lib/markers.test.mjs
 
 Don't run `scrape.py` unless the user asks. It calls a real API, rotates the refresh token in `.env`, and rewrites `data/`.
 
+Don't run `npm run deploy`, `npm run db:migrate`, `wrangler secret put` or any `--remote` D1 command unless the user asks. They change production.
+
 ## Data flow
 
 ```
@@ -32,7 +40,18 @@ API ─► scrape.py ─► data/all_cupoms.json, config.json, meta.json, list_r
           └─► changes.diff_cupoms(prev, new) ─► data/changes/<id>.json + index.json
                                               └─► data/snapshots/<id>.json.gz
 App: fetch('data/…', {cache:'no-cache'})   (relative paths; public/data → ../data symlink)
+App: fetch('api/ratings') ─► worker/index.js ─► D1 `ratings` table
 ```
+
+### Ratings (worker/index.js)
+
+- Only `/api/*` runs the Worker (`assets.run_worker_first`). Everything else is a static asset.
+- `GET /api/ratings` → `{ [cupomId]: { n, atendimento, comida, ambiente } }`: averages rounded to 2 decimals, places without votes left out. Cached for 60 s with the Cache API. A POST deletes the cached copy in its own colo.
+- `POST /api/ratings/:id` with `{ voterId, atendimento, comida, ambiente }`. It must be `Content-Type: application/json`, which forces a CORS preflight for cross-site posts. All three scores are required, integers 1–5. It upserts on `(cupom_id, voter_id)` and returns that place's new aggregate.
+- Anonymous: `voterId` is 32 random hex chars kept in localStorage. The limit is 60 votes per IP per 24h, counted on `ip_hash` (SHA-256 of the `IP_SALT` secret + `CF-Connecting-IP`). Raw IPs are never stored.
+- Overall score = mean of the three category means. Because every vote has all three scores, this equals the mean of each voter's own average.
+- Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
+- The app treats the API as optional: if it fails, no stars are shown and nothing else breaks.
 
 ### scrape.py
 
@@ -77,13 +96,16 @@ Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelo
 | Changelog loading, "new/changed" badges, unseen dot | `src/hooks/useChanges.js` |
 | Polls `meta.json` every 10 min and on tab focus, triggers a reload and toast | `src/hooks/useDataVersion.js` |
 | Favourites (localStorage) | `src/hooks/useLocalStorage.js` |
+| Ratings fetch/submit, voter id, own votes | `src/hooks/useRatings.js` |
+| Star display/input, `RatingBadge` (cards, map popup) | `src/components/ui/Stars.jsx` |
+| Category breakdown + vote form in the modal | `src/components/RatingSection.jsx` |
 | Live clock (ticks each minute) | `src/hooks/useNow.js` |
 | Word-level diff for the "O que mudou" panel | `src/lib/textDiff.js` |
 | Changes panel. `GROUPS` maps changes.py `field` names to filter chips | `src/components/ChangesPanel.jsx` |
 | Map (CARTO Voyager tiles, clustering, start view) | `src/components/MapView.jsx`, `mapIcon.js` |
 | Grid with batched infinite render (24 per batch) | `src/components/CardGrid.jsx` |
 
-localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`.
+localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped:voterId`, `betterped:myRatings`.
 
 ### Frontend gotchas
 
@@ -97,7 +119,9 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`.
 - Overlays sit above Leaflet's panes. The z-index order is: drawer 800/900 < toast 1400 < changes panel 1500 < cupom modal 2000. The modal must stay on top because it opens from inside the panel and the map.
 - Mobile inputs are forced to 16px so iOS doesn't zoom on focus.
 - `vite.config.js` `allowedHosts` lists an ngrok domain used to share the dev/preview server.
-- `playwright-core` is a devDependency that the source doesn't use. It's there for ad-hoc browser checks and screenshots.
+- `playwright-core` is a devDependency that the source doesn't use. It's there for ad-hoc browser checks and screenshots (`chromium.launch({ channel: 'chrome' })` uses the installed Chrome).
+- The card footer holds the hours (truncated) and the `RatingBadge`. Keep the badge in that row so the card stays 366px tall.
+- `wrangler.jsonc` sets the custom domain under `routes`. Keep it there so every deploy keeps the domain attached to the Worker.
 
 ## Conventions
 
@@ -106,5 +130,6 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`.
 - Keep logic in `src/lib/` as pure functions. Components stay presentational.
 - Tailwind utility classes use the theme tokens (`text-fg`, `text-fg-muted`, `bg-primary`, `border-brd`, `font-display`…). Fonts are Karla (sans) and Playfair Display SC (display).
 - Commits follow Conventional Commits: `feat:`, `fix:`, `refactor:`, `ci:`, `chore(data):`. CI uses `chore(data): atualização automática …`.
-- Never commit `.env` (it holds API tokens, `GH_PAT` and the CARTO key). Never print its values.
+- Never commit `.env` (it holds API tokens, `GH_PAT` and the CARTO key). Never print its values. Worker secrets (`IP_SALT`) live only in Cloudflare; for local dev use an optional, git-ignored `.dev.vars`.
+- D1 schema changes go in a new numbered `migrations/NNNN_*.sql` file. Never edit an applied migration.
 - `data/` is committed and is the published dataset. Don't hand-edit it. Regenerate it with the scraper.

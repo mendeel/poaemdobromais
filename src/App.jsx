@@ -12,6 +12,7 @@ import { useFavorites } from './hooks/useLocalStorage.js';
 import { useNow } from './hooks/useNow.js';
 import { useChanges } from './hooks/useChanges.js';
 import { useDataVersion } from './hooks/useDataVersion.js';
+import { useRatings } from './hooks/useRatings.js';
 import { applyFilters } from './lib/filters.js';
 
 export default function App() {
@@ -45,6 +46,7 @@ export default function App() {
   const dismissUpdated = useCallback(() => setShowUpdated(false), []);
 
   const changes = useChanges(reloadKey);
+  const { ratings, mine: myRatings, rate } = useRatings(reloadKey);
 
   useEffect(() => {
     const opts = { cache: 'no-cache' };
@@ -232,11 +234,12 @@ export default function App() {
             now={now}
             favorites={favorites}
             changeStatus={changes.statusById}
+            ratings={ratings}
             onToggleFavorite={toggleFavorite}
             onOpen={setSelected}
           />
         ) : (
-          <MapView cupoms={filtered} now={now} onOpen={setSelected} />
+          <MapView cupoms={filtered} ratings={ratings} now={now} onOpen={setSelected} />
         )}
       </main>
 
@@ -245,6 +248,9 @@ export default function App() {
         now={now}
         isFavorite={selected ? favorites.has(selected.id) : false}
         onToggleFavorite={toggleFavorite}
+        rating={selected ? ratings[selected.id] : undefined}
+        myRating={selected ? myRatings[selected.id] : undefined}
+        onRate={rate}
         onClose={closeCupom}
       />
 

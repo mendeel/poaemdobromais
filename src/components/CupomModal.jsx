@@ -4,8 +4,18 @@ import { X, MapPin, AtSign, Map, Heart, Gift, Check, Clock, ChevronDown } from '
 import { DAY_NAMES_FULL } from '../lib/constants.js';
 import { regraResumo } from '../lib/regra.js';
 import { getSchedule, isOpenAt } from '../lib/schedule.js';
+import RatingSection from './RatingSection.jsx';
 
-export default function CupomModal({ cupom, now, isFavorite, onToggleFavorite, onClose }) {
+export default function CupomModal({
+  cupom,
+  now,
+  isFavorite,
+  onToggleFavorite,
+  rating,
+  myRating,
+  onRate,
+  onClose,
+}) {
   const reduce = useReducedMotion();
   const panelRef = useRef(null);
 
@@ -54,6 +64,9 @@ export default function CupomModal({ cupom, now, isFavorite, onToggleFavorite, o
               now={now}
               isFavorite={isFavorite}
               onToggleFavorite={onToggleFavorite}
+              rating={rating}
+              myRating={myRating}
+              onRate={onRate}
               onClose={onClose}
             />
           </motion.div>
@@ -70,7 +83,16 @@ function instagramUrl(handle) {
     : `https://instagram.com/${handle.replace('@', '')}`;
 }
 
-function ModalContent({ cupom: c, now, isFavorite, onToggleFavorite, onClose }) {
+function ModalContent({
+  cupom: c,
+  now,
+  isFavorite,
+  onToggleFavorite,
+  rating,
+  myRating,
+  onRate,
+  onClose,
+}) {
   const openNow = isOpenAt(c, now.day, now.minutes);
   const td = now.day;
   const regra = regraResumo(c.regra);
@@ -161,6 +183,8 @@ function ModalContent({ cupom: c, now, isFavorite, onToggleFavorite, onClose }) 
         {regra && (
           <p className="text-[0.9rem] leading-relaxed text-fg-muted">{regra}</p>
         )}
+
+        <RatingSection key={c.id} cupomId={c.id} agg={rating} mine={myRating} onRate={onRate} />
 
         {Array.isArray(c.caracteristica) && c.caracteristica.length > 0 && (
           <div className="flex flex-wrap gap-1.5">

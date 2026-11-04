@@ -2,22 +2,34 @@
 
 A faster, friendlier way to browse the **POA em Dobro** 2-for-1 restaurant coupons in Porto Alegre.
 
-The official app only shows coupons one by one. This project downloads all of them and serves a static web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, and see **what changed** between updates.
+The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida and ambiente, no login needed).
+
+Live at <https://poaemdobro.mendel.vip>, hosted on Cloudflare Workers.
 
 The UI is in Brazilian Portuguese.
 
 ## How it works
 
 ```
- POA em Dobro API ──► scrape.py ──► data/*.json ──► React app (static)
-                         │
-                         └─► changes.py: diffs old vs new → data/changes/
+ POA em Dobro API ──► scrape.py ──► data/*.json ──► React app (static assets)
+                         │                                │
+                         └─► changes.py: diffs old vs     └─► /api/ratings ──► Worker ──► D1 (ratings)
+                             new → data/changes/
 ```
 
 1. **`scrape.py`** logs in to the app's API with a refresh token, downloads the coupon list and every coupon's details, and writes them to `data/`.
 2. **`changes.py`** compares the new data with the previous run and records what was added, removed or changed.
-3. **The web app** (`src/`) is plain static files. It reads the JSON from `data/`. There is no backend.
-4. **GitHub Actions** runs the scraper every 6 hours and commits the new data, but only when something actually changed.
+3. **The web app** (`src/`) is static files. It reads the JSON from `data/`.
+4. **The ratings API** (`worker/index.js`) is the only server code: a small Cloudflare Worker with a D1 (SQLite) database. Everything else is served as static assets without running the Worker.
+5. **GitHub Actions** runs the scraper every 6 hours and commits the new data, but only when something actually changed.
+
+### Ratings
+
+- Anyone can rate a place with 1–5 stars in each of three categories: atendimento, comida, ambiente. All three are required.
+- Cards and map popups show the overall score (the mean of the three category averages) and the vote count. The detail view shows each category.
+- No login. The browser keeps a random voter id in localStorage, so voting again on the same place replaces the earlier vote.
+- Abuse limit: 60 votes per IP per day. Only a salted SHA-256 hash of the IP is stored.
+- `GET /api/ratings` returns every place's averages in one JSON and is cached for 60 s per Cloudflare location. `POST /api/ratings/:id` saves a vote.
 
 ## Quick start
 
@@ -25,10 +37,11 @@ Requirements: Node 20+, Python 3.12+.
 
 ```bash
 npm install                      # .npmrc already sets legacy-peer-deps
+npm run db:migrate:local         # once: creates the local ratings database
 npm run dev                      # http://localhost:5173
 ```
 
-The repo already includes data, so the app works without running the scraper.
+The repo already includes data, so the app works without running the scraper. `npm run dev` also runs the ratings Worker with a local D1 database (stored in `.wrangler/`, never touching production).
 
 ### Updating the data locally
 
@@ -86,6 +99,9 @@ data/
   changes/<id>.json    Full changelog for one update
   snapshots/<id>.json.gz  Full dataset at each update that had changes
 public/data → ../data  Symlink, so Vite serves and bundles the data
+worker/index.js        Ratings API (Cloudflare Worker)
+migrations/            D1 schema migrations for the ratings database
+wrangler.jsonc         Worker config: name, custom domain, D1 binding
 src/
   App.jsx              Loads data, wires filters and views together
   components/          Sidebar, Topbar, CardGrid/Card, MapView, CupomModal, ChangesPanel…
@@ -99,12 +115,30 @@ docs/superpowers/      Design spec and plan for the map view
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Dev server |
-| `npm run build` | Production build into `dist/`, including `dist/data/` |
-| `npm run preview` | Serve the built `dist/` |
+| `npm run dev` | Dev server, with the ratings Worker and a local D1 |
+| `npm run build` | Production build: site in `dist/client/` (including `data/`), Worker in `dist/poaemdobromais/` |
+| `npm run preview` | Serve the build locally |
+| `npm run deploy` | Build and deploy to Cloudflare |
+| `npm run db:migrate:local` | Apply `migrations/` to the local D1 |
+| `npm run db:migrate` | Apply `migrations/` to the production D1 |
 | `npm run update` | Run the scraper |
-| `node src/lib/markers.test.mjs` | The only test right now |
+| `npm test` | Unit tests (`src/lib/*.test.mjs`) |
 
 ## Deploying
 
-`npm run build` produces a self-contained static site in `dist/`. Any static host works. When new data is deployed, open tabs notice within 10 minutes by checking `meta.json` and show a small "updated" toast.
+The site runs on **Cloudflare Workers** (free plan): Worker `poaemdobromais`, custom domain `poaemdobro.mendel.vip`, configured in `wrangler.jsonc`. Static files are served as Worker static assets, and only `/api/*` runs the Worker code.
+
+```bash
+npx wrangler login               # once
+npm run deploy                   # build + wrangler deploy
+```
+
+When new data is deployed, open tabs notice within 10 minutes by checking `meta.json` and show a small "updated" toast. Data commits made by GitHub Actions are not deployed automatically: run `npm run deploy` to publish them.
+
+**First deploy of the ratings database** (only once):
+
+1. `npx wrangler secret put IP_SALT` and paste a long random value (for example the output of `openssl rand -hex 32`). It salts the stored IP hashes. Changing it later only resets the daily vote limit.
+2. `npm run deploy`. Wrangler creates the D1 database `poaemdobromais-ratings` and writes its `database_id` into `wrangler.jsonc`. Commit that change.
+3. `npm run db:migrate` to create the table.
+
+Schema changes go in a new numbered file in `migrations/`. Apply it with `npm run db:migrate:local` and, before deploying code that needs it, `npm run db:migrate`.
