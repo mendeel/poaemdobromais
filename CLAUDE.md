@@ -61,7 +61,7 @@ App: fetch('/api/ratings') ─► worker/index.js ─► D1 `ratings` table
 - Validation and labels live in `src/lib/ratings.js`, which both the app and the Worker import. A new category means changing `CATEGORIES`, adding a migration for the column, and updating `parseVote` tests.
 - The app treats the API as optional: if it fails, no stars are shown and nothing else breaks.
 - **Rating requires "Já fui"**: `RatingSection` shows the vote form only for places in `betterped:visited` (`useVisited`) or ones the visitor already rated. A past vote counts as a visit and locks it, so there's no "Desfazer". Marking a visit opens the form, and "Agora não" closes it. This is UI-only: the Worker can't check visits without login, and the per-IP limit is the only server-side guard.
-- Cards also have a "Já fui" toggle next to the heart. `App.jsx` builds `visitedAll` (visited ∪ rated ids), which drives the card pill and the "Já fui" filter. On a rated place the card toggle is locked, same as in the modal.
+- Cards also have a "Já fui" toggle next to the heart. `App.jsx` builds `visitedAll` (visited ∪ rated ids), which drives the card pill and the "Já fui" filter. On a rated place the card toggle is locked, same as in the modal. Marking a visit from a card opens `RateModal` (the same `RatingForm`, with "Agora não"), so places can be rated without opening each one. Unmarking just toggles.
 
 ### scrape.py
 
@@ -110,7 +110,8 @@ Timestamps are in BRT (`-03:00`), for example `2026-11-03T19:23-03:00`. Changelo
 | Favourites and "Já fui" visits (localStorage id sets) | `src/hooks/useLocalStorage.js` |
 | Ratings fetch/submit, voter id, own votes | `src/hooks/useRatings.js` |
 | Star display/input, `RatingBadge` (cards, map popup) | `src/components/ui/Stars.jsx` |
-| Category breakdown, "Já fui" button, vote form in the modal | `src/components/RatingSection.jsx` |
+| Category breakdown, "Já fui" button, vote form (`RatingForm`) in the modal | `src/components/RatingSection.jsx` |
+| Quick rating sheet opened by a card's "Já fui" | `src/components/RateModal.jsx` |
 | Live clock (ticks each minute) | `src/hooks/useNow.js` |
 | Word-level diff for the "O que mudou" panel | `src/lib/textDiff.js` |
 | Changes panel. `GROUPS` maps changes.py `field` names to filter chips | `src/components/ChangesPanel.jsx` |
@@ -128,7 +129,7 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped
 - Scrolling: on **mobile the document scrolls** (so tapping the iOS status bar scrolls to top). On **desktop it's a fixed shell with internal scroll**. `html, body` use `overflow-x: clip`. Do **not** change that to `hidden`, because it breaks the sticky topbar and status-bar scrolling.
 - Cards are a fixed 366px tall (`.cv-auto` `contain-intrinsic-size`). If card height changes, update that value too.
 - `filterKey` in `App.jsx` re-runs the grid entrance animation. It deliberately leaves out `favorites` and `now`.
-- Overlays sit above Leaflet's panes. The z-index order is: drawer 800/900 < toast 1400 < changes panel 1500 < cupom modal 2000. The modal must stay on top because it opens from inside the panel and the map.
+- Overlays sit above Leaflet's panes. The z-index order is: drawer 800/900 < toast 1400 < changes panel 1500 < rate modal 1900 < cupom modal 2000. The modal must stay on top because it opens from inside the panel and the map.
 - Mobile inputs are forced to 16px so iOS doesn't zoom on focus.
 - `vite.config.js` `allowedHosts` lists an ngrok domain used to share the dev/preview server.
 - `playwright-core` is a devDependency that the source doesn't use. It's there for ad-hoc browser checks and screenshots (`chromium.launch({ channel: 'chrome' })` uses the installed Chrome).
@@ -136,6 +137,7 @@ localStorage keys: `betterped:favorites`, `betterped:lastSeenChange`, `betterped
 - Cupom links are real paths (`/r/123-nome`), served by `assets.not_found_handling: "single-page-application"` in `wrangler.jsonc`. So every `fetch` must use an absolute path (`/data/…`, `/api/…`): a relative one would resolve under `/r/` and get `index.html` back.
 - Closing the modal calls `history.back()` when the modal was opened in the app, and `replaceState('/')` when the visitor landed on a shared link. A link to a cupom that no longer exists falls back to `/`.
 - `wrangler.jsonc` sets the custom domain under `routes`. Keep it there so every deploy keeps the domain attached to the Worker.
+- `preview_urls: true` keeps version URLs on (`<version>-poaemdobromais.<subdomain>.workers.dev`), which branch builds use as test links. Without it, `routes` turns them off by default. They are public and use the **production** D1, so votes sent there are real.
 
 ## Conventions
 

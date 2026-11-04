@@ -22,6 +22,9 @@
     }
   ],
   "routes": [{ "pattern": "poaemdobro.mendel.vip", "custom_domain": true }],
+  // With routes set, workers.dev and version URLs default to off. Keep version
+  // URLs on so branch builds get a test link (public, and on the production D1).
+  "preview_urls": true,
   "observability": {
     "enabled": true,
     "traces": { "enabled": true }

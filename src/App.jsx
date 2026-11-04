@@ -5,6 +5,7 @@ import Topbar from './components/Topbar.jsx';
 import CardGrid from './components/CardGrid.jsx';
 import MapView from './components/MapView.jsx';
 import CupomModal from './components/CupomModal.jsx';
+import RateModal from './components/RateModal.jsx';
 import ChangesPanel from './components/ChangesPanel.jsx';
 import UpdateToast from './components/UpdateToast.jsx';
 import { useFilters } from './state/useFilters.js';
@@ -26,6 +27,7 @@ export default function App() {
   const [navOpen, setNavOpen] = useState(false);
   const [view, setView] = useState('list');
   const [changesOpen, setChangesOpen] = useState(false);
+  const [rateId, setRateId] = useState(null);
 
   const { filters, dispatch } = useFilters();
   const [favorites, toggleFavorite] = useFavorites();
@@ -126,6 +128,18 @@ export default function App() {
 
   const cupomsById = useMemo(() => new Map((cupoms || []).map((c) => [c.id, c])), [cupoms]);
   const selected = (selectedId && cupomsById.get(selectedId)) || null;
+  const rateTarget = (rateId && cupomsById.get(rateId)) || null;
+
+  // Marking "Já fui" on a card opens the rating form right away, like in the
+  // cupom modal. Unmarking just toggles.
+  const toggleVisitedFromCard = useCallback(
+    (id, marking) => {
+      toggleVisited(id);
+      if (marking) setRateId(id);
+    },
+    [toggleVisited],
+  );
+  const closeRate = useCallback(() => setRateId(null), []);
 
   // A link to a cupom that no longer exists falls back to the home page.
   useEffect(() => {
@@ -269,7 +283,7 @@ export default function App() {
             newIds={changes.newIds}
             ratings={ratings}
             onToggleFavorite={toggleFavorite}
-            onToggleVisited={toggleVisited}
+            onToggleVisited={toggleVisitedFromCard}
             onOpen={openCupom}
           />
         ) : (
@@ -289,6 +303,8 @@ export default function App() {
         onRate={rate}
         onClose={closeCupom}
       />
+
+      <RateModal cupom={rateTarget} onRate={rate} onClose={closeRate} />
 
       <ChangesPanel
         open={changesOpen}

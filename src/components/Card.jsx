@@ -110,7 +110,7 @@ function Card({
             }
             onClick={(e) => {
               e.stopPropagation();
-              if (!visitLocked) onToggleVisited(c.id);
+              if (!visitLocked) onToggleVisited(c.id, !isVisited);
             }}
             className={`flex h-9 items-center justify-center gap-1 rounded-full shadow backdrop-blur transition-transform active:scale-90 ${
               isVisited
