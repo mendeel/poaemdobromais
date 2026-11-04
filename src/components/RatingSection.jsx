@@ -63,15 +63,22 @@ export default function RatingSection({ cupomId, agg, mine, visited, onToggleVis
             </p>
           </>
         ) : formOpen ? (
-          <RatingForm
-            mine={mine}
-            onCancel={() => setFormOpen(false)}
-            onSubmit={async (scores) => {
-              await onRate(cupomId, scores);
-              setFormOpen(false);
-              setThanked(true);
-            }}
-          />
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            transition={{ duration: 0.2, ease: 'easeOut' }}
+            className="overflow-hidden"
+          >
+            <RatingForm
+              mine={mine}
+              onCancel={() => setFormOpen(false)}
+              onSubmit={async (scores) => {
+                await onRate(cupomId, scores);
+                setFormOpen(false);
+                setThanked(true);
+              }}
+            />
+          </motion.div>
         ) : (
           <VisitedSummary
             mine={mine}
@@ -145,7 +152,7 @@ function VisitedSummary({ mine, thanked, onRate, onUndo }) {
   );
 }
 
-function RatingForm({ mine, onCancel, onSubmit }) {
+export function RatingForm({ mine, onCancel, onSubmit }) {
   const [draft, setDraft] = useState(mine || EMPTY);
   const [status, setStatus] = useState({ state: 'idle' });
   const complete = CATEGORIES.every((c) => draft[c.key] > 0);
@@ -162,12 +169,7 @@ function RatingForm({ mine, onCancel, onSubmit }) {
   };
 
   return (
-    <motion.div
-      initial={{ height: 0, opacity: 0 }}
-      animate={{ height: 'auto', opacity: 1 }}
-      transition={{ duration: 0.2, ease: 'easeOut' }}
-      className="overflow-hidden"
-    >
+    <div>
       <div className="mb-1.5 text-[0.82rem] font-semibold text-fg">
         {mine ? 'Editar sua avaliação' : 'Como foi?'}
       </div>
@@ -211,6 +213,6 @@ function RatingForm({ mine, onCancel, onSubmit }) {
           <span className="text-fg-muted">Dê de 1 a 5 estrelas em cada categoria.</span>
         )}
       </p>
-    </motion.div>
+    </div>
   );
 }
