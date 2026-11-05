@@ -2,7 +2,7 @@
 
 A faster, friendlier way to browse the **POA em Dobro** 2-for-1 restaurant coupons in Porto Alegre.
 
-The official app only shows coupons one by one. This project downloads all of them and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, mark the places you've been to ("Já fui"), see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida, ambiente and custo-benefício, plus how the wait was, no login needed). The list can be sorted and filtered by score, and every place has its own link (`/r/<id>-<nome>`) to share. In chat apps those links show the place's name, offer and photo.
+This project downloads all the coupons and serves a web app where you can search, filter by category, neighbourhood, opening hours and day, see everything on a map, save favourites, mark the places you've been to ("Já fui"), see **what changed** between updates, and **rate** each place (1–5 stars for atendimento, comida, ambiente and custo-benefício, plus how the wait was, no login needed). The list can be sorted and filtered by score, and every place has its own link (`/r/<id>-<nome>`) to share. In chat apps those links show the place's name, offer and photo.
 
 Live at <https://poaemdobro.mendel.vip>, hosted on Cloudflare Workers.
 
