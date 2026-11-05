@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Check, Undo2 } from 'lucide-react';
-import { CATEGORIES, formatCount, formatScore, overallScore } from '../lib/ratings.js';
+import { CATEGORIES, esperaLabel, formatCount, formatScore, overallScore } from '../lib/ratings.js';
 import { StarsDisplay, StarsInput } from './ui/Stars.jsx';
+import { EsperaBreakdown, EsperaInput } from './ui/Espera.jsx';
 
-const EMPTY = { atendimento: 0, comida: 0, ambiente: 0 };
+const FIELDS = [...CATEGORIES.map((c) => c.key), 'espera'];
+const EMPTY = Object.fromEntries(FIELDS.map((k) => [k, 0]));
+const LABEL_W = 'w-[112px]';
 
 export default function RatingSection({ cupomId, agg, mine, visited, onToggleVisited, onRate }) {
   const [formOpen, setFormOpen] = useState(false);
@@ -37,15 +40,17 @@ export default function RatingSection({ cupomId, agg, mine, visited, onToggleVis
 
       {score !== null && (
         <div className="mt-3 flex flex-col gap-1.5">
-          {CATEGORIES.map((c) => (
+          {/* Places rated only before a category was added have no mean for it. */}
+          {CATEGORIES.filter((c) => agg[c.key] != null).map((c) => (
             <div key={c.key} className="flex items-center gap-2 text-[0.82rem] text-fg">
-              <span className="w-[92px] shrink-0">{c.label}</span>
+              <span className={`${LABEL_W} shrink-0`}>{c.label}</span>
               <StarsDisplay value={agg[c.key]} size={14} />
               <span className="ml-auto font-semibold tabular-nums">{formatScore(agg[c.key])}</span>
             </div>
           ))}
         </div>
       )}
+      <EsperaBreakdown agg={agg} />
 
       <div className="mt-3.5 border-t border-brd pt-3">
         {!hasVisited ? (
@@ -119,12 +124,18 @@ function VisitedSummary({ mine, thanked, onRate, onUndo }) {
         <>
           <div className="flex flex-col gap-1">
             <div className="text-[0.82rem] font-semibold text-fg">Sua avaliação</div>
-            {CATEGORIES.map((c) => (
+            {CATEGORIES.filter((c) => mine[c.key]).map((c) => (
               <div key={c.key} className="flex items-center gap-2 text-[0.8rem] text-fg">
-                <span className="w-[92px] shrink-0">{c.label}</span>
+                <span className={`${LABEL_W} shrink-0`}>{c.label}</span>
                 <StarsDisplay value={mine[c.key]} size={13} />
               </div>
             ))}
+            {mine.espera && (
+              <div className="flex items-center gap-2 text-[0.8rem] text-fg">
+                <span className={`${LABEL_W} shrink-0`}>Espera</span>
+                <span className="font-semibold">{esperaLabel(mine.espera)}</span>
+              </div>
+            )}
           </div>
           <button
             type="button"
@@ -153,11 +164,16 @@ function VisitedSummary({ mine, thanked, onRate, onUndo }) {
 }
 
 export function RatingForm({ mine, onCancel, onSubmit }) {
-  const [draft, setDraft] = useState(mine || EMPTY);
+  const [draft, setDraft] = useState({ ...EMPTY, ...mine });
   const [status, setStatus] = useState({ state: 'idle' });
-  const complete = CATEGORIES.every((c) => draft[c.key] > 0);
-  const unchanged = mine && CATEGORIES.every((c) => draft[c.key] === mine[c.key]);
+  const complete = FIELDS.every((k) => draft[k] > 0);
+  const unchanged = mine && FIELDS.every((k) => draft[k] === mine[k]);
   const sending = status.state === 'sending';
+
+  const set = (key, v) => {
+    setDraft((d) => ({ ...d, [key]: v }));
+    setStatus({ state: 'idle' });
+  };
 
   const submit = async () => {
     setStatus({ state: 'sending' });
@@ -181,14 +197,13 @@ export function RatingForm({ mine, onCancel, onSubmit }) {
               label={c.label}
               value={draft[c.key]}
               disabled={sending}
-              onChange={(v) => {
-                setDraft((d) => ({ ...d, [c.key]: v }));
-                setStatus({ state: 'idle' });
-              }}
+              onChange={(v) => set(c.key, v)}
             />
           </div>
         ))}
       </div>
+      <div className="mb-1.5 mt-2 text-[0.82rem] text-fg">Tempo de espera</div>
+      <EsperaInput value={draft.espera} disabled={sending} onChange={(v) => set('espera', v)} />
       <div className="mt-2.5 flex gap-2">
         <button
           type="button"
@@ -209,9 +224,6 @@ export function RatingForm({ mine, onCancel, onSubmit }) {
       </div>
       <p aria-live="polite" className="mt-1.5 min-h-[1.1em] text-center text-[0.75rem]">
         {status.state === 'error' && <span className="text-primary">{status.message}</span>}
-        {status.state === 'idle' && !complete && (
-          <span className="text-fg-muted">Dê de 1 a 5 estrelas em cada categoria.</span>
-        )}
       </p>
     </div>
   );

@@ -4,6 +4,7 @@ import { DAY_NAMES } from '../lib/constants.js';
 import { regraResumo } from '../lib/regra.js';
 import { horarioDisplay, isOpenAt } from '../lib/schedule.js';
 import { RatingBadge } from './ui/Stars.jsx';
+import { SlowBadge } from './ui/Espera.jsx';
 
 function CardImage({ src, alt, className, onError }) {
   if (!src) return null;
@@ -192,7 +193,10 @@ function Card({
           <span className="min-w-0 truncate">
             {DAY_NAMES[dayNum]}: {hor === '-' ? 'Fechado' : hor}
           </span>
-          <RatingBadge agg={rating} className="ml-auto shrink-0" />
+          <span className="ml-auto flex shrink-0 items-center gap-1.5">
+            <SlowBadge agg={rating} />
+            <RatingBadge agg={rating} />
+          </span>
         </div>
       </div>
     </article>
