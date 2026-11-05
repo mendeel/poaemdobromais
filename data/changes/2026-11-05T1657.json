@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-05T1657",
+  "from": "2026-11-04T16:45-03:00",
+  "to": "2026-11-05T16:57-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1628",
+      "nome": "D'Juca Confeitaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d444db30811b4f512b6fd3cfb5daef00.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773018387UTCC2026030901027_384_52126265b30c412d7cf267e4582b0f8e.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773018387UTCC2026030901027_384_c4cd906f7d3475df1de347029963ebcc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1839",
+      "nome": "Mercado Brasco",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_99074f0023f23878cd8021e1b1eaa2f9.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Sáb: Fechado",
+          "after": "Sáb: 07:30 - 17:00"
+        }
+      ]
+    },
+    {
+      "id": "2032",
+      "nome": "Spoleto",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_32f76e6b447bfeb8c6f69d05986f66a5.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773635528UTCC2026031604008_384_9616f3ea488fa14c3d6c153233bd4aa0.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773635528UTCC2026031604008_384_efb260d017b5168e6196dd8124f94f40.jpeg"
+        }
+      ]
+    }
+  ]
+}
