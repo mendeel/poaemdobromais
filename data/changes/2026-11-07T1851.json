@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-07T1851",
+  "from": "2026-11-05T16:57-03:00",
+  "to": "2026-11-07T18:51-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "2046",
+      "nome": "Montecchio Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_253494db3478ca55897be94b399f5ff6.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "uma pizza broto",
+          "after": "uma pizza pequena"
+        }
+      ]
+    }
+  ]
+}
