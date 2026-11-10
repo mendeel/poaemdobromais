@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-10T1643",
+  "from": "2026-11-07T18:51-03:00",
+  "to": "2026-11-10T16:43-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1785",
+      "nome": "Le Grand Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_de77765da0fd95a860839bd622e3393e.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: 18:00 - 23:30\nTer: 18:00 - 23:30\nQua: 18:00 - 23:30\nQui: 18:00 - 23:30\nSex: 18:00 - 23:30\nSáb: 18:00 - 23:30",
+          "after": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00\nSáb: 18:00 - 23:00"
+        }
+      ]
+    }
+  ]
+}
