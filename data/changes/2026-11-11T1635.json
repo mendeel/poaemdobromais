@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-11T1635",
+  "from": "2026-11-10T16:43-03:00",
+  "to": "2026-11-11T16:35-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1878",
+      "nome": "4Beer",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_7e03f503f257c00e49abff2821bcebb4.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Menino Deus",
+          "before": "Qui: 11:30 - 15:30, 17:30 - 22:30",
+          "after": "Qui: 11:30 - 15:30"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Qui: 11:30 - 15:30, 17:30 - 22:30",
+          "after": "Qui: 11:30 - 15:30"
+        }
+      ]
+    },
+    {
+      "id": "1755",
+      "nome": "Café Angélica",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d2a3c07e36a14d86cc64be95c918b2d9.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Bom Fim",
+          "before": "Ter: 12:00 - 18:30",
+          "after": "Ter: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1689",
+      "nome": "Churrascaria O Espeto de Ouro",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_e95fa9759658ff6efe8922ae15bef284.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773089813UTCC2026030920053_384_f233f829dd298fd795014cc9b07fde61.png",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773089813UTCC2026030920053_384_4afa8c579c5cee9a863c6856c794f125.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1804",
+      "nome": "Danutri Bistrô",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_32914009fcd6168df614d3c413ed70c0.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: 11:00 - 18:00\nTer: 11:00 - 18:00\nQua: 11:00 - 18:00\nQui: 11:00 - 18:00\nSex: 11:00 - 18:00",
+          "after": "Seg: 08:30 - 11:00, 14:30 - 18:00\nTer: 08:30 - 11:00, 14:30 - 18:00\nQua: 08:30 - 11:00, 14:30 - 18:00\nQui: 08:30 - 11:00, 14:30 - 18:00\nSex: 08:30 - 11:00, 14:30 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": "1785",
+      "nome": "Le Grand Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_de77765da0fd95a860839bd622e3393e.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Seg: 18:00 - 23:00\nTer: 18:00 - 23:00\nQua: 18:00 - 23:00\nQui: 18:00 - 23:00\nSex: 18:00 - 23:00\nSáb: 18:00 - 23:00",
+          "after": "Seg: 12:00 - 15:00, 18:00 - 23:00\nTer: 12:00 - 15:00, 18:00 - 23:00\nQua: 12:00 - 15:00, 18:00 - 23:00\nQui: 12:00 - 15:00, 18:00 - 23:00\nSex: 12:00 - 15:00, 18:00 - 23:00\nSáb: 12:00 - 15:00, 18:00 - 23:00"
+        }
+      ]
+    }
+  ]
+}
