@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-12T1654",
+  "from": "2026-11-11T16:35-03:00",
+  "to": "2026-11-12T16:54-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1628",
+      "nome": "D'Juca Confeitaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_d444db30811b4f512b6fd3cfb5daef00.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773018387UTCC2026030901027_384_c4cd906f7d3475df1de347029963ebcc.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773018387UTCC2026030901027_384_7f858b9e8499bd4632a5c7904a989424.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1785",
+      "nome": "Le Grand Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_de77765da0fd95a860839bd622e3393e.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um l\u0019Incendie",
+          "after": "um Le Incendie Burger ou Burger do Mês (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo l\u0019Incendie ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo umLe Incendie Burger ou Burger do Mês igual ou de menor valor.\n- Le Incendie Burger - Burger que combina Bacon com maionese de Wassabi;\n- Burger do mês - verificar nas redes do estabelecimento;\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1634",
+      "nome": "Lucho Burger",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_60b76392a3c9ff7dc0463028ee6004a6.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Ter: 19:00 - 22:30\nQua: 19:00 - 22:30\nQui: 19:00 - 22:30\nSex: 19:00 - 22:30\nSáb: 19:00 - 22:30",
+          "after": "Ter: 18:30 - 23:00\nQua: 18:30 - 23:00\nQui: 18:30 - 23:00\nSex: 18:30 - 23:00\nSáb: 18:30 - 23:00"
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Moinhos de Vento",
+          "before": "Sáb: 11:30 - 16:00",
+          "after": "Sáb: 11:30 - 15:30"
+        }
+      ]
+    }
+  ]
+}
