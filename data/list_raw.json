@@ -794,7 +794,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1863",
     "endereco_id": "22071",
@@ -890,7 +890,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 0,
     "id": "1630",
     "endereco_id": "16161",
@@ -1442,7 +1442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": null,
+    "aberto": 1,
     "favorito": 1,
     "id": "1668",
     "endereco_id": "21401",
@@ -2210,7 +2210,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1713",
     "endereco_id": "15158",
@@ -3698,7 +3698,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1747",
     "endereco_id": "26351",
@@ -3914,7 +3914,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1745",
     "endereco_id": "22125",
@@ -4514,7 +4514,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1787",
     "endereco_id": "16445",
@@ -4994,7 +4994,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1809",
     "endereco_id": "22149",
@@ -5834,7 +5834,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1875",
     "endereco_id": "17415",
@@ -6098,7 +6098,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1894",
     "endereco_id": "22177",
@@ -6194,7 +6194,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1884",
     "endereco_id": "22179",
@@ -6746,7 +6746,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1771",
     "endereco_id": "21043",
@@ -6962,7 +6962,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1708",
     "endereco_id": "15143",
@@ -7010,7 +7010,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1906",
     "endereco_id": "16102",
