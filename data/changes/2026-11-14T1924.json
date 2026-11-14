@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-14T1924",
+  "from": "2026-11-13T16:42-03:00",
+  "to": "2026-11-14T19:24-03:00",
+  "added": [
+    {
+      "id": "1816",
+      "nome": "Céu Zona Sul",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/55f7eb994a0b5b85f43b8892e11886e8.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358581UTCC2026031223021_384_ebfff9e3d65066ee834865ef5b2b028f.jpg",
+      "descricao": "um hamburguer selecionado",
+      "beneficio": "ganhe outro igual ou de menor valor.",
+      "bairros": [
+        "Cristal"
+      ]
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "id": "2038",
+      "nome": "Ponto Zero Bar e Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_337eb5f473addf9d971de2dd7adc1a28.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um menu degustação",
+          "after": "um prato principal (exceto da Panela e da Brasa)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo menu degustação igual ou de menor valor. \n- O menu degustação contém 3 pratos.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor. \n- Não é válido para o prato 'Da panela e da brasa'.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773636372UTCC2026031604012_384_dad31b428bfa296572273642753b859d.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773636372UTCC2026031604012_384_af26b28898a9e3bff3131235fbe9f747.jpeg"
+        }
+      ]
+    }
+  ]
+}
