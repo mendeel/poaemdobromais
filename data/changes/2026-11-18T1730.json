@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-18T1730",
+  "from": "2026-11-17T17:55-03:00",
+  "to": "2026-11-18T17:30-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1726",
+      "nome": "Biergarten Cervejaria Tupiniquim",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_309d62f53e354362fe2c9f1551bdb076.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Cidade Baixa",
+          "before": "Ter: 18:00 - 21:00\nQua: 18:00 - 21:00",
+          "after": "Ter: Fechado\nQua: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "1691",
+      "nome": "Gatinhos Café",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_9d62d6f6a68a169fc0d37f1aec502b1a.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Sáb: Fechado",
+          "after": "Sáb: 13:00 - 19:00"
+        }
+      ]
+    },
+    {
+      "id": "1661",
+      "nome": "Grazie Mille Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b55bb20bee0af320c1506382c59fc70c.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Sex: 18:00 - 23:00",
+          "after": "Sex: 12:00 - 15:00, 18:30 - 23:00"
+        }
+      ]
+    },
+    {
+      "id": "1823",
+      "nome": "La Bella Donna Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_67dc57ba4716ca8693b2158d1d4f7fc3.png",
+      "changes": [
+        {
+          "field": "unidade",
+          "label": "Unidade nova",
+          "before": null,
+          "after": "Vila jardim — Av saturnino de Brito, Nº 326, Vila jardim - Porto Alegre / RS"
+        }
+      ]
+    },
+    {
+      "id": "4482",
+      "nome": "Mix Natural",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_a2ea460d52b40d848fa701edaffa2e17.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "qualquer wrap ou bowl",
+          "after": "qualquer wrap ou bowl (exceto com camarão e salmão)"
+        }
+      ]
+    },
+    {
+      "id": "2038",
+      "nome": "Ponto Zero Bar e Cozinha",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_337eb5f473addf9d971de2dd7adc1a28.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato principal (exceto da Panela e da Brasa)",
+          "after": "um prato principal (sessão 'da Panela' e 'da Brasa')"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor. \n- Não é válido para o prato 'Da panela e da brasa'.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor. \n- Só é válido para os pratos da sessão 'Da panela e da brasa'.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "horario",
+          "label": "Horário · Rio Branco",
+          "before": "Ter: 18:00 - 22:30\nQua: 18:00 - 22:30\nQui: 18:00 - 22:30\nSex: 18:00 - 22:30\nSáb: 18:00 - 22:30",
+          "after": "Ter: 18:00 - 21:45\nQua: 18:00 - 21:45\nQui: 18:00 - 21:45\nSex: 18:00 - 21:45\nSáb: 12:00 - 15:00, 18:00 - 21:45"
+        }
+      ]
+    }
+  ]
+}
