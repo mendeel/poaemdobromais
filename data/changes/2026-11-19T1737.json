@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-19T1737",
+  "from": "2026-11-18T17:30-03:00",
+  "to": "2026-11-19T17:37-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1810",
+      "nome": "Delta Brick",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_45633041ea66ca07157c66f4ed221786.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Navegantes",
+          "before": "Qui: 17:00 - 23:00\nSex: 17:00 - 23:00",
+          "after": "Qui: Fechado\nSex: Fechado"
+        }
+      ]
+    },
+    {
+      "id": "2048",
+      "nome": "Doca do Xis",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_802f1d3ddeb21a44887349a3758cb462.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um xis",
+          "after": "um xis selecionado (ver regras)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo xis igual ou de menor valor.\n\nLEIA COM ATENÇÃO\n- Verificar canais para pedido antecipado através do Instagram de cada estabelecimento.\n- Realizar pedido conforme produto indicado no cupom: é necessário pedir antecipadamente DOIS produtos (idênticos aos anunciados pelo restaurante no respectivo cupom) para no pagamento receber isenção de um, mediante validação presencial do cupom.\n- O pagamento deverá ser feito obrigatoriamente na retirada.\n- Válido somente para os produtos anunciados no cupom, os demais produtos acrescentados ao pedido serão cobrados normalmente no momento do pagamento.\n\n- não é necessário a presença de 2 pessoas para retirar o pedido \n- ⁠não é válido para delivery",
+          "after": "- O desconto é sempre sobre o segundo xis selecionado igual ou de menor valor.\n- Xis selecionados: salada, frango e calabresa.\n\nLEIA COM ATENÇÃO\n- Verificar canais para pedido antecipado através do Instagram de cada estabelecimento.\n- Realizar pedido conforme produto indicado no cupom: é necessário pedir antecipadamente DOIS produtos (idênticos aos anunciados pelo restaurante no respectivo cupom) para no pagamento receber isenção de um, mediante validação presencial do cupom.\n- O pagamento deverá ser feito obrigatoriamente na retirada.\n- Válido somente para os produtos anunciados no cupom, os demais produtos acrescentados ao pedido serão cobrados normalmente no momento do pagamento.\n\n- não é necessário a presença de 2 pessoas para retirar o pedido \n- `não é válido para delivery"
+        }
+      ]
+    }
+  ]
+}
