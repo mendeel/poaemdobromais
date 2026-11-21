@@ -300,6 +300,204 @@
     "online": "N"
   },
   {
+    "id": "4670",
+    "nome": "FEXISVAL",
+    "lugar_nome": "FEXISVAL",
+    "beneficio": "ganhe outro igual.",
+    "sub_categoria": "Xis",
+    "descricao": "GIRE A ROLETA",
+    "regra": "GIRE A ROLETA E GANHE PRÊMIOS.",
+    "regraCategoria": null,
+    "tipo": "C",
+    "validade": "05/04/2027",
+    "instagram": "@fexisval",
+    "telefone": null,
+    "lat": -30.0361296,
+    "lng": -51.2249107,
+    "plano": "3",
+    "extra_id": null,
+    "disponivel": 1,
+    "favorito": 0,
+    "data_utilizacao": "",
+    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1795274922UTCC2026112115042_390_cbd75006ad5a68e24bdb0938f8820524.png",
+    "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_76e3f2f721d06b6019f12132e7ccc85e.png",
+    "caracteristica": [],
+    "endereco": [
+      {
+        "lugar_codigo": 4967,
+        "lugar_nome": "FEXISVAL",
+        "endereco": "Avenida Loureiro da Silva, Cidade Baixa - Porto Alegre / RS",
+        "bairro": "Cidade Baixa",
+        "cidade": "Cidade Baixa - Porto Alegre / RS",
+        "latitude": -30.0361296,
+        "longitude": -51.2249107,
+        "instagram": "@fexisval",
+        "horario": {
+          "A": {
+            "1": {
+              "day": "Segunda",
+              "horario": "-",
+              "today": false
+            },
+            "2": {
+              "day": "Terça",
+              "horario": "-",
+              "today": false
+            },
+            "3": {
+              "day": "Quarta",
+              "horario": "-",
+              "today": false
+            },
+            "4": {
+              "day": "Quinta",
+              "horario": "-",
+              "today": false
+            },
+            "5": {
+              "day": "Sexta",
+              "horario": "-",
+              "today": false
+            },
+            "6": {
+              "day": "Sábado",
+              "horario": "15:00 - 01:00",
+              "today": true
+            },
+            "7": {
+              "day": "Domingo",
+              "horario": "15:00 - 01:00",
+              "today": false
+            }
+          },
+          "J": {
+            "1": {
+              "day": "Segunda",
+              "horario": "-",
+              "today": false
+            },
+            "2": {
+              "day": "Terça",
+              "horario": "-",
+              "today": false
+            },
+            "3": {
+              "day": "Quarta",
+              "horario": "-",
+              "today": false
+            },
+            "4": {
+              "day": "Quinta",
+              "horario": "-",
+              "today": false
+            },
+            "5": {
+              "day": "Sexta",
+              "horario": "-",
+              "today": false
+            },
+            "6": {
+              "day": "Sábado",
+              "horario": "-",
+              "today": true
+            },
+            "7": {
+              "day": "Domingo",
+              "horario": "-",
+              "today": false
+            }
+          }
+        },
+        "aberto": true,
+        "period_default": "A",
+        "notWorking": false,
+        "caracteristicas": [],
+        "feriado": {
+          "A": false,
+          "J": false
+        }
+      }
+    ],
+    "horario": {
+      "A": {
+        "1": {
+          "day": "Segunda",
+          "horario": "-",
+          "today": false
+        },
+        "2": {
+          "day": "Terça",
+          "horario": "-",
+          "today": false
+        },
+        "3": {
+          "day": "Quarta",
+          "horario": "-",
+          "today": false
+        },
+        "4": {
+          "day": "Quinta",
+          "horario": "-",
+          "today": false
+        },
+        "5": {
+          "day": "Sexta",
+          "horario": "-",
+          "today": false
+        },
+        "6": {
+          "day": "Sábado",
+          "horario": "15:00 - 01:00",
+          "today": true
+        },
+        "7": {
+          "day": "Domingo",
+          "horario": "15:00 - 01:00",
+          "today": false
+        }
+      },
+      "J": {
+        "1": {
+          "day": "Segunda",
+          "horario": "-",
+          "today": false
+        },
+        "2": {
+          "day": "Terça",
+          "horario": "-",
+          "today": false
+        },
+        "3": {
+          "day": "Quarta",
+          "horario": "-",
+          "today": false
+        },
+        "4": {
+          "day": "Quinta",
+          "horario": "-",
+          "today": false
+        },
+        "5": {
+          "day": "Sexta",
+          "horario": "-",
+          "today": false
+        },
+        "6": {
+          "day": "Sábado",
+          "horario": "-",
+          "today": true
+        },
+        "7": {
+          "day": "Domingo",
+          "horario": "-",
+          "today": false
+        }
+      }
+    },
+    "aberto": true,
+    "online": "N"
+  },
+  {
     "id": "1648",
     "nome": "Charlie Confeitaria",
     "lugar_nome": "Charlie Confeitaria",
@@ -408,7 +606,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -588,7 +786,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -888,7 +1086,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -982,7 +1180,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -1780,7 +1978,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "J",
         "notWorking": false,
         "caracteristicas": [
@@ -1984,7 +2182,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -2078,7 +2276,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -2164,7 +2362,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -2276,7 +2474,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -2362,7 +2560,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -4280,7 +4478,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -4366,7 +4564,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -4478,7 +4676,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "J",
         "notWorking": false,
         "caracteristicas": [],
@@ -4572,7 +4770,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -4658,7 +4856,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -5562,7 +5760,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -5648,7 +5846,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -6158,7 +6356,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -6250,7 +6448,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -6570,7 +6768,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -6662,7 +6860,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -7370,7 +7568,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -7462,7 +7660,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -7978,7 +8176,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -8064,7 +8262,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -8176,7 +8374,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -8262,7 +8460,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -8374,7 +8572,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -8460,7 +8658,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -9656,7 +9854,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -9742,7 +9940,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -10860,7 +11058,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -10946,7 +11144,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -11462,7 +11660,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -11556,7 +11754,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -11736,7 +11934,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -11848,7 +12046,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -12028,7 +12226,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -12346,7 +12544,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -12432,7 +12630,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -13042,7 +13240,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -13142,7 +13340,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -13538,7 +13736,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -13624,7 +13822,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -13934,7 +14132,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -14020,7 +14218,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -14538,7 +14736,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -14630,7 +14828,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -15140,7 +15338,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -15232,7 +15430,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -15346,7 +15544,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -15438,7 +15636,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -16160,7 +16358,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -16246,7 +16444,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -16762,7 +16960,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -16848,7 +17046,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -18174,7 +18372,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -18266,7 +18464,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -18378,7 +18576,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -18472,7 +18670,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -18566,7 +18764,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -18660,7 +18858,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -18754,7 +18952,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -18840,7 +19038,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -18955,7 +19153,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -19052,7 +19250,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -19578,7 +19776,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -19678,7 +19876,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -19770,7 +19968,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -19884,7 +20082,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -19976,7 +20174,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -20296,7 +20494,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -20388,7 +20586,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -20500,7 +20698,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -20586,7 +20784,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -21528,7 +21726,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -21620,7 +21818,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -22754,7 +22952,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -22846,7 +23044,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -24264,7 +24462,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -25880,7 +26078,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -25972,7 +26170,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -26084,7 +26282,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "J",
         "notWorking": false,
         "caracteristicas": [],
@@ -26178,7 +26376,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "J",
         "notWorking": false,
         "caracteristicas": [],
@@ -26264,7 +26462,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -26790,7 +26988,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -26882,7 +27080,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -26997,7 +27195,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -27094,7 +27292,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -27206,7 +27404,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27300,7 +27498,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27394,7 +27592,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27488,7 +27686,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27582,7 +27780,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27676,7 +27874,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27770,7 +27968,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -27856,7 +28054,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -28950,7 +29148,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -29042,7 +29240,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -29362,7 +29560,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -29454,7 +29652,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -31100,7 +31298,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -31192,7 +31390,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -31702,7 +31900,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -31794,7 +31992,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -32522,7 +32720,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -32608,7 +32806,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -33126,7 +33324,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -33218,7 +33416,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -33332,7 +33530,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -33424,7 +33622,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -33736,7 +33934,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -33836,7 +34034,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -33928,7 +34126,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -34246,7 +34444,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -34432,7 +34630,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -34546,7 +34744,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -34638,7 +34836,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -34750,7 +34948,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -34836,7 +35034,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -35550,7 +35748,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -35636,7 +35834,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -35750,7 +35948,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -35842,7 +36040,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -35956,7 +36154,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -36148,7 +36346,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -36864,7 +37062,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -36956,7 +37154,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -37162,7 +37360,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -37256,7 +37454,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -38150,7 +38348,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -38236,7 +38434,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -39158,7 +39356,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -39250,7 +39448,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -39364,7 +39562,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -39456,7 +39654,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -40782,7 +40980,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -40874,7 +41072,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -40989,7 +41187,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -41086,7 +41284,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -41406,7 +41604,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -41498,7 +41696,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -42222,7 +42420,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -42314,7 +42512,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -42428,7 +42626,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -42520,7 +42718,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -42830,7 +43028,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -42916,7 +43114,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -43838,7 +44036,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -43938,7 +44136,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -44030,7 +44228,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -44142,7 +44340,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -44236,7 +44434,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -44330,7 +44528,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -44424,7 +44622,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -44510,7 +44708,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -45232,7 +45430,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -45318,7 +45516,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -46466,7 +46664,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -46558,7 +46756,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -50786,7 +50984,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -50880,7 +51078,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -50974,7 +51172,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -51060,7 +51258,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -51372,7 +51570,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -51464,7 +51662,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -51868,7 +52066,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -52074,7 +52272,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -52166,7 +52364,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -52278,7 +52476,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -52364,7 +52562,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -52570,7 +52768,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -52664,7 +52862,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -52758,7 +52956,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -53449,7 +53647,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -53554,7 +53752,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -53640,7 +53838,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -54158,7 +54356,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -54258,7 +54456,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -54358,7 +54556,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -54458,7 +54656,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -54558,7 +54756,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -54744,7 +54942,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -57090,7 +57288,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -57176,7 +57374,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -57290,7 +57488,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -57382,7 +57580,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -57692,7 +57890,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -57786,7 +57984,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -57880,7 +58078,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -58256,7 +58454,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -58342,7 +58540,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -58746,7 +58944,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -58946,7 +59144,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -59038,7 +59236,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -59570,7 +59768,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -59670,7 +59868,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "J",
         "notWorking": false,
         "caracteristicas": [
@@ -59762,7 +59960,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -59968,7 +60166,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -60260,7 +60458,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -60448,7 +60646,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -60542,7 +60740,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -61038,7 +61236,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -61124,7 +61322,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -62064,7 +62262,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -62150,7 +62348,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -62264,7 +62462,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -62356,7 +62554,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -63584,7 +63782,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -63670,7 +63868,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -64684,7 +64882,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -64776,7 +64974,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -64888,7 +65086,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -64974,7 +65172,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -65294,7 +65492,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -65386,7 +65584,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -65500,7 +65698,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -65592,7 +65790,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -65704,7 +65902,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -65790,7 +65988,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -65904,7 +66102,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -66004,7 +66202,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -66104,7 +66302,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -66190,7 +66388,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -66404,7 +66602,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -66816,7 +67014,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -66908,7 +67106,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -68866,7 +69064,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -68958,7 +69156,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -69886,7 +70084,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -69972,7 +70170,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -70688,7 +70886,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [
@@ -70780,7 +70978,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   },
   {
@@ -70892,7 +71090,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -70986,7 +71184,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -71080,7 +71278,7 @@
             }
           }
         },
-        "aberto": false,
+        "aberto": true,
         "period_default": "A",
         "notWorking": false,
         "caracteristicas": [],
@@ -71166,7 +71364,7 @@
         }
       }
     },
-    "aberto": false,
+    "aberto": true,
     "online": "N"
   }
 ]

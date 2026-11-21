@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-21T1615",
+  "from": "2026-11-21T04:07-03:00",
+  "to": "2026-11-21T16:15-03:00",
+  "added": [
+    {
+      "id": "4670",
+      "nome": "FEXISVAL",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_76e3f2f721d06b6019f12132e7ccc85e.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1795274922UTCC2026112115042_390_cbd75006ad5a68e24bdb0938f8820524.png",
+      "descricao": "GIRE A ROLETA",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Cidade Baixa"
+      ]
+    }
+  ],
+  "removed": [],
+  "changed": []
+}
