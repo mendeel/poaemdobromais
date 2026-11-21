@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-21T0407",
+  "from": "2026-11-19T17:37-03:00",
+  "to": "2026-11-21T04:07-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1823",
+      "nome": "La Bella Donna Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_67dc57ba4716ca8693b2158d1d4f7fc3.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Vila jardim",
+          "before": "Sex: 18:30 - 23:00",
+          "after": "Sex: Fechado"
+        }
+      ]
+    }
+  ]
+}
