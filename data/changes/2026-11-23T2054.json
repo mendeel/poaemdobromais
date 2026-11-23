@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-23T2054",
+  "from": "2026-11-21T16:15-03:00",
+  "to": "2026-11-23T20:54-03:00",
+  "added": [],
+  "removed": [
+    {
+      "id": "4670",
+      "nome": "FEXISVAL",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_76e3f2f721d06b6019f12132e7ccc85e.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1795274922UTCC2026112115042_390_cbd75006ad5a68e24bdb0938f8820524.png",
+      "descricao": "GIRE A ROLETA",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Cidade Baixa"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "id": "1830",
+      "nome": "Chavin",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4d6418144233ff7964338927458eb2e3.png",
+      "changes": [
+        {
+          "field": "descricao",
+          "label": "Prato",
+          "before": "um prato principal",
+          "after": "um prato principal (exceto com filé mignon)"
+        },
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo prato principal igual ou de menor valor.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo prato principal (exceto com filé mignon) igual ou de menor valor.\n- Não é válido para pratos com filé mignon.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        }
+      ]
+    },
+    {
+      "id": "1839",
+      "nome": "Mercado Brasco",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_99074f0023f23878cd8021e1b1eaa2f9.png",
+      "changes": [
+        {
+          "field": "regra",
+          "label": "Regra",
+          "before": "- O desconto é sempre sobre o segundo combo café da manhã especial igual.\n\n- O combo inclui bebida (Capuccino ou Café Passado), Iogurte com granola e geléia de morango, Porção de ovos e Farroupilha especial.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem.",
+          "after": "- O desconto é sempre sobre o segundo combo café da manhã especial igual.\n\n- O combo inclui bebida (Capuccino ou Café Passado), Iogurte com granola e geléia de morango e Farroupilha especial.\n\n- Válido para consumo no local.\n- Não é válido para opção de delivery ou viagem."
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360044UTCC2026031300044_384_a09686c42568af51067014f98a6f60c0.png",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360044UTCC2026031300044_384_623d1c1674c5daa4c7295eb63b42bf5b.PNG"
+        }
+      ]
+    }
+  ]
+}
