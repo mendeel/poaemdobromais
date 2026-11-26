@@ -1,0 +1,145 @@
+{
+  "id": "2026-11-26T1831",
+  "from": "2026-11-23T20:54-03:00",
+  "to": "2026-11-26T18:31-03:00",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "id": "1646",
+      "nome": "Barranquinho",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_4648dca04055b30976baf6a7843ade88.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020737UTCC2026030901037_384_0b3fd55c928f71706e651eb87730f8c1.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773020737UTCC2026030901037_384_c98033f7f23b6aa2e62af03777eeff97.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1819",
+      "nome": "Céu Bar + Arte",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_57bb4591c90c3eca36ea2a9c6c787650.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358951UTCC2026031223031_384_59afd46d2a884caafd8be0977359ba84.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773358951UTCC2026031223031_384_8b534e7c956c719c351d5b6f4c426f4a.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1843",
+      "nome": "Damask",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_274cb7f5d80dd858816f32ec6f0133b0.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360181UTCC2026031300001_378_517e3bfb5ce8151bea2251503f1de1d4.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360181UTCC2026031300001_378_ddad1ae53d5025c80070daa871877f14.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2048",
+      "nome": "Doca do Xis",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_802f1d3ddeb21a44887349a3758cb462.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773665862UTCC2026031612042_384_74d66fbeba6d35607ff2181340be927b.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773665862UTCC2026031612042_384_12518a59b218cd629a4b9284ca479001.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1661",
+      "nome": "Grazie Mille Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b55bb20bee0af320c1506382c59fc70c.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023102UTCC2026030902002_384_371404d888734ba0a910b3d4f1c37313.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773023102UTCC2026030902002_384_b80f8de98e6ed73ff3fed4391421c536.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1720",
+      "nome": "Kioske do Pirata",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_21b27ad85216b3e9e7d01d511c5b6624.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773183479UTCC2026031022059_384_9ac0966613277a3dde75bc38f8ab45ab.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773183479UTCC2026031022059_384_0669c52736ef1648369e00a707b0f464.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1823",
+      "nome": "La Bella Donna Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_67dc57ba4716ca8693b2158d1d4f7fc3.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359231UTCC2026031223011_1143_f152b0bd20323139ae8dc877ce49d785.png",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773359231UTCC2026031223011_1143_ccde33b889cc8d3324f4c7bf2a5324eb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1687",
+      "nome": "Parma d'Oro Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_eaba329d43ec78ee567b08221a852e30.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Italiano, Pizzaria, Restaurante",
+          "after": "Italiano, Pizzaria"
+        },
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773089317UTCC2026030920037_384_5d1a9dcd0a5eef17bdff42a8e0a5ab40.jpg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773089317UTCC2026030920037_384_6adcfcd4e9bd6fecd8c8b91dbddde9b5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1709",
+      "nome": "Rancho Texano",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_98e905051c61f6a417efda4e96466dd4.png",
+      "changes": [
+        {
+          "field": "image",
+          "label": "Foto",
+          "before": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773169559UTCC2026031019059_384_5be78c27c080d8d6ac5e99dcd96cd19e.jpeg",
+          "after": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773169559UTCC2026031019059_384_8a889076d04332d770266b6d0c1b79a8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1760",
+      "nome": "Weiss British Pub",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_62efba55217d0b17e165ed145f8381d0.png",
+      "changes": [
+        {
+          "field": "sub_categoria",
+          "label": "Categorias",
+          "before": "Hamburgueria, Petisco de bar",
+          "after": "Petisco de bar"
+        }
+      ]
+    }
+  ]
+}
