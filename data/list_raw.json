@@ -74,7 +74,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1870",
     "endereco_id": "24090",
@@ -122,7 +122,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1641",
     "endereco_id": "16446",
@@ -218,7 +218,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1790",
     "endereco_id": "18932",
@@ -314,7 +314,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1812",
     "endereco_id": "16425",
@@ -458,7 +458,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1855",
     "endereco_id": "16557",
@@ -530,7 +530,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "2024",
     "endereco_id": "16002",
@@ -578,7 +578,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1858",
     "endereco_id": "14214",
@@ -650,7 +650,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1659",
     "endereco_id": "12329",
@@ -698,7 +698,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2018",
     "endereco_id": "2913",
@@ -914,7 +914,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1633",
     "endereco_id": "17825",
@@ -938,7 +938,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1634",
     "endereco_id": "27047",
@@ -1082,7 +1082,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1660",
     "endereco_id": "25722",
@@ -1106,7 +1106,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1874",
     "endereco_id": "21595",
@@ -1130,7 +1130,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1639",
     "endereco_id": "16107",
@@ -1154,7 +1154,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "4477",
     "endereco_id": "25726",
@@ -1298,7 +1298,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1681",
     "endereco_id": "17034",
@@ -1706,7 +1706,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1688",
     "endereco_id": "16921",
@@ -1850,7 +1850,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1677",
     "endereco_id": "17275",
@@ -1946,7 +1946,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1712",
     "endereco_id": "16508",
@@ -2066,7 +2066,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1716",
     "endereco_id": "15182",
@@ -2186,7 +2186,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1713",
     "endereco_id": "15158",
@@ -2354,7 +2354,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1827",
     "endereco_id": "17263",
@@ -2618,7 +2618,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2031",
     "endereco_id": "18890",
@@ -2714,7 +2714,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2036",
     "endereco_id": "3639",
@@ -2762,7 +2762,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2039",
     "endereco_id": "22059",
@@ -2810,7 +2810,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2042",
     "endereco_id": "24359",
@@ -2858,7 +2858,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2045",
     "endereco_id": "22895",
@@ -2882,7 +2882,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2046",
     "endereco_id": "15215",
@@ -2906,7 +2906,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2048",
     "endereco_id": "16359",
@@ -3650,7 +3650,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1747",
     "endereco_id": "26351",
@@ -3842,7 +3842,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1745",
     "endereco_id": "22125",
@@ -4178,7 +4178,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1766",
     "endereco_id": "16356",
@@ -4442,7 +4442,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1787",
     "endereco_id": "16445",
@@ -4562,7 +4562,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1796",
     "endereco_id": "22134",
@@ -4682,7 +4682,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1798",
     "endereco_id": "26105",
@@ -4850,7 +4850,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1806",
     "endereco_id": "26758",
@@ -4922,7 +4922,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1809",
     "endereco_id": "22149",
@@ -5018,7 +5018,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1814",
     "endereco_id": "2806",
@@ -5114,7 +5114,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1818",
     "endereco_id": "22155",
@@ -5258,7 +5258,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1825",
     "endereco_id": "25828",
@@ -5282,7 +5282,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1823",
     "endereco_id": "22274",
@@ -5355,30 +5355,6 @@
     "disponivel": 1,
     "distancia": 0,
     "aberto": null,
-    "favorito": 0,
-    "id": "1840",
-    "endereco_id": "16458",
-    "descricao": "uma sequência premium",
-    "tipo": "C",
-    "site": null,
-    "extra_id": null,
-    "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360039UTCC2026031300039_378_156599adadcce0a7abb1513fce71d464.jpeg",
-    "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_be1ed83afc419dabad68af241e102815.png",
-    "nome": "Terra do churrasco",
-    "cup_nome": "Terra do Churrasco",
-    "beneficio": "ganhe outro igual.",
-    "cup_ordem_geral": 244,
-    "cup_ordem_categoria": 100,
-    "sub_categoria": "Restaurante, Carnes, Rodízio, Opção vegetariana",
-    "latitude": -30.05246632,
-    "longitude": -51.17034985,
-    "end_lat": -30.05246632,
-    "end_lng": -51.17034985
-  },
-  {
-    "disponivel": 1,
-    "distancia": 0,
-    "aberto": 1,
     "favorito": 0,
     "id": "1829",
     "endereco_id": "21596",
@@ -5498,7 +5474,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1834",
     "endereco_id": "17673",
@@ -5594,7 +5570,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1843",
     "endereco_id": "15044",
@@ -5882,7 +5858,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1879",
     "endereco_id": "21045",
@@ -5957,7 +5933,7 @@
     "aberto": 1,
     "favorito": 0,
     "id": "1880",
-    "endereco_id": "21750",
+    "endereco_id": "27320",
     "descricao": "um hamburguer gorgo",
     "tipo": "C",
     "site": null,
@@ -6050,7 +6026,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1894",
     "endereco_id": "22177",
@@ -6074,7 +6050,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2013",
     "endereco_id": "16934",
@@ -6386,7 +6362,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2017",
     "endereco_id": "15234",
@@ -6458,7 +6434,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2019",
     "endereco_id": "17337",
@@ -6482,7 +6458,7 @@
   {
     "disponivel": 1,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2020",
     "endereco_id": "17070",
@@ -6506,10 +6482,10 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1661",
-    "endereco_id": "27216",
+    "endereco_id": "27329",
     "descricao": "um prato selecionado de mesma categoria (ver regras)",
     "tipo": "C",
     "site": null,
@@ -6530,7 +6506,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1729",
     "endereco_id": "19055",
@@ -6674,7 +6650,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1805",
     "endereco_id": "25317",
@@ -6722,7 +6698,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1771",
     "endereco_id": "21043",
@@ -6770,7 +6746,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1644",
     "endereco_id": "16122",
@@ -6986,7 +6962,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1906",
     "endereco_id": "16102",
@@ -7106,7 +7082,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "2050",
     "endereco_id": "27162",
@@ -7274,7 +7250,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1749",
     "endereco_id": "24220",
@@ -7322,7 +7298,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 0,
     "id": "1867",
     "endereco_id": "12596",
@@ -7370,7 +7346,7 @@
   {
     "disponivel": 0,
     "distancia": 0,
-    "aberto": 1,
+    "aberto": null,
     "favorito": 1,
     "id": "1846",
     "endereco_id": "26843",

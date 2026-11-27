@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-27T1817",
+  "from": "2026-11-26T18:31-03:00",
+  "to": "2026-11-27T18:17-03:00",
+  "added": [],
+  "removed": [
+    {
+      "id": "1840",
+      "nome": "Terra do churrasco",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_be1ed83afc419dabad68af241e102815.png",
+      "image": "https://cdn.brasilemdobro.com.br/poa/cupom/peq0_CUPOM_1773360039UTCC2026031300039_378_156599adadcce0a7abb1513fce71d464.jpeg",
+      "descricao": "uma sequência premium",
+      "beneficio": "ganhe outro igual.",
+      "bairros": [
+        "Jardim do Salso"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "id": "1880",
+      "nome": "Brita Bar",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_584f5ce67f35f011b690e1240c9cf24d.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Centro Histórico",
+          "before": "Qua: 18:00 - 22:00\nQui: 18:00 - 22:00\nDom: 17:00 - 23:00",
+          "after": "Qua: 18:00 - 23:00\nQui: 18:00 - 23:00\nDom: 17:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": "1661",
+      "nome": "Grazie Mille Pizzaria",
+      "logo": "https://cdn.brasilemdobro.com.br/poa/restaurante/LOGO_b55bb20bee0af320c1506382c59fc70c.png",
+      "changes": [
+        {
+          "field": "horario",
+          "label": "Horário · Auxiliadora",
+          "before": "Sex: 12:00 - 15:00, 18:30 - 23:00\nDom: Fechado",
+          "after": "Sex: 18:30 - 23:00\nDom: 18:00 - 23:00"
+        }
+      ]
+    }
+  ]
+}
